@@ -1,0 +1,67 @@
+{
+  "status": "SATISFIED",
+  "scope": "Credential-free Linux regression suite and synthetic fixture; not a benchmark score",
+  "date": "2026-09-09",
+  "run_id": "20260909T205546Z-56384d31",
+  "kernel_version": 1,
+  "kernel_visibility_at_execution": "private",
+  "platform": "linux",
+  "runtime_guard": "Linux x86_64, Python 3.12; enforced by executed wrapper",
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "regression_tests_passed": 231,
+  "regression_seconds": 40.9,
+  "fixture_exit_code": 0,
+  "elapsed_seconds": 74.90125557100001,
+  "reported_tokens": 0,
+  "api_operations": 0,
+  "charged_or_reserved_usd": 0,
+  "all_supervised_stages_passed": true,
+  "source_archive_sha256": "53cc83d5680ff47633d00f2f4f6ace8d9b10e1484779a810faad5247bcd5d009",
+  "evaluated_source_manifest_sha256": "84a784778cf0a2b01d5f93380445b050b4bbee56fbb865d6e8bf4ebd9cde1053",
+  "wrapper_sha256": "bdacf3096cfd36372bb9769ae4a5785ded53f9fb94f55f4eab590a33a1440b3f",
+  "saved_notebook_sha256": "f9d0e23a274eaee8d4ef2c4d7ab9d439863b5263161c5ba17b1ef1e9cd206f48",
+  "saved_cell_text_identical": true,
+  "saved_notebook_note": "Kaggle changed JSON formatting and source-array segmentation; normalized notebook content is identical",
+  "original_receipts": [
+    {
+      "path": "execution.log",
+      "sha256": "d4d41c829e928b68b2a50716c356b13ce29e7b8ed2106c9b8ea13ddf141d6d17",
+      "bytes": 213
+    },
+    {
+      "path": "execution.log.supervision.json",
+      "sha256": "7c9844c5730118896218e865349a60e08a91a9821968cb10a913017f80ffa8c6",
+      "bytes": 277
+    },
+    {
+      "path": "install.log.supervision.json",
+      "sha256": "bb8f2f323dfb6a28d8a9c5a397cff893f2311e426e025e7049538b31d31f227e",
+      "bytes": 276
+    },
+    {
+      "path": "notebook-execution.json",
+      "sha256": "0b89ef0f842fb722e38b59182478d30998fbc18adf7a29a7d6b8d3d57af11f05",
+      "bytes": 355
+    },
+    {
+      "path": "regression-tests.log",
+      "sha256": "7534eca69bd7fbda02b26d27269367bd9a0e973e3eefb53473f2fee5b6bb428d",
+      "bytes": 341
+    },
+    {
+      "path": "regression-tests.log.supervision.json",
+      "sha256": "40a8d683f3d3890cad5b28ba48b1cdd7c2f4b57bfc959c41a0fce2d364c486f4",
+      "bytes": 271
+    },
+    {
+      "path": "runs/20260909T205546Z-56384d31/summary.json",
+      "sha256": "b92fc9c2d9e81c3cf40dbd1e90622fce11b0cf91e1654b8f0db2ce92335d03cd",
+      "bytes": 989
+    },
+    {
+      "path": "setup.log.supervision.json",
+      "sha256": "39727ffd0ee02d4e57de20f20c0f1f866a2b93b6c83bb5c3be46aac5628cebc5",
+      "bytes": 278
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "preset": "pilot",
+  "dataset": "pilot-games.json",
+  "provider": "openai-responses",
+  "authentication": "openai_api_key",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "service_tier": "default",
+  "max_input_tokens": 922000,
+  "max_output_tokens": 16000,
+  "compact_threshold": 175000,
+  "approved_usd": null,
+  "approval_record": null,
+  "proposed_usd": 25,
+  "max_requests": 30,
+  "max_elapsed_seconds": 3600,
+  "cleanup_seconds": 180,
+  "output_mode": "public",
+  "organizer_contract_confirmed": false,
+  "harness_name": "OY1 AGI",
+  "team_name": "OY Labs",
+  "limits": {
+    "max_actions": 1500,
+    "max_calls": 1000,
+    "max_tokens": 0,
+    "max_seconds": 7200,
+    "max_batch": 8
+  }
+}

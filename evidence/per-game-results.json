@@ -1,0 +1,258 @@
+{
+  "run_id": "20260909T110238Z-ce055081",
+  "scope": "Public result summary; no observations, actions, baselines or secrets",
+  "source_results_sha256": "6bcdcbbd9d29ed5b173cabc45b2ef88fe39224242c5a7756d225c51eb75695f5",
+  "source_scorecard_sha256": "f398b3de10606cdb7112a1eba8541753ede94add03aa691289a785b836bc3f29",
+  "games": [
+    {
+      "game_id": "ar25-0c556536",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 8,
+      "levels_total": 8,
+      "actions": 258,
+      "model_decisions": 50,
+      "elapsed_seconds": 642.83
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 9,
+      "levels_total": 9,
+      "actions": 423,
+      "model_decisions": 127,
+      "elapsed_seconds": 1893.123
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 81,
+      "model_decisions": 26,
+      "elapsed_seconds": 281.937
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 187,
+      "model_decisions": 60,
+      "elapsed_seconds": 658.867
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 442,
+      "model_decisions": 115,
+      "elapsed_seconds": 1390.721
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 75,
+      "model_decisions": 22,
+      "elapsed_seconds": 220.885
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 7,
+      "levels_total": 7,
+      "actions": 297,
+      "model_decisions": 63,
+      "elapsed_seconds": 857.857
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 7,
+      "levels_total": 7,
+      "actions": 325,
+      "model_decisions": 75,
+      "elapsed_seconds": 1087.056
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 10,
+      "levels_total": 10,
+      "actions": 710,
+      "model_decisions": 153,
+      "elapsed_seconds": 2229.505
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 8,
+      "levels_total": 8,
+      "actions": 109,
+      "model_decisions": 41,
+      "elapsed_seconds": 506.871
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 7,
+      "levels_total": 7,
+      "actions": 365,
+      "model_decisions": 83,
+      "elapsed_seconds": 1067.648
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 231,
+      "model_decisions": 49,
+      "elapsed_seconds": 751.514
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 71,
+      "model_decisions": 31,
+      "elapsed_seconds": 443.621
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 8,
+      "levels_total": 8,
+      "actions": 728,
+      "model_decisions": 138,
+      "elapsed_seconds": 2643.668
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 8,
+      "levels_total": 8,
+      "actions": 243,
+      "model_decisions": 59,
+      "elapsed_seconds": 930.278
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 8,
+      "levels_total": 8,
+      "actions": 124,
+      "model_decisions": 27,
+      "elapsed_seconds": 279.577
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 137,
+      "model_decisions": 48,
+      "elapsed_seconds": 570.518
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 8,
+      "levels_total": 8,
+      "actions": 435,
+      "model_decisions": 121,
+      "elapsed_seconds": 2044.233
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 129,
+      "model_decisions": 40,
+      "elapsed_seconds": 570.945
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 9,
+      "levels_total": 9,
+      "actions": 114,
+      "model_decisions": 78,
+      "elapsed_seconds": 904.432
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 7,
+      "levels_total": 7,
+      "actions": 148,
+      "model_decisions": 55,
+      "elapsed_seconds": 698.318
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 6,
+      "levels_total": 6,
+      "actions": 128,
+      "model_decisions": 50,
+      "elapsed_seconds": 604.83
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 9,
+      "levels_total": 9,
+      "actions": 195,
+      "model_decisions": 60,
+      "elapsed_seconds": 908.54
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 7,
+      "levels_total": 7,
+      "actions": 192,
+      "model_decisions": 51,
+      "elapsed_seconds": 631.127
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "score": 100.0,
+      "won": true,
+      "levels_completed": 9,
+      "levels_total": 9,
+      "actions": 585,
+      "model_decisions": 106,
+      "elapsed_seconds": 1545.977
+    }
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+  "schema_version": 1,
+  "repository": "OYLabsAI/arc-agi-3-api-harness",
+  "visibility": "public",
+  "purpose": "Public source release for ARC-AGI community submission",
+  "copyright_holder": "Orca Labs sp. z o.o.",
+  "license": "Apache-2.0",
+  "evaluated_source_manifest_sha256": "84a784778cf0a2b01d5f93380445b050b4bbee56fbb865d6e8bf4ebd9cde1053",
+  "wrapper_identity": "community-reproduction-1",
+  "historical_notebook_preserved": true,
+  "public_publication_authorized": true,
+  "manifest_self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 128,
+      "sha256": "742401d5d7b63f34d10f94180d031fe86a041668bdb2a48b8afef894bf401559"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 104,
+      "sha256": "e0e6f3a21edc740fa8afbe5d0c8477e51651ce4559df4b8ec353f137f01984f0"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 470,
+      "sha256": "06f6fbcae2f439720beefa6ea087f7f385eaa994c960e29a5cd727a8d3757f9b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 571,
+      "sha256": "4e9db966c4d3c49562221b4e2cc027ae42db0bbebdc5058a176465b122fe7c42"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4000,
+      "sha256": "3b5b315b5ed4f2f30ded4bc404a4a845d799bf6a59d7f2bf7d362b9e1d766265"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1038,
+      "sha256": "0d4460045b8c257af1ce7e87ef00b929796d8576473050dadb4022ad741f30d8"
+    },
+    {
+      "path": "assets/api9-source-and-licenses.zip",
+      "bytes": 409752,
+      "sha256": "be904f8b6e72cea0ca469d9bee1697f2fa5927fce8145a345546bc772f687f7d"
+    },
+    {
+      "path": "docs/community-submission.md",
+      "bytes": 1795,
+      "sha256": "13a8abbd7dd76dbaa429149b30eaadbff66f7b32aaa24a8a3cc1f9658a067069"
+    },
+    {
+      "path": "docs/compliance.md",
+      "bytes": 4487,
+      "sha256": "271337075ff73de159560fe29dd62e203097a18835b07cacd90dfd409dc38ef8"
+    },
+    {
+      "path": "docs/method.md",
+      "bytes": 6569,
+      "sha256": "bf9c86847e4b991e19c7842388291c7be399e1d1cd28444c5282c7e0066751f3"
+    },
+    {
+      "path": "docs/references.md",
+      "bytes": 3095,
+      "sha256": "7f18a71303f9010fa17e0c43084cc07fa4989eab3b11fb6a83d32211e08c1475"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "bytes": 4632,
+      "sha256": "9c55f90a83023d46f77e099a2f596c0826731aa3290a20315b414e467c845f40"
+    },
+    {
+      "path": "docs/results.md",
+      "bytes": 3414,
+      "sha256": "5c19df05678295921403d17ce69f1a3bf4b103ef537a537a644d9358d50f134f"
+    },
+    {
+      "path": "evidence/evaluated-notebook.ipynb",
+      "bytes": 14213,
+      "sha256": "a9f9b0fae7ed87b673f2737ba5d272732ebbd9088dd9bfa17c01a93e9a46c227"
+    },
+    {
+      "path": "evidence/linux-fixture.json",
+      "bytes": 2605,
+      "sha256": "e9353b595eea9fa1c92c92cbe788638fc3835968b6b7ae33d8c93f5da2f784e0"
+    },
+    {
+      "path": "evidence/per-game-results.json",
+      "bytes": 5997,
+      "sha256": "56b55382a4e5d57bb3f259431466e31dd85d2f36e6b70d7acfa2cb768a2096c2"
+    },
+    {
+      "path": "evidence/public-run.json",
+      "bytes": 1499,
+      "sha256": "fc623e134f1c140dd3aadf7bc7dc8b7770e4756ba14733259cff9667eaebb58f"
+    },
+    {
+      "path": "harness/.gitignore",
+      "bytes": 81,
+      "sha256": "2641ff5905631978ba17363f3c410c0213c2befb130b0459cef75ed9a248bb6b"
+    },
+    {
+      "path": "harness/Dockerfile",
+      "bytes": 438,
+      "sha256": "5903213cfe210881f13b02a0a5db9a631b1e6f831174c6d11d318c01d4d06aa6"
+    },
+    {
+      "path": "harness/README.md",
+      "bytes": 5068,
+      "sha256": "a43b2c24b739a30a6a2673cefe1b8cae5a01ff59dc37b7f384d7e902e6f6f216"
+    },
+    {
+      "path": "harness/RELEASE-MANIFEST.json",
+      "bytes": 11900,
+      "sha256": "84a784778cf0a2b01d5f93380445b050b4bbee56fbb865d6e8bf4ebd9cde1053"
+    },
+    {
+      "path": "harness/arc_harness/__init__.py",
+      "bytes": 105,
+      "sha256": "5a404765a823e7703e5b4abfdb20929a4acc741307e68312dbb8b9b8d93eff88"
+    },
+    {
+      "path": "harness/arc_harness/__main__.py",
+      "bytes": 30,
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+    },
+    {
+      "path": "harness/arc_harness/api_audit.py",
+      "bytes": 5711,
+      "sha256": "0aee0b1055eb8ec4ecf589e1bb46164a1718a49172a4d885452532434c20136c"
+    },
+    {
+      "path": "harness/arc_harness/api_budget.py",
+      "bytes": 9702,
+      "sha256": "08f5b81022346a3b1005209c1a626fc5a1b544f4121a438c76058b25ccba8b18"
+    },
+    {
+      "path": "harness/arc_harness/api_provider.py",
+      "bytes": 14001,
+      "sha256": "5bf7a79fb1e299876963041721b1fc7b07cdd9410f4247ae88a734e6db895efb"
+    },
+    {
+      "path": "harness/arc_harness/api_run.py",
+      "bytes": 23696,
+      "sha256": "491f8bd42a830a14011cc70b267e57dcaea8cfd7d3b36c24d1c60dba7209070b"
+    },
+    {
+      "path": "harness/arc_harness/app_server.py",
+      "bytes": 30791,
+      "sha256": "ec33d757b34f6b1bc28568cdd2158a789eaf8344eeadb48a1dc832c581a996a2"
+    },
+    {
+      "path": "harness/arc_harness/attribution.py",
+      "bytes": 3611,
+      "sha256": "c6e991a0927ae3023b4d9d6aed2ffd59cf83498e6bce66257228ee52f4d6181a"
+    },
+    {
+      "path": "harness/arc_harness/audit.py",
+      "bytes": 13510,
+      "sha256": "df818da28711ee75c93f9531d4efada8b4c2a0772d06e60f2b0be25c2e30faf4"
+    },
+    {
+      "path": "harness/arc_harness/cli.py",
+      "bytes": 15375,
+      "sha256": "b3c4e885d00ba3224824a349b706bf3a84410c348b95858a0b405daf8034332e"
+    },
+    {
+      "path": "harness/arc_harness/deadline.py",
+      "bytes": 1490,
+      "sha256": "63a910b8225320d34ddece881ccca02851312ade424b66d2b7362a92f7ead9cf"
+    },
+    {
+      "path": "harness/arc_harness/environment.py",
+      "bytes": 5949,
+      "sha256": "105abe06049cfa6561fa5cc4f3c57707c97de78a07fc3cb94875ddf18a5abf5d"
+    },
+    {
+      "path": "harness/arc_harness/fixtures.py",
+      "bytes": 1296,
+      "sha256": "8798d14c6155de9682362e82b388c56ba70ab3bf8c5ee358ef7b285a3208f3b1"
+    },
+    {
+      "path": "harness/arc_harness/perception.py",
+      "bytes": 4405,
+      "sha256": "2f48efa9f02ffd66856aa8b354a741bfe5b92d485d888fb8c67d5a7f5a28422f"
+    },
+    {
+      "path": "harness/arc_harness/prompt.py",
+      "bytes": 3372,
+      "sha256": "401ce00551788bf6668ce22c3b492c59750df145d87ec62a359e457ee4b2747f"
+    },
+    {
+      "path": "harness/arc_harness/providers.py",
+      "bytes": 9293,
+      "sha256": "b245ad48628c369a9630f454254b1dbeb2e5f81c77ff3f7a2f421e5c84a8be00"
+    },
+    {
+      "path": "harness/arc_harness/public_acceptance.py",
+      "bytes": 8248,
+      "sha256": "b95e7890db942d4610382a33c9eabe3069c5dc0e97d3f26f50d8d0effb65b44c"
+    },
+    {
+      "path": "harness/arc_harness/release_integrity.py",
+      "bytes": 4468,
+      "sha256": "42d03e104d80a3288ddf831146a358f021ee0be774ee62d8ad7c971fed1a06a0"
+    },
+    {
+      "path": "harness/arc_harness/report.py",
+      "bytes": 6944,
+      "sha256": "f07d526bcb99b6dd02cef992f5a67ebb30bb184fafce9e9507309c1f253a8a70"
+    },
+    {
+      "path": "harness/arc_harness/runner.py",
+      "bytes": 15815,
+      "sha256": "b996e0afff9df16922459a39130146fc30526c8ff226153744a8cb6e5cd97089"
+    },
+    {
+      "path": "harness/arc_harness/scoring.py",
+      "bytes": 4253,
+      "sha256": "708e4ee7f5a730bc4a05ad03685bcdf10f3f1e3fb114058f300dce8ed50ad647"
+    },
+    {
+      "path": "harness/arc_harness/store.py",
+      "bytes": 4965,
+      "sha256": "09f19555ee8d3b5dd1a6d656a90014cf1a2bd1cd1b01e71724bd2b62314a8ddb"
+    },
+    {
+      "path": "harness/arc_harness/types.py",
+      "bytes": 7712,
+      "sha256": "1979f9f113086096dd2b0e3cf299167d271765146405492f890cb491d3ebdf06"
+    },
+    {
+      "path": "harness/plans/organizer.json",
+      "bytes": 724,
+      "sha256": "4c76e7a10583482b7def00174aa8eadf69171b81f9532c1f50a59667221a565f"
+    },
+    {
+      "path": "harness/plans/pilot-games.json",
+      "bytes": 101,
+      "sha256": "b21dc9d13d4942799e34d714c14ae7e331741d1384281946a169ac2bb65580ad"
+    },
+    {
+      "path": "harness/plans/pilot.json",
+      "bytes": 725,
+      "sha256": "f8e33173fd9c8e22ae2edf3df945a82dcadc0e28c666421d724807ea7c0739b3"
+    },
+    {
+      "path": "harness/plans/public-games.json",
+      "bytes": 605,
+      "sha256": "b013523b0afc53d67741ddecd5c72e15d1fd07d09ee75cda4800a0f1ff2ab258"
+    },
+    {
+      "path": "harness/plans/public-repeat.json",
+      "bytes": 740,
+      "sha256": "b0efdd968ae24bf4c4f08b7de730a78259cfc5d16b4ec560be07f3207cd9fb54"
+    },
+    {
+      "path": "harness/pyproject.toml",
+      "bytes": 768,
+      "sha256": "894d825ccda0f28c5772d57682a2b769f6617d8a3a1c093e98dfc8cfd0d48f2d"
+    },
+    {
+      "path": "harness/reports/API-MIGRATION-REPORT.md",
+      "bytes": 3889,
+      "sha256": "c1bb5966ac6bb7c569db12ad08574749a1486c0968dba5280395a95b1b85b5b0"
+    },
+    {
+      "path": "harness/reports/API6-CHANGE-REVIEW.md",
+      "bytes": 1523,
+      "sha256": "f5bf79fab55eead996fed81185bf7e199f6993dd26e80e3b865bd63ff8331428"
+    },
+    {
+      "path": "harness/reports/API7-CHANGE-REVIEW.md",
+      "bytes": 1815,
+      "sha256": "5d82a765df6f9643b0ed1a1aad8db1d6cdb273a961ca4e1eec2f3aaf08d220d5"
+    },
+    {
+      "path": "harness/reports/API8-CHANGE-REVIEW.md",
+      "bytes": 1884,
+      "sha256": "93986b59b80342fb6c886aa9b9dd2d295130a02ed139cc8eb392720c99160f92"
+    },
+    {
+      "path": "harness/reports/API9-CHANGE-REVIEW.md",
+      "bytes": 2111,
+      "sha256": "897fa404936ebb5c6e0779f57fd1e40c37362c417ea38f03ee485f218f41d9e4"
+    },
+    {
+      "path": "harness/reports/COMPLIANCE-GAPS.md",
+      "bytes": 4934,
+      "sha256": "3fddec1a67001e48fb00bdc2ed0d898ecbc3b7d71ef31503eafab646466ed577"
+    },
+    {
+      "path": "harness/reports/COST-REPORT.md",
+      "bytes": 2814,
+      "sha256": "383c1e002ec5750ecc57fb86dba9525499e3c4281611076408d82e9c633fe578"
+    },
+    {
+      "path": "harness/reports/DATA-FLOW.md",
+      "bytes": 2387,
+      "sha256": "7f1593eb6d817d008d9c9ede5ace45b92491a2dd4181a16b8e88e7d618fe7bb6"
+    },
+    {
+      "path": "harness/reports/KAGGLE-VALIDATION.md",
+      "bytes": 1684,
+      "sha256": "0dd28e45d14d8d91d8e6b151a27ae03082fc91117f57b1505485bd1087200e33"
+    },
+    {
+      "path": "harness/reports/LINUX-AND-AWS.md",
+      "bytes": 2355,
+      "sha256": "9ab67cac024705612f811c0e3f063abadefe8c0fe3a1585dda6a9948946ed52d"
+    },
+    {
+      "path": "harness/reports/METHOD.md",
+      "bytes": 2138,
+      "sha256": "e693ac0babcb97f77e0e8a81ae86e2c6f6349f5b2a329ca0518f347702ca49b4"
+    },
+    {
+      "path": "harness/reports/PILOT-PLAN.md",
+      "bytes": 2090,
+      "sha256": "91048a55f3c80b5ae26414856a425f41aee76ceb64508700abaa7e6ce4f3ad08"
+    },
+    {
+      "path": "harness/reports/PILOT-RESULT.md",
+      "bytes": 296,
+      "sha256": "b911abc150b38e85ae31d80600d5e466b222f10c072ad912079f83d3819a7973"
+    },
+    {
+      "path": "harness/reports/PRELAUNCH-REVIEW.md",
+      "bytes": 2889,
+      "sha256": "78e897a2743e1458fe1a883b236e1dd65155d314291c89082cb858e0eedd9a46"
+    },
+    {
+      "path": "harness/reports/PROVIDER-BILLING-REVIEW.json",
+      "bytes": 2228,
+      "sha256": "c1bc235eacbc9a902b7fa83e2658dbc133dc4db94f6b68b8af12c7539f278035"
+    },
+    {
+      "path": "harness/reports/PUBLIC-API-RESULT.md",
+      "bytes": 382,
+      "sha256": "d74142d6b2e10e3e0cd0725d6eb4887bcae3b9e154a99d50bb7924098efaad2c"
+    },
+    {
+      "path": "harness/reports/RELEASE-READINESS.md",
+      "bytes": 1334,
+      "sha256": "b85bfbd9958cd00c4562a2114616b3b5802d5fe2cf05a20dceaed26ff8fb908f"
+    },
+    {
+      "path": "harness/reports/readiness.json",
+      "bytes": 6655,
+      "sha256": "d4817208846b0ded5beaa76a8cf10ca9799333362a1b7a145d754f24e0e2404d"
+    },
+    {
+      "path": "harness/requirements-linux.lock",
+      "bytes": 4462,
+      "sha256": "c14a6280f5e222cd621b3784b99ff5853cb7fd5cd2632b8465dc56309c21a529"
+    },
+    {
+      "path": "harness/requirements.lock",
+      "bytes": 766,
+      "sha256": "08a6a4427385d9e6229b43aa8951d3b48da266add096bfcb77778e611cf65597"
+    },
+    {
+      "path": "harness/reviewed-repeat-protocol.json",
+      "bytes": 6352,
+      "sha256": "8df5711f5c9c328a1a397b267252dc49691cab7e2d20c2cc7d707db755798828"
+    },
+    {
+      "path": "harness/scripts/bootstrap.py",
+      "bytes": 13241,
+      "sha256": "4bb5d1ea00ac820dbad299b89eec9b8acb1c4459c1fc9b4a6e47abdae4347ae1"
+    },
+    {
+      "path": "harness/scripts/credential_setup.py",
+      "bytes": 822,
+      "sha256": "dafe81b5ae5df0cda9e3a3365efd704a58159fc012bec83f1f9f5f428f95127f"
+    },
+    {
+      "path": "harness/scripts/independent_audit.py",
+      "bytes": 21627,
+      "sha256": "e427fb0c3db60c1d74e5d927b985d331dedf993b51a98110a4806cc375421949"
+    },
+    {
+      "path": "harness/scripts/isolated_entry.py",
+      "bytes": 3980,
+      "sha256": "ef24a44c814c8308847c53d94d121202dfee359abb488aab375945f5e786f999"
+    },
+    {
+      "path": "harness/scripts/run_private.py",
+      "bytes": 1323,
+      "sha256": "f01503f7c3deeb3cdfd8b30e05b7e7fc70b38402fdfba6a15d36f7430ce833df"
+    },
+    {
+      "path": "harness/tests/test_api_candidate.py",
+      "bytes": 17531,
+      "sha256": "1a5077987122bfcb905837276d4a2fd27df6dcca843558be63a3c07600ca5c97"
+    },
+    {
+      "path": "harness/tests/test_api_deadlines.py",
+      "bytes": 3120,
+      "sha256": "9289b6655afbc6f1bcc347cc21b6a42b55aacfa64a4e32387147430601fb1f42"
+    },
+    {
+      "path": "harness/tests/test_api_operation_accounting.py",
+      "bytes": 3434,
+      "sha256": "86ac02b1408f49b6eeed590a8c1a4b85ab2dc2f3eb65f3d580faca82cf2c8ab2"
+    },
+    {
+      "path": "harness/tests/test_app_server.py",
+      "bytes": 23984,
+      "sha256": "02201ef218b040977ed122ed22ee077e40e07dd4719cf80fb93f41bd5b36d645"
+    },
+    {
+      "path": "harness/tests/test_attribution.py",
+      "bytes": 6883,
+      "sha256": "0738c217099fe15b542c7fa06bcbccc63dfbdb7bc35c7ea765be3ecc318e7224"
+    },
+    {
+      "path": "harness/tests/test_audit.py",
+      "bytes": 1811,
+      "sha256": "b1a6729047be2592a125709c9ddd318191c48096154c65af3d72662050c6136f"
+    },
+    {
+      "path": "harness/tests/test_bootstrap_environment.py",
+      "bytes": 2483,
+      "sha256": "0fb511d7148e116ee1a0e452ad8a1bd0612ec2e8ec1a246926d00ae14312252b"
+    },
+    {
+      "path": "harness/tests/test_failure_cleanup.py",
+      "bytes": 6094,
+      "sha256": "7149477a94db31232289267cc6ac80dfc7be3f1f056c1c7044da5f655ae4a9f3"
+    },
+    {
+      "path": "harness/tests/test_harness.py",
+      "bytes": 16058,
+      "sha256": "5e85e799600fe5361a5682719cf47fd9ccbe7e2414112c04c58a550e757979fb"
+    },
+    {
+      "path": "harness/tests/test_independent_audit.py",
+      "bytes": 4265,
+      "sha256": "e2fd0f7f233c1d10e2a5b37bb5cceb2d592544742892ba765f9a9440d8e57eb6"
+    },
+    {
+      "path": "harness/tests/test_isolated_entry.py",
+      "bytes": 3024,
+      "sha256": "443ef616025909e5140a5864fd7dc9aadf36a19136da0266f55a059aa6203c5e"
+    },
+    {
+      "path": "harness/tests/test_pilot_catalog.py",
+      "bytes": 2239,
+      "sha256": "f0a634a1cce1a0535953508be3bf9bc5c3adb61f152edf6a4074f0f1e3153e26"
+    },
+    {
+      "path": "harness/tests/test_public_acceptance.py",
+      "bytes": 4799,
+      "sha256": "cc2314b43c571dd60649d472aa84e5193f19612c0965922962b8acaad7a0f376"
+    },
+    {
+      "path": "harness/tests/test_release_integrity.py",
+      "bytes": 6933,
+      "sha256": "cc8a0f0d0004fadef9360761210a72f90aa6879946c6ebe38c5f9d21624478cc"
+    },
+    {
+      "path": "harness/tests/test_scorecard_snapshots.py",
+      "bytes": 2550,
+      "sha256": "1f5bc0f6df6efdb8cc011444209285c0070588b96d9df94ecf64e51e602335f1"
+    },
+    {
+      "path": "harness/tests/test_sdk_session.py",
+      "bytes": 5031,
+      "sha256": "484ada3fdfbdfd991e53819b9ed30f52cca83aa783e026461b58ce0fdd6c1df7"
+    },
+    {
+      "path": "licenses/dependency-inventory.json",
+      "bytes": 53292,
+      "sha256": "be66842a67325d0034253faffea9a1bb0b691fe207a52e71e6d0eedc82f99eea"
+    },
+    {
+      "path": "licenses/third-party/Flask-3.1.3/flask-3.1.3.dist-info/licenses/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+    },
+    {
+      "path": "licenses/third-party/Jinja2-3.1.6/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+    },
+    {
+      "path": "licenses/third-party/MarkupSafe-3.0.3/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+    },
+    {
+      "path": "licenses/third-party/Pygments-2.21.0/pygments-2.21.0.dist-info/licenses/LICENSE",
+      "bytes": 1331,
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+    },
+    {
+      "path": "licenses/third-party/Werkzeug-3.1.8/werkzeug/debug/shared/ICON_LICENSE.md",
+      "bytes": 222,
+      "sha256": "0e103a6358149792707e0d0d14df518f8556213b7cb54c7422f7467f4bb1f7eb"
+    },
+    {
+      "path": "licenses/third-party/Werkzeug-3.1.8/werkzeug-3.1.8.dist-info/licenses/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+    },
+    {
+      "path": "licenses/third-party/annotated-types-0.8.0/annotated_types-0.8.0.dist-info/licenses/LICENSE",
+      "bytes": 1083,
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+    },
+    {
+      "path": "licenses/third-party/anyio-4.15.0/anyio-4.15.0.dist-info/licenses/LICENSE",
+      "bytes": 1081,
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0"
+    },
+    {
+      "path": "licenses/third-party/arc-agi-0.9.9/WHEEL-METADATA.txt",
+      "bytes": 18563,
+      "sha256": "7adb8d9d26b1fd3f5e5cd68d46188fca23b1236d92cc5c0a94963510ce4aeb98"
+    },
+    {
+      "path": "licenses/third-party/arcengine-0.9.3/WHEEL-METADATA.txt",
+      "bytes": 27748,
+      "sha256": "daa4cb74147139e896b7ca4953b2fc5caa3b375b0bc3b89c073db1efa98efd14"
+    },
+    {
+      "path": "licenses/third-party/blinker-1.9.0/blinker-1.9.0.dist-info/LICENSE.txt",
+      "bytes": 1054,
+      "sha256": "9eb73a1f38597a4aa17025d2ae1be3839624c795e985d4f0e9769ce29faca467"
+    },
+    {
+      "path": "licenses/third-party/certifi-2026.7.22/certifi-2026.7.22.dist-info/licenses/LICENSE",
+      "bytes": 989,
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "path": "licenses/third-party/charset-normalizer-3.5.1/charset_normalizer-3.5.1.dist-info/licenses/LICENSE",
+      "bytes": 1071,
+      "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+    },
+    {
+      "path": "licenses/third-party/click-8.5.0/click-8.5.0.dist-info/licenses/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+    },
+    {
+      "path": "licenses/third-party/contourpy-1.3.3/WHEEL-METADATA.txt",
+      "bytes": 5461,
+      "sha256": "c43cef86baef09cff9c77975e578fa8cca0c9454df40dc176938b499a63de54a"
+    },
+    {
+      "path": "licenses/third-party/contourpy-1.3.3/contourpy-1.3.3.dist-info/LICENSE",
+      "bytes": 1534,
+      "sha256": "34170979fc64f4f5e6dfa66ef27dec314ffffc5852000c60f4836ec1dfbf156e"
+    },
+    {
+      "path": "licenses/third-party/cycler-0.12.1/WHEEL-METADATA.txt",
+      "bytes": 3779,
+      "sha256": "23289e19b76f1e01394227696e6af2b6cd1ce79e89731209bf9195148b18ed36"
+    },
+    {
+      "path": "licenses/third-party/cycler-0.12.1/cycler-0.12.1.dist-info/LICENSE",
+      "bytes": 1497,
+      "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+    },
+    {
+      "path": "licenses/third-party/distro-1.9.0/distro-1.9.0.dist-info/LICENSE",
+      "bytes": 11325,
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+    },
+    {
+      "path": "licenses/third-party/fonttools-4.64.0/fonttools-4.64.0.dist-info/licenses/LICENSE",
+      "bytes": 1072,
+      "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+    },
+    {
+      "path": "licenses/third-party/fonttools-4.64.0/fonttools-4.64.0.dist-info/licenses/LICENSE.external",
+      "bytes": 20022,
+      "sha256": "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69"
+    },
+    {
+      "path": "licenses/third-party/h11-0.16.0/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      "bytes": 1124,
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361"
+    },
+    {
+      "path": "licenses/third-party/httpcore-1.0.9/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+      "bytes": 1518,
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+    },
+    {
+      "path": "licenses/third-party/httpx-0.28.1/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+      "bytes": 1508,
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+    },
+    {
+      "path": "licenses/third-party/idna-3.19/idna-3.19.dist-info/licenses/LICENSE.md",
+      "bytes": 1541,
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "path": "licenses/third-party/iniconfig-2.3.0/iniconfig-2.3.0.dist-info/licenses/LICENSE",
+      "bytes": 1098,
+      "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4"
+    },
+    {
+      "path": "licenses/third-party/itsdangerous-2.2.0/itsdangerous-2.2.0.dist-info/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7"
+    },
+    {
+      "path": "licenses/third-party/jiter-0.16.0/jiter-0.16.0.dist-info/licenses/LICENSE",
+      "bytes": 1091,
+      "sha256": "7c7134b9f7b978c03fca875517cf398db91f19bbb8109b6685e742aa3f57468e"
+    },
+    {
+      "path": "licenses/third-party/kiwisolver-1.5.1/WHEEL-METADATA.txt",
+      "bytes": 5152,
+      "sha256": "f07b7b6c0c9c2a624c8a31f931e16712f2cf3490e7dfd51643d68e9d42d4b2c9"
+    },
+    {
+      "path": "licenses/third-party/kiwisolver-1.5.1/kiwisolver-1.5.1.dist-info/licenses/LICENSE",
+      "bytes": 3289,
+      "sha256": "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61"
+    },
+    {
+      "path": "licenses/third-party/matplotlib-3.11.1/WHEEL-METADATA.txt",
+      "bytes": 80264,
+      "sha256": "e42a4867d0c790804bce9ccd38972e1e71e24a81f2dbc9633efc71e63ce69f59"
+    },
+    {
+      "path": "licenses/third-party/matplotlib-3.11.1/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "path": "licenses/third-party/matplotlib-3.11.1/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+      "bytes": 5476,
+      "sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+    },
+    {
+      "path": "licenses/third-party/matplotlib-3.11.1/matplotlib-3.11.1.dist-info/LICENSE",
+      "bytes": 63442,
+      "sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy/_core/include/numpy/random/LICENSE.txt",
+      "bytes": 1018,
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy/ma/LICENSE",
+      "bytes": 1593,
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy/random/LICENSE.md",
+      "bytes": 3511,
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/LICENSE.txt",
+      "bytes": 46794,
+      "sha256": "4860083caa0de2ac3292ca98bd074bd8f45d8b32624e37b1e70a240bff61e488"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "bytes": 1018,
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "bytes": 690,
+      "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "bytes": 20785,
+      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "bytes": 1414,
+      "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "bytes": 1514,
+      "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "bytes": 1543,
+      "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "bytes": 1498,
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "bytes": 2266,
+      "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/ma/LICENSE",
+      "bytes": 1593,
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/LICENSE.md",
+      "bytes": 3511,
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "bytes": 2745,
+      "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "bytes": 2926,
+      "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "bytes": 1154,
+      "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "bytes": 1509,
+      "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "bytes": 1226,
+      "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f"
+    },
+    {
+      "path": "licenses/third-party/numpy-2.5.2/numpy-2.5.2.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "bytes": 332,
+      "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9"
+    },
+    {
+      "path": "licenses/third-party/openai-2.54.0/openai-2.54.0.dist-info/licenses/LICENSE",
+      "bytes": 11336,
+      "sha256": "636eb7d79da9bb6d515a4b3fd417aa26679eb3cf16396ddab4bc55fa74e616e4"
+    },
+    {
+      "path": "licenses/third-party/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE",
+      "bytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "licenses/third-party/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "licenses/third-party/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+      "bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "licenses/third-party/pillow-12.3.0/pillow-12.3.0.dist-info/licenses/LICENSE",
+      "bytes": 70307,
+      "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/cachecontrol/LICENSE.txt",
+      "bytes": 558,
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/certifi/LICENSE",
+      "bytes": 989,
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/distlib/LICENSE.txt",
+      "bytes": 14531,
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/distro/LICENSE",
+      "bytes": 11325,
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/idna/LICENSE.md",
+      "bytes": 1541,
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/msgpack/COPYING",
+      "bytes": 614,
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/packaging/LICENSE",
+      "bytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/packaging/LICENSE.APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/packaging/LICENSE.BSD",
+      "bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/pkg_resources/LICENSE",
+      "bytes": 1023,
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/platformdirs/LICENSE",
+      "bytes": 1089,
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/pygments/LICENSE",
+      "bytes": 1331,
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/pyproject_hooks/LICENSE",
+      "bytes": 1081,
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/requests/LICENSE",
+      "bytes": 10142,
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/resolvelib/LICENSE",
+      "bytes": 751,
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/rich/LICENSE",
+      "bytes": 1056,
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/tomli/LICENSE",
+      "bytes": 1072,
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/tomli_w/LICENSE",
+      "bytes": 1072,
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/truststore/LICENSE",
+      "bytes": 1086,
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip/_vendor/urllib3/LICENSE.txt",
+      "bytes": 1093,
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/LICENSE.txt",
+      "bytes": 1093,
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+      "bytes": 558,
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/certifi/LICENSE",
+      "bytes": 989,
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+      "bytes": 14531,
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/distro/LICENSE",
+      "bytes": 11325,
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "bytes": 1541,
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/msgpack/COPYING",
+      "bytes": 614,
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE",
+      "bytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.BSD",
+      "bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/pkg_resources/LICENSE",
+      "bytes": 1023,
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/platformdirs/LICENSE",
+      "bytes": 1089,
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/pygments/LICENSE",
+      "bytes": 1331,
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/pyproject_hooks/LICENSE",
+      "bytes": 1081,
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/requests/LICENSE",
+      "bytes": 10142,
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/resolvelib/LICENSE",
+      "bytes": 751,
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/rich/LICENSE",
+      "bytes": 1056,
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli/LICENSE",
+      "bytes": 1072,
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli_w/LICENSE",
+      "bytes": 1072,
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/truststore/LICENSE",
+      "bytes": 1086,
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca"
+    },
+    {
+      "path": "licenses/third-party/pip-26.2.1/pip-26.2.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+      "bytes": 1093,
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+    },
+    {
+      "path": "licenses/third-party/pluggy-1.6.0/pluggy-1.6.0.dist-info/licenses/LICENSE",
+      "bytes": 1110,
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606"
+    },
+    {
+      "path": "licenses/third-party/pydantic-2.13.5/pydantic-2.13.5.dist-info/licenses/LICENSE",
+      "bytes": 1129,
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+    },
+    {
+      "path": "licenses/third-party/pydantic_core-2.46.5/pydantic_core-2.46.5.dist-info/licenses/LICENSE",
+      "bytes": 1080,
+      "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
+    },
+    {
+      "path": "licenses/third-party/pyparsing-3.3.2/pyparsing-3.3.2.dist-info/licenses/LICENSE",
+      "bytes": 1062,
+      "sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+    },
+    {
+      "path": "licenses/third-party/pytest-9.1.1/pytest-9.1.1.dist-info/licenses/LICENSE",
+      "bytes": 1091,
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+    },
+    {
+      "path": "licenses/third-party/python-dateutil-2.9.0.post0/python_dateutil-2.9.0.post0.dist-info/LICENSE",
+      "bytes": 2889,
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+    },
+    {
+      "path": "licenses/third-party/python-dotenv-1.2.3/python_dotenv-1.2.3.dist-info/licenses/LICENSE",
+      "bytes": 1556,
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9"
+    },
+    {
+      "path": "licenses/third-party/requests-2.34.2/requests-2.34.2.dist-info/licenses/LICENSE",
+      "bytes": 10142,
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "licenses/third-party/requests-2.34.2/requests-2.34.2.dist-info/licenses/NOTICE",
+      "bytes": 38,
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+    },
+    {
+      "path": "licenses/third-party/ruff-0.16.6/ruff-0.16.6.dist-info/licenses/LICENSE",
+      "bytes": 20731,
+      "sha256": "2597d854122b77ddc71971564ca2350a37608575ce324adc5650a2b2051c8f18"
+    },
+    {
+      "path": "licenses/third-party/six-1.17.0/six-1.17.0.dist-info/LICENSE",
+      "bytes": 1066,
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+    },
+    {
+      "path": "licenses/third-party/sniffio-1.3.1/sniffio-1.3.1.dist-info/LICENSE",
+      "bytes": 185,
+      "sha256": "652c878488d1456361e08c3f8607fd7ba59892a14103d15cce4ff93c85b5cc8b"
+    },
+    {
+      "path": "licenses/third-party/sniffio-1.3.1/sniffio-1.3.1.dist-info/LICENSE.APACHE2",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "licenses/third-party/sniffio-1.3.1/sniffio-1.3.1.dist-info/LICENSE.MIT",
+      "bytes": 1046,
+      "sha256": "3e6dae555eb92787fc82d1d48355677f454c7f65aeb38d3f9e72bf9a3daf034b"
+    },
+    {
+      "path": "licenses/third-party/tqdm-4.70.0/tqdm-4.70.0.dist-info/licenses/LICENCE",
+      "bytes": 1985,
+      "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+    },
+    {
+      "path": "licenses/third-party/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+      "bytes": 1090,
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"
+    },
+    {
+      "path": "licenses/third-party/typing_extensions-4.16.0/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+      "bytes": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "path": "licenses/third-party/urllib3-2.7.0/urllib3-2.7.0.dist-info/licenses/LICENSE.txt",
+      "bytes": 1093,
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+    },
+    {
+      "path": "notebooks/reproduce.ipynb",
+      "bytes": 19529,
+      "sha256": "bdacf3096cfd36372bb9769ae4a5785ded53f9fb94f55f4eab590a33a1440b3f"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 3823,
+      "sha256": "656e518f098ac1a3b6a14880115cdcdc4552b38df0d92623123b6c32b3584817"
+    }
+  ],
+  "linux_reproduction_status": "SATISFIED"
+}

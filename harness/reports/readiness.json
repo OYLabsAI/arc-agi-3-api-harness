@@ -1,0 +1,155 @@
+{
+  "status": "NOT_COMPLIANT_FOR_VERIFICATION_SUBMISSION",
+  "prepared_at": "2026-09-08",
+  "rules": [
+    "Missing required evidence is NOT SATISFIED.",
+    "Local implementation is not live execution evidence.",
+    "No paid inference or external publication authorized."
+  ],
+  "checks": [
+    {
+      "id": "ARC-P1",
+      "requirement": "ARC consultation and discretionary selection",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "No documented ARC consultation/acceptance for this API candidate.",
+      "remedy": "Owner sends the reviewed consultation; record ARC response.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P2",
+      "requirement": "Public runnable source",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Source remains private; no public immutable release URL.",
+      "remedy": "Select license/repository, review and publish evaluated source.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P3-NOTEBOOK",
+      "requirement": "One-click Kaggle setup and evaluation",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "No successful Kaggle execution/version link. A local fixture does not satisfy this.",
+      "remedy": "Execute the delivered notebook in a fresh private Kaggle runtime, then preserve its version.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P3-DATA",
+      "requirement": "Replaceable organizer dataset",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Synthetic replacement IDs work; real organizer input is not agreed and live organizer mode is disabled.",
+      "remedy": "Obtain ARC delivery contract, implement/validate that adapter and protected output.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P3-TIME",
+      "requirement": "Full setup/evaluation under 12 hours",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "No measured complete API notebook execution; configured deadline is not proof.",
+      "remedy": "Measure full end-to-end API execution within the ceiling.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P4",
+      "requirement": "Evaluator-owned API credentials",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Key path is implemented; actual model access/billing/permissions not established.",
+      "remedy": "Provide intended OpenAI and ARC keys and pass live preflight/pilot.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P5",
+      "requirement": "Automated reproducible setup and provisioning",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Mac setup passes; Linux/Kaggle execution evidence and runtime pin are missing.",
+      "remedy": "Run fresh Kaggle/Linux setup and record exact runtime/package identity.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P6",
+      "requirement": "Complete runtime cost below $10,000",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Ledger limits are implemented; no measured API/full-run cost or provider reconciliation.",
+      "remedy": "Approve bounded pilot, measure usage, authorize full cap including any compute.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P7",
+      "requirement": "Code audit: known destinations and controlled logging",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Local boundaries/tests documented; organizer code audit and protected-run evidence policy absent.",
+      "remedy": "Resolve protected output/retention and supply complete code/data-flow audit to ARC.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P8",
+      "requirement": "Approved zero-retention arrangements for semi-private data",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "No agreement is established; store=False is insufficient.",
+      "remedy": "ARC/provider approve actual project, endpoints, caching/compaction and storage.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ARC-P9",
+      "requirement": "Public/semi-private agreement threshold",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "No semi-private evaluation exists to compare.",
+      "remedy": "ARC performs evaluation and checks the stated 15-point threshold.",
+      "basis": "ARC verification outcome"
+    },
+    {
+      "id": "ARC-P10",
+      "requirement": "Verification claim only after actual decision",
+      "status": "SATISFIED",
+      "evidence_or_gap": "No verification badge or semi-private score is claimed.",
+      "remedy": "Maintain accurate status until ARC decision.",
+      "basis": "ARC policy"
+    },
+    {
+      "id": "ENG-BASELINE",
+      "requirement": "Named source and result provenance",
+      "status": "SATISFIED",
+      "evidence_or_gap": "Fresh read-only audit passed; exact source/card/25 games/183 levels associated.",
+      "remedy": "Preserve frozen evidence.",
+      "basis": "Engineering requirement"
+    },
+    {
+      "id": "ENG-API",
+      "requirement": "Live API behavior, usage and compaction validation",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "115 local tests pass, but real API settings/compaction/usage are not established.",
+      "remedy": "Execute authorized pilot; extend a bounded diagnostic if compaction is not reached.",
+      "basis": "Engineering requirement"
+    },
+    {
+      "id": "ENG-LINUX",
+      "requirement": "Fresh Linux execution",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "45 Linux wheels downloaded/hash-pinned; no Linux process executed.",
+      "remedy": "Run in Kaggle Linux or an isolated AWS Linux instance.",
+      "basis": "Engineering prerequisite for Kaggle"
+    },
+    {
+      "id": "ENG-BUDGET",
+      "requirement": "User spending authorization",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Proposed $25 pilot is not an approved budget; fields remain null.",
+      "remedy": "Owner supplies cap/approval before paid launch.",
+      "basis": "User authorization"
+    },
+    {
+      "id": "ENG-RELEASE",
+      "requirement": "License, author and repository identity",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Owner license/rightsholder, repository and author links unspecified.",
+      "remedy": "Owner supplies release choices before publication.",
+      "basis": "Release prerequisite"
+    },
+    {
+      "id": "ENG-PARITY",
+      "requirement": "API performance equivalent to historical result",
+      "status": "NOT SATISFIED",
+      "evidence_or_gap": "Transport and recovery differ; no measured API result.",
+      "remedy": "Report the separate API result and differences without assuming parity.",
+      "basis": "Research claim requirement"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the software and specify the exact commit and public benchmark scope."
+type: software
+title: "OY1 AGI: ARC-AGI-3 API harness"
+authors:
+  - name: "Orca Labs sp. z o.o."
+repository-code: "https://github.com/OYLabsAI/arc-agi-3-api-harness"
+license: Apache-2.0
+abstract: "Observation-driven API harness. The 2026-09-09 evaluated source scored 100.0 on the declared ARC-AGI-3 public selection; this is not an organizer verification."

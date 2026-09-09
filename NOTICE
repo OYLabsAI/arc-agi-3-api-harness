@@ -1,0 +1,11 @@
+OY1 AGI / ARC-AGI-3 API harness
+Copyright 2026 Orca Labs sp. z o.o.
+
+The company-owned harness source, configuration, tests, notebook and release
+documentation in this distribution are licensed under Apache License 2.0.
+The complete terms are in LICENSE. Third-party components and their notices
+retain their respective licenses; see THIRD-PARTY-NOTICES.md.
+
+Historical project names OY1 AGI and OY Labs are preserved in the evaluated
+source and benchmark attribution. They do not change the named rights holder.
+No endorsement by ARC Prize, OpenAI or Kaggle is implied.

@@ -1,0 +1,5 @@
+* -text
+*.zip binary
+licenses/** linguist-vendored
+harness/reports/** linguist-documentation
+evidence/** linguist-documentation

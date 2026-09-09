@@ -1,0 +1,39 @@
+{
+  "status": "SATISFIED",
+  "scope": "Published token-cost reservation contract for the API7 transport; live feature acceptance and invoice reconciliation remain separate",
+  "model": "gpt-6-astra",
+  "service_tier": "default",
+  "reviewed_at": "2026-09-09",
+  "transport": "model_max_input_no_count",
+  "maximum_input_tokens": 922000,
+  "response_output_cap": 16000,
+  "compaction_output_cap": 20000,
+  "input_reservation_micro_usd_per_token": 25,
+  "output_reservation_micro_usd_per_token": 75,
+  "ordinary_response_reservation_usd": 24.25,
+  "compaction_reservation_usd": 24.55,
+  "input_count_billing": "NOT APPLICABLE: no token-count endpoint is invoked",
+  "standalone_compaction_billing": "NOT APPLICABLE: standalone compaction endpoint is not invoked",
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra.md",
+    "https://developers.openai.com/api/docs/pricing",
+    "https://developers.openai.com/api/docs/guides/token-counting",
+    "https://help.openai.com/en/articles/5072518-controlling-the-length-of-openai-model-responses",
+    "https://developers.openai.com/api/reference/resources/responses/methods/create"
+  ],
+  "bound_source_sha256": "593f63fcc87cced8695f56b828fcb5fe5a77adb59ab51ac57a5639cd9abd826f",
+  "paid_launch_allowed": true,
+  "conditions": [
+    "Exactly one synchronous Responses request at a time with no automatic retries.",
+    "Reserve the complete documented maximum input at the highest listed cache-write rate, irrespective of current prompt estimate.",
+    "Explicit output caps include hidden/reasoning tokens. Standard service tier and canonical US endpoint; no hosted tools.",
+    "Missing usage, uncertain effects, settings mismatch or exceeded bounds stop further traffic.",
+    "No token counting and no standalone compaction. Responses compaction is requested with a final compaction_trigger.",
+    "A finite owner-authorized plan is still required. Dashboard limits alone are not the application budget."
+  ],
+  "remaining": [
+    "Live API access/settings/compaction validation NOT SATISFIED until real evidence",
+    "Provider invoice reconciliation NOT SATISFIED until billed usage is reconciled",
+    "Full submission compliance NOT SATISFIED"
+  ]
+}
