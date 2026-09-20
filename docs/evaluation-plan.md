@@ -40,7 +40,7 @@ requires the separate integration and handling agreement described in
 
 The ablations are proposed variants, not existing validated modes. Implement
 and test them separately, record their commits, and document all differences,
-including resulting prompt and token-usage changes. Keep the evaluated API9
+including resulting prompt and token-usage changes. Keep the evaluated
 source intact. Do not assume ablation effects add together.
 
 ## Pre-register the run

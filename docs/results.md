@@ -1,4 +1,4 @@
-# Public API result
+# Public benchmark result
 
 One scorecard from run `20260909T110238Z-ce055081`, completed on 2026-09-09:
 **100.0 raw public score, 25/25 wins, 183/183 levels**. There were 6,732 actions,
@@ -16,13 +16,10 @@ This is a development-exposed public selection, not a protected result or an
 ARC Prize verification. No result is combined with another attempt. Scores from
 other benchmark versions, datasets or harnesses are not directly comparable.
 
-The full disclosed evaluation campaign, including earlier attempts, consumed
-USD 780.075046 (about **$780.08**). That is separate from the successful-run
-cost below; see the [evaluation history](evaluation-history.md).
-
 The conservative ledger recorded USD 415.367944; the unrounded usage calculation
-is USD 415.3674960. Both round to **USD 415.37**. Provider campaign cost/activity
-exports and original paid credit invoices were reconciled privately. Model
+is USD 415.3674960. Both round to **USD 415.37**. Provider usage exports and original paid credit invoices were reconciled
+privately. This is the completed run's inference cost, not total development
+spending. Model
 decisions below exclude separate compaction operations; they are not API billing
 request counts. Per-game durations exclude some notebook setup/finalization.
 
@@ -76,8 +73,7 @@ described below.
 ## Evidence availability
 
 [Machine-readable aggregate](../evidence/public-run.json) ·
-[Per-game summary and source hashes](../evidence/per-game-results.json) ·
-[Full attempt history](evaluation-history.md)
+[Per-game summary and source hashes](../evidence/per-game-results.json)
 
 The complete raw scorecard, observations, journals, provider exports and invoice
 PDFs remain in the original private evidence archive. The shareable summaries

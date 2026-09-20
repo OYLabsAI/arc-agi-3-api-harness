@@ -63,38 +63,33 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 1021,
-      "sha256": "7bcdd60b4c7073974265921fe9a8c12cf0a07de30f8ad0dea7d1b029172223f3"
+      "bytes": 976,
+      "sha256": "e0a1bd394d2568743ede4b051e301baa386033a3517a765af95d0aad2c6df54b"
     },
     {
       "path": "docs/community-submission.md",
-      "bytes": 1917,
-      "sha256": "4422b169e5e981a5b2e9df6809039efc281f2ba3ffe90dfdb14a1e3e351057fe"
+      "bytes": 1877,
+      "sha256": "c9a15c2663dfd054ae088ac7a9092ccb168bd2ab45acf11552d3404c87ee3be4"
     },
     {
       "path": "docs/compliance.md",
-      "bytes": 4222,
-      "sha256": "a00517930804c5b90db362ebb9b048caacdc5a23ce6cb7da3f136da0d2ce3ed7"
-    },
-    {
-      "path": "docs/evaluation-history.md",
-      "bytes": 2434,
-      "sha256": "ff3ec90187a22588a868a561fa1057572d3b3d10635047014bcc3219389b3632"
+      "bytes": 4179,
+      "sha256": "e0cbb190a57ad298a7fbd7b8d5fdb98c0965cde746915f8f4a473df7a8f98df1"
     },
     {
       "path": "docs/evaluation-plan.md",
-      "bytes": 4262,
-      "sha256": "9a343071c514254b5192ae68e28c8843c200f9dfb6bdf74703bac3f02ccb143d"
+      "bytes": 4257,
+      "sha256": "27e31d35b0b554d39bd2ea48c7355668da8d41a8469b85803e38badfe7ba4f94"
     },
     {
       "path": "docs/method.md",
-      "bytes": 6242,
-      "sha256": "80a9c5d992a0d5bf5236c95a869b0700ca553770688a69ce885d3bdceab6e37a"
+      "bytes": 5989,
+      "sha256": "fdf53746cb8be2e1601217727aca36acfe8c14bb6b0936f484fe43720feff0d9"
     },
     {
       "path": "docs/references.md",
-      "bytes": 3794,
-      "sha256": "981547caf313e11dd4732e7cb449cb7ab0a76ead32adb4a81077c1f7e364d504"
+      "bytes": 3779,
+      "sha256": "04d28f0a04064af52f85d4cd3c9a8bf421e30071d7fab25c0ee20eb2b652d175"
     },
     {
       "path": "docs/reproduction.md",
@@ -103,8 +98,8 @@
     },
     {
       "path": "docs/results.md",
-      "bytes": 4232,
-      "sha256": "539119eb91b6ce6d6f3a1c5a9700c0b9a3cd75173884e332513228201bb6aa11"
+      "bytes": 4028,
+      "sha256": "6e35c2a294ec344199480802a52e0e1bc58d34c351c4e490ac913d808bf46be0"
     },
     {
       "path": "evidence/evaluated-notebook.ipynb",

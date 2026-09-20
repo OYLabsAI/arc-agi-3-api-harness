@@ -12,7 +12,7 @@ awaits maintainer review. There is no organizer-verified or held-out result.
 | Producing system | All 74 evaluated files, prompt, tools, configuration, locked dependencies and reproduction entry point are public. |
 | Source identity | Evaluated file hashes and original source archive are retained. The reproduction wrapper is separately identified. |
 | Linux fixture | [Receipt](../evidence/linux-fixture.json): 231 tests and a synthetic fixture completed in 74.90 seconds, with zero API operations and zero charged or reserved cost. |
-| Cost accounting | $415.37 for the successful run; original provider exports and invoices reconciled privately. See [all attempts](evaluation-history.md). |
+| Cost accounting | $415.37 for the successful run; original provider exports and invoices reconciled privately. |
 | License | Orca Labs sp. z o.o.; Apache-2.0 for the source, with separate third-party notices. |
 | Community metadata | [Submission PR](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56) contains the method, author, version, model, cost and public scorecard URL. |
 

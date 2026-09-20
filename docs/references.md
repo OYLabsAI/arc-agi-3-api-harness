@@ -13,7 +13,7 @@ placement or ARC Prize verification.
 | Primary source | Information reviewed | Applied here |
 |---|---|---|
 | [Tycho](https://github.com/NIMI-research/Tycho) | Architecture, scorecards, configurations, reproduction and credential-free checks | Direct scorecard link, method description and bounded fixture instructions |
-| [Retrodict](https://github.com/ryanbbrown/Retrodict) | Run selection, development exposure, replay method, cost basis and trace availability | Explicit live API provenance, all attempts and reconciled cost disclosure |
+| [Retrodict](https://github.com/ryanbbrown/Retrodict) | Run selection, development exposure, replay method, cost basis and trace availability | Live-run provenance, development exposure and inference-cost accounting |
 | [baseline1](https://github.com/astroseger/arc-3-agents-baseline1) | General-agent assumptions and limits of public-set saturation | Shared solver interface, per-game memory boundaries and unseen-game limitations |
 
 These were documentation reviews; the other agents were not executed or audited.
@@ -26,7 +26,7 @@ matched cost-efficiency or superiority claim from the community table.
 |---|---|---|
 | [Official ARC-AGI-3 harness](https://github.com/arcprize/arc-agi-3-benchmarking) | Setup commands, credentials, game/config selection, scorecards, harness distinctions and license | Explicit reproduction steps, provider configuration and scope |
 | [ARChitects 2024 solution](https://github.com/da-fr/arc-prize-2024) | Paper, dependencies, model/data access, hardware, module guide, original and updated notebooks, license | Method/module guide, frozen notebook plus review wrapper, dependencies and hardware |
-| [ARChitects 2025 report](https://lambdalabsml.github.io/ARC2025_Solution_by_the_ARChitects/) | Approach, unsuccessful experiments, compute budget, results and limitations | Complete attempt history, reconciled cost and remaining requirements |
+| [ARChitects 2025 report](https://lambdalabsml.github.io/ARC2025_Solution_by_the_ARChitects/) | Approach, unsuccessful experiments, compute budget, results and limitations | Evaluation scope, cost basis and remaining requirements |
 | [Official Astra result](https://arcprize.org/results/openai-gpt-6-astra) | Model/reasoning variants and per-environment results, separated by harness and benchmark split | Exact model configuration and per-game result table with split clearly labelled |
 
 ARC lists the ARChitects as the [2024 high-score winner](https://arcprize.org/competitions/2024)

@@ -47,7 +47,7 @@ through `inspect`; they are not guaranteed to stay in model context forever.
 
 The adapter requests a 30-minute minimum cache TTL. This is not a maximum
 retention promise. The synthetic probes motivating the layout are preserved in
-[API9-CHANGE-REVIEW.md](../harness/reports/API9-CHANGE-REVIEW.md), which predates
+[frozen implementation notes](../harness/reports/API9-CHANGE-REVIEW.md), which predates
 the completed run.
 
 ## Model-facing tools
@@ -96,13 +96,6 @@ a guarantee that its whole interpretation of the game is correct.
 | [`api_budget.py`](../harness/arc_harness/api_budget.py) | Cost reservations, accounting and stop bounds |
 | [`bootstrap.py`](../harness/scripts/bootstrap.py) | Fresh environment, installation and supervision |
 | [`independent_audit.py`](../harness/scripts/independent_audit.py) | Result and evidence consistency checks |
-
-## Attempt history
-
-The published scorecard represents one completed run. Earlier pilots and a run
-stopped by its budget are recorded separately in the
-[evaluation history](evaluation-history.md), together with full campaign costs.
-Scores were not combined.
 
 ## Data handling
 
