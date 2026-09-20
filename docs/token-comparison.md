@@ -6,6 +6,11 @@ run reports **153,058,391**, including compaction: **83.03% fewer total tokens**
 Both completed all **183 levels**. This compares recorded token usage across
 published runs; it is not a controlled ablation or a dollar-cost comparison.
 
+![Total tokens on the same 25 public game versions: Provider Adapter 901.97 million; OY1 153.06 million. Both use GPT-6 Astra at high reasoning and complete all 183 levels.](figures/public-token-comparison.svg)
+
+[Download PNG](figures/public-token-comparison.png) ·
+[SVG](figures/public-token-comparison.svg) · [PDF](figures/public-token-comparison.pdf)
+
 | Measure | Provider Adapter public replays | OY1 completed public run |
 |---|---:|---:|
 | Model / reasoning | GPT-6 Astra / high | GPT-6 Astra / high |
@@ -101,3 +106,17 @@ Token reduction is not a dollar-cost reduction: cached input, uncached input
 and output have different prices. This comparison does not use the semi-private
 $18,817 figure or NVIDIA DreamTeam's separate $18,000 result. A matched evaluation
 and component ablations are described in the [evaluation plan](evaluation-plan.md).
+
+## Reproduce the figure
+
+The [plotting script](../tools/plot_token_comparison.py) reads the published
+comparison and run aggregate, checks their totals, and renders all three formats.
+Install `matplotlib==3.9.4` in a separate Python environment, then run:
+
+```sh
+python3 -B tools/plot_token_comparison.py --output-dir /tmp/oy1-figures
+```
+
+The chart uses a linear axis starting at zero. It compares total tokens across
+the published runs, including cached input. The figure's date is the replay
+retrieval date; OY1's run date is shown in the source note. No model calls are made.

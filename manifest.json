@@ -48,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5675,
-      "sha256": "0a3e361a141a3ae4f7848ab22f09e82330a40bf5940ed07997b3ecaa0a4288fa"
+      "bytes": 5969,
+      "sha256": "97943b684fedb93787b0c211fd3a7276be4e27e24a91e88ed941555dc887e32c"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -82,6 +82,21 @@
       "sha256": "b144365986c23c2b6d1809bb6d274b0390d0ec9c4c2ddeaf46853c2e9b5d5d47"
     },
     {
+      "path": "docs/figures/public-token-comparison.pdf",
+      "bytes": 27173,
+      "sha256": "d99ee08224f613b80306dd58028de4292e2ce5ace39ef3b547e7957a81891e97"
+    },
+    {
+      "path": "docs/figures/public-token-comparison.png",
+      "bytes": 193967,
+      "sha256": "71a479fa1d0d7ca7ee199c3e34881e9888acb25ad7c36ef0ae40dbde97db7a8e"
+    },
+    {
+      "path": "docs/figures/public-token-comparison.svg",
+      "bytes": 79412,
+      "sha256": "681b7797bf10b45f44a9b9f6e2945005b0aec16293445b283f345503723856cb"
+    },
+    {
       "path": "docs/method.md",
       "bytes": 6020,
       "sha256": "dc392655bafafd4782e3d9b208fd628ff98a756e15fef57e54d8ec9dd555822a"
@@ -103,8 +118,8 @@
     },
     {
       "path": "docs/token-comparison.md",
-      "bytes": 6493,
-      "sha256": "8e2b9ca5450358745c8905d054dcec71c7d817e96420659ef88f9309f53b1229"
+      "bytes": 7431,
+      "sha256": "e17199e517cc40d244e9f71cd27aa2a596fd27e8cd5ba3204978c5fcd461b1c8"
     },
     {
       "path": "evidence/evaluated-notebook.ipynb",
@@ -1105,6 +1120,11 @@
       "path": "notebooks/reproduce.ipynb",
       "bytes": 19529,
       "sha256": "bdacf3096cfd36372bb9769ae4a5785ded53f9fb94f55f4eab590a33a1440b3f"
+    },
+    {
+      "path": "tools/plot_token_comparison.py",
+      "bytes": 5900,
+      "sha256": "888ddacabea89ab27df9bb2431a28f445d9b601e4243791b7292b5cfd1fe4e25"
     },
     {
       "path": "tools/verify_release.py",

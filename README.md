@@ -61,6 +61,8 @@ Across the same 25 game versions with GPT-6 Astra at high reasoning, OY1 reports
 **83.03% fewer total tokens** than the published Provider Adapter replays, with
 all 183 levels completed by both. [Token accounting, replay links and scope](docs/token-comparison.md).
 
+[![OY1 reports 153.06 million total tokens versus 901.97 million in the Provider Adapter public replays, an 83.03% reduction on the same 25 game versions. Both use GPT-6 Astra at high reasoning and complete all 183 levels.](docs/figures/public-token-comparison.svg)](docs/token-comparison.md)
+
 The public games were used during development. This result does not establish
 unseen-game performance or a controlled advantage over another harness.
 The optional graph planner was not called in this run. No ARC Prize verification is claimed;
