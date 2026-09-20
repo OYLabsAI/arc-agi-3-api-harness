@@ -153,8 +153,8 @@
     },
     {
       "path": "docs/reproduction.md",
-      "bytes": 6322,
-      "sha256": "9a11795deeeff7aa1a0bb72b4e280e0bc5faec598c08c7ed2c59b3f0a18c6b94"
+      "bytes": 6472,
+      "sha256": "d1f88cec06aa09181b66d3c01aee8073525cafd530f11ab423b6b06db757846d"
     },
     {
       "path": "docs/results.md",
@@ -1168,8 +1168,8 @@
     },
     {
       "path": "notebooks/reproduce.ipynb",
-      "bytes": 19529,
-      "sha256": "bdacf3096cfd36372bb9769ae4a5785ded53f9fb94f55f4eab590a33a1440b3f"
+      "bytes": 19549,
+      "sha256": "2b447815ba8c31c1a0a903aa8fd548f01ad9c6702b70a8fa1e9921349f5fb490"
     },
     {
       "path": "tools/plot_token_comparison.py",

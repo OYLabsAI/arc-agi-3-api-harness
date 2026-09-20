@@ -113,4 +113,6 @@ The first public release is pinned at
 [`0c7848d`](https://github.com/OYLabsAI/arc-agi-3-api-harness/tree/0c7848dafeb4d7969279b5f193af71112404309a).
 Later documentation and repository-maintenance changes update the outer package
 manifest while retaining the evaluated source manifest, source archive and
-reproduction notebook. They do not represent a new evaluated solver version.
+historical notebook. The public reproduction wrapper has updated headings and
+receipt metadata; its solver execution and audit checks are unchanged. The Linux
+fixture receipt identifies the wrapper used for that recorded test.
