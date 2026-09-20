@@ -1,53 +1,66 @@
-# Submission status
+# Release and evaluation status
 
-**Community listing: NOT SATISFIED.** The public Competition Mode result and
-Linux fixture are complete and the source is released publicly. Maintainer
-acceptance of the community entry is pending.
+The public source, completed Competition Mode scorecard and reproduction
+fixture are available. The [community submission](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56)
+awaits maintainer review. There is no organizer-verified or held-out result.
 
-## Community submission
+## Available evidence
 
-| Requirement | Status and evidence |
+| Item | Evidence and scope |
 |---|---|
-| Published Competition Mode scorecard | **SATISFIED**: the [ARC page](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) records 100.00%, 25/25 games, 183/183 levels and 6,732 actions; the original card records Competition Mode. |
-| Complete producing system in the package | **SATISFIED**: all 74 evaluated source files, prompt, tools, configuration, locked dependencies, license notices and reproduction entry point are included. |
-| Public source availability | **SATISFIED**: complete producing system is published in this repository under Apache-2.0 with third-party notices. |
-| Submission metadata | **SATISFIED**: fields, unique method name, benchmark/set and Competition Mode scorecard link are prepared under the official schema. Public URLs are checked again as part of publication. |
-| Generality and novel-contribution acceptance | **NOT SATISFIED**: the [method](method.md#contribution-and-generality) and development exposure are disclosed; no maintainer decision exists. |
-| Maintainer review and merge | **NOT SATISFIED**: a prepared entry is not an acceptance decision. Upstream checks and maintainer feedback are tracked in the submission PR. |
+| Public benchmark | [Scorecard](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b): 100.00%, 25/25 games, 183/183 levels and 6,732 actions. The original card records Competition Mode. |
+| Producing system | All 74 evaluated files, prompt, tools, configuration, locked dependencies and reproduction entry point are public. |
+| Source identity | Evaluated file hashes and original source archive are retained. The reproduction wrapper is separately identified. |
+| Linux fixture | [Receipt](../evidence/linux-fixture.json): 231 tests and a synthetic fixture completed in 74.90 seconds, with zero API operations and zero charged or reserved cost. |
+| Cost accounting | $415.37 for the successful run; original provider exports and invoices reconciled privately. See [all attempts](method.md#attempt-history). |
+| License | Orca Labs sp. z o.o.; Apache-2.0 for the source, with separate third-party notices. |
+| Community metadata | [Submission PR](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56) contains the method, author, version, model, cost and public scorecard URL. |
 
-The [community instructions](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md)
-describe a method review and require public reproducible source. A paper is
-optional. Organizer-run protected evaluation is a separate path.
+The fixture checks software behavior; it is not another benchmark run. Kaggle
+reformatted notebook JSON and source arrays during the historical fixture.
+Saved cell text and normalized notebook content matched the supplied wrapper;
+both file hashes are recorded in the receipt.
 
-## Release checks
+## Known limitations
 
-| Check | Status and evidence |
+- **Development exposure:** the public games were used during development.
+  Performance on unfamiliar games has not been established.
+- **Attribution:** no matched comparison or component ablation isolates which
+  design choices caused the result or establishes a cost advantage.
+- **Public evidence:** raw action/observation logs, provider exports, invoices
+  and reasoning payloads are outside this repository. The public summaries
+  do not constitute an independent replication.
+- **Packaging version:** frozen `pyproject.toml` says `0.3.6+api7`, while the
+  evaluated manifest and run identify `0.3.8+api9`. This discrepancy is preserved
+  to retain source identity; the documented bootstrap executes that frozen
+  source directly. See [identity notes](reproduction.md#source-identity-and-metadata).
+- **Historical runtime inventory:** a contemporaneous full interpreter,
+  standard-library and installed-file inventory is unavailable. Source, locked
+  wheel hashes, saved code and the pinned container are recorded.
+
+## Community review
+
+The upstream maintainers decide whether the method meets their generality,
+openness and novelty criteria. Automated validation and a public scorecard do
+not establish acceptance. A paper is optional under the
+[contribution instructions](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md).
+
+## Organizer verification
+
+This is a separate process from community listing. The following remain open:
+
+| Area | Remaining work |
 |---|---|
-| Reproduction wrapper on Linux | **SATISFIED**: private Kaggle version 1 completed 231 tests and the synthetic fixture in 74.90 seconds, with zero API operations and zero charged/reserved cost. See [receipt](../evidence/linux-fixture.json). |
-| Evaluated source identity | **SATISFIED**: all 74 evaluated files and the original source archive retain their recorded hashes. The reproduction wrapper is separately identified. |
-| Successful public-run cost reconciliation | **SATISFIED**: USD 415.37; original provider exports and invoices reconciled privately. |
-| Rights holder and license | **SATISFIED**: Orca Labs sp. z o.o., Apache-2.0, with separate third-party notices. |
-| Packaging metadata consistency | **NOT SATISFIED**: frozen pyproject.toml says 0.3.6+api7; evaluated manifest/run says 0.3.8+api9. This defect is preserved and disclosed to retain evaluated source identity. The documented bootstrap executes the frozen source directly. |
+| Evaluator setup | Evaluator-owned account access and organizer acceptance of execution/provider setup |
+| Consultation | The private consultation draft has not been sent |
+| Dataset integration | Agreement on a live organizer interface; only synthetic replacement checks exist |
+| Protected-data handling | Agreement for the exact project, model, Responses/compaction/cache features and logging destinations |
+| Verification | Organizer audit disposition, selection decision, protected evaluation and score agreement |
 
-The fixture is a software check, not another public benchmark result. Kaggle
-reformatted the notebook JSON and source arrays; saved cell text and normalized
-notebook content match the supplied wrapper. Both file hashes are recorded.
+Organizer/protected execution remains disabled. These items are not all
+community-entry prerequisites. [ARC policy](https://arcprize.org/policy) governs
+organizer verification.
 
-## Separate official verification path
-
-**Full official verified submission compliance: NOT SATISFIED.** The following
-items remain open for that path; they are not all community-entry prerequisites.
-
-| Remaining requirement | Concrete gap |
-|---|---|
-| Evaluator setup and provider acceptance | **NOT SATISFIED**: evaluator-owned account access and organizer execution acceptance are missing. |
-| Organizer consultation | **NOT SATISFIED**: private draft has not been sent. |
-| Actual organizer dataset replacement | **NOT SATISFIED**: only synthetic replacement checks; no agreed live organizer interface. |
-| Protected retention and data flow | **NOT SATISFIED**: no agreement for the exact project, model, Responses/compaction/cache features or logging destinations. |
-| Complete historical runtime identity | **NOT SATISFIED**: contemporaneous full interpreter, stdlib and installed-file inventory is missing. This is an additional engineering control; source, locked wheel hashes, saved code and pinned container are recorded. |
-| Organizer audit, selection and protected score agreement | **NOT SATISFIED**: no organizer audit disposition, selection decision, protected result or agreement. |
-
-The frozen reports describe their historical pre-run state. The later completed
-result is recorded in [public-run.json](../evidence/public-run.json). No missing
-historical attestation is reconstructed as contemporaneous evidence.
-[ARC policy](https://arcprize.org/policy) governs organizer verification.
+Historical reports in `harness/reports/` retain their original pre-run status.
+The later completed result is in [public-run.json](../evidence/public-run.json).
+No missing historical record has been reconstructed as contemporaneous evidence.

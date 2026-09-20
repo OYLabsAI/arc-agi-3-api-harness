@@ -1,10 +1,11 @@
 # Community submission
 
 This package targets the [ARC-AGI Community Leaderboard](https://arcprize.org/leaderboard/community)
-with its completed public Competition Mode scorecard. Listing acceptance is
-**NOT SATISFIED** pending maintainer review and acceptance.
+with its completed public Competition Mode scorecard.
+[Submission PR #56](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56)
+is open; maintainer review and acceptance are pending.
 
-| Field | Prepared value |
+| Field | Submitted value |
 |---|---|
 | Method | OY1 AGI |
 | Organizational attribution | Orca Labs sp. z o.o. / [OYLabsAI](https://github.com/OYLabsAI) |
@@ -24,9 +25,10 @@ not inference costs.
 
 The [method](method.md#contribution-and-generality) presents the design for
 generality and novelty review. Neither this description nor the 100.0 public
-score guarantees acceptance. The public page and the submission repository
-currently differ in their description of which scores are displayed; no rank
-or particular presentation is promised.
+score guarantees acceptance. The community repository describes a curated
+showcase of methods, not a ranking; its
+[score policy](https://github.com/arcprize/ARC-AGI-Community-Leaderboard#about-scores)
+says that only ARC Prize Verified scores are displayed.
 
 A maintainer reviews submissions after automated checks. A paper is optional.
 Organizer-run protected evaluation follows a separate process described in

@@ -50,6 +50,27 @@ request counts. Per-game durations exclude some notebook setup/finalization.
 | vc33-5430563c | 100.0 | 7/7 | 192 | 51 | 631.13 |
 | wa30-ee6fef47 | 100.0 | 9/9 | 585 | 106 | 1545.98 |
 
+## Tool use in the completed run
+
+The submission records these counts from the original per-game event journals.
+These are tool calls, not individual environment actions or API billing requests.
+
+| Tool | Calls |
+|---|---:|
+| `act` | 1,436 |
+| `remember` | 214 |
+| `inspect` | 67 |
+| `history` | 11 |
+| `plan` | 0 |
+| `stop` | 0 |
+
+The 1,728 decision calls plus 45 compaction operations account for the 1,773
+API operations. The optional empirical planner was never called; the score
+cannot be attributed to its use. The original journals remain private, as
+described below.
+
+## Evidence availability
+
 [Machine-readable aggregate](../evidence/public-run.json) ·
 [Per-game summary and source hashes](../evidence/per-game-results.json) ·
 [Full attempt history](method.md#attempt-history)

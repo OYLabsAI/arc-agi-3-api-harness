@@ -1,4 +1,15 @@
-# Reproduction and review
+# Reproduction
+
+Choose the check you want to perform:
+
+| Path | Requirements | What it establishes |
+|---|---|---|
+| Release verification | Python 3.9+; standard library only | File identity, frozen source and notebook syntax |
+| Synthetic fixture | Linux x86_64, Python 3.12, CPU and Internet | Software tests and fixture behavior; no model calls |
+| Public API run | Kaggle, evaluator-owned keys, model access and a spending cap | A new live attempt on the declared public games |
+
+A passing fixture does not reproduce the benchmark score. No GPU or local model
+weights are needed for these paths.
 
 ## Verify the source release
 
@@ -47,8 +58,8 @@ and invokes the evaluated entry point with isolated startup.
 The default mode executes the regression suite and a synthetic fixture without
 inference requests or real scorecards. Its one-hour bound includes setup. The
 notebook prints the output directory; preserve its logs and execution receipt.
-This wrapper's end-to-end Linux validation is **SATISFIED**: its private Kaggle
-check passed 231 tests and the synthetic fixture in 74.90 seconds, with zero API
+The recorded end-to-end Linux validation on private Kaggle
+passed 231 tests and the synthetic fixture in 74.90 seconds, with zero API
 operations and zero charged/reserved cost. The [execution receipt](../evidence/linux-fixture.json)
 records the wrapper and saved-code hashes. This check is separate from both the
 historical fixture and the completed paid 100.0 public run.
@@ -88,3 +99,19 @@ The frozen pyproject version is stale (0.3.6+api7); the run/manifest version is
 0.3.8+api9. Historical pre-run reports and classification are retained as part
 of that exact source identity. A cleanup of those files would create a new
 release and must not be claimed as the source that produced this result.
+
+## Troubleshooting
+
+| Symptom | Check |
+|---|---|
+| `Package inventory changed` or a file hash mismatch | Run the verifier in a clean checkout. Additional files inside the checkout also affect the package inventory. Keep run outputs outside it. |
+| Unsupported fixture platform | Use Linux x86_64 with Python 3.12. Release verification itself does not require Linux. |
+| Bundle missing or ambiguous | Attach one byte-identical `.bin` bundle or set `BUNDLE_PATH` to the supplied ZIP on a Linux host. |
+| Paid mode cannot find Secrets | Use evaluator-owned Kaggle Secrets; the wrapper does not implement local paid-mode credential integration. |
+| Budget stop before the cap | Reservations require headroom before a request. Retain the stopped attempt; do not combine it with a later scorecard. |
+
+The first public release is pinned at
+[`0c7848d`](https://github.com/OYLabsAI/arc-agi-3-api-harness/tree/0c7848dafeb4d7969279b5f193af71112404309a).
+Later documentation and repository-maintenance changes update the outer package
+manifest while retaining the evaluated source manifest, source archive and
+reproduction notebook. They do not represent a new evaluated solver version.

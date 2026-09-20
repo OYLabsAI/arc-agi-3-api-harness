@@ -35,3 +35,14 @@ earlier ARC benchmarks with different evaluation conditions; these documentation
 examples do not establish a comparable score or winner status for this project.
 NVARC's official 2025 code link points to a Kaggle notebook; its content was not
 available in the web text retrieval, so no content claims are made about it.
+
+## Repository presentation references
+
+The September 2026 documentation refresh reviewed
+[NVIDIA DreamTeam](https://github.com/NVIDIA/dream-team) and
+[NVARC](https://github.com/1ytic/NVARC) for documentation structure: explain the
+method, link its components, give explicit setup commands and distinguish
+examples from evaluation evidence. NVIDIA's
+[AVO technical overview](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/)
+was also consulted. No code, prompts or demonstration assets were copied, and
+these references do not imply a matched performance comparison or endorsement.
