@@ -5,6 +5,8 @@ RUN python -m pip install --no-cache-dir --require-hashes --only-binary=:all: -r
 COPY arc_harness ./arc_harness
 COPY plans ./plans
 COPY scripts ./scripts
-COPY pyproject.toml requirements.lock ./
+COPY config ./config
+COPY tests ./tests
+COPY pyproject.toml requirements.lock README.md RELEASE-MANIFEST.json Dockerfile .gitignore ./
 ENV PYTHONNOUSERSITE=1 PYTHON_DOTENV_DISABLED=1
 CMD ["python", "-m", "arc_harness.api_run", "fixture", "--output", "/tmp/oy-api-check"]

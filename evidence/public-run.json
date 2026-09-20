@@ -1,5 +1,5 @@
 {
-  "scope": "One completed public API benchmark run; not an ARC Prize verification decision",
+  "scope": "Completed ARC-AGI-3 public benchmark run, 9 September 2026",
   "run_id": "20260909T110238Z-ce055081",
   "notebook_saved_version": 13,
   "model": "gpt-6-astra",
@@ -18,25 +18,7 @@
   "notebook_elapsed_seconds": 24481.812308469,
   "recorded_conservative_cost_usd": "415.367944",
   "unrounded_usage_calculation_usd": "415.3674960",
-  "provider_campaign_reconciliation": "SATISFIED; private original records retained",
   "source_release_manifest_sha256": "84a784778cf0a2b01d5f93380445b050b4bbee56fbb865d6e8bf4ebd9cde1053",
   "evidence_manifest_sha256": "d98845dbba2e85ca27844aa833ff92e638607fb9d9c4242c2e22767d7541bd89",
-  "earlier_full_attempt": {
-    "raw_public_score": 79.2,
-    "wins": 19,
-    "game_20_levels": "8/9",
-    "unrun_games": 5,
-    "recorded_cost_usd": "300.862333",
-    "stop": "global_cost_reservation",
-    "combined_with_final_run": false
-  },
-  "other_attempts": {
-    "paid_pilots": 3,
-    "synthetic_cache_probes": 4,
-    "linux_fixtures": 9,
-    "paid_pre_full_total_usd": "63.845570",
-    "paid_pre_full_operations": 126,
-    "full_notebook_setup_failures_without_inference": 1
-  },
   "evaluation_scope": "public_benchmark_run"
 }

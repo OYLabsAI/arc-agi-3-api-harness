@@ -45,10 +45,8 @@ and uses bounded Responses compaction. Compaction is lossy: the latest exact
 observation is restored afterward, and older observations remain accessible
 through `inspect`; they are not guaranteed to stay in model context forever.
 
-The adapter requests a 30-minute minimum cache TTL. This is not a maximum
-retention promise. The synthetic probes motivating the layout are preserved in
-[frozen implementation notes](../harness/reports/API9-CHANGE-REVIEW.md), which predate
-the completed run.
+The adapter requests a 30-minute minimum cache TTL. The provider configuration
+is in [`api_provider.py`](../harness/arc_harness/api_provider.py).
 
 ## Model-facing tools
 
@@ -99,9 +97,7 @@ a guarantee that its whole interpretation of the game is correct.
 
 ## Data handling
 
-Original action and usage evidence is retained privately. `store=False`,
-`background=False` and a requested cache TTL do not establish a protected-data
-retention agreement. Organizer live mode remains disabled pending the actual
-dataset interface and agreed handling policy. See the preserved
-[data-flow report](../harness/reports/DATA-FLOW.md) and
-[current status](compliance.md).
+The public repository contains result summaries and links to ARC Prize recordings.
+Original journals, provider exports and invoice records remain private. Organizer
+live mode requires a separate dataset interface and data handling agreement.
+[Evaluation scope](compliance.md).

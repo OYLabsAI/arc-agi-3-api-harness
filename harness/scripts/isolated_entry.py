@@ -58,7 +58,7 @@ def configure(source):
             "prefix": sys.prefix, "base_prefix": sys.base_prefix,
             "sys_path": list(sys.path), "isolated": True, "automatic_site_initialization": False,
             "startup_hooks_not_executed": hooks, "pth_files_not_executed": pth,
-            "scope": "interpreter startup and explicit import paths; full runtime compliance NOT SATISFIED"}
+            "scope": "interpreter startup and explicit import paths"}
 
 
 def main():

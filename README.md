@@ -1,73 +1,56 @@
-# OY1 · ARC-AGI-3 harness
+# OY1 · ARC-AGI-3
 
 [![Release integrity](https://github.com/OYLabsAI/arc-agi-3-api-harness/actions/workflows/verify.yml/badge.svg)](https://github.com/OYLabsAI/arc-agi-3-api-harness/actions/workflows/verify.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-OY1 runs a language model on ARC-AGI-3 games. It stores the observations from
-each game so the model can retrieve an earlier frame, look up a transition or
-keep a note with a reference to what happened. The model can request up to eight
-actions at once, with a prediction for each step. If a check fails, the runner
-stops the remaining actions and returns the observation to the model.
+**OY1 completed all 25 public games and 183 levels with a score of 100.0.**
+The run used GPT-6 Astra at high reasoning and cost **$415.37** in inference.
 
-[Method](docs/method.md) · [Quick start](#quick-start) · [Results](docs/results.md) ·
-[Reproduction](docs/reproduction.md) · [Evaluation plan](docs/evaluation-plan.md)
+OY1 stores what the model observes, lets it retrieve earlier frames and notes,
+and checks predicted outcomes as it executes actions. This repository contains
+the harness, results and replays from the completed run on **9 September 2026**.
 
-## How it works
+[Scorecard](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) ·
+[Results](docs/results.md) · [Replays](docs/replays.md) ·
+[Method](docs/method.md) · [Reproduction](docs/reproduction.md)
 
-```mermaid
-flowchart LR
-    O[Current screenshot and exact grid] --> M[Model]
-    H[(Per-game observations and memory)] <--> M
-    M --> P[Action sequence with predictions]
-    P --> A[Execute one action]
-    A --> C{Observation matches?}
-    C -->|Mismatch: stop remaining actions| M
-    C -->|Match: continue while permitted| A
-    A --> H
-```
+## Results
 
-The same prompt and tool interface serve every selected game. Memory starts
-fresh for each game; the model receives observations and permitted actions.
-
-| Mechanism | What it does | Implementation |
-|---|---|---|
-| Earlier frames | Retrieve exact earlier pixel grids, animation frames or crops | [`inspect`](harness/arc_harness/runner.py) |
-| Memory notes | Store hypotheses and notes with references to observed transitions | [`Store.remember`](harness/arc_harness/store.py) |
-| Action checks | Check each step in a batch of up to eight actions and interrupt when needed | [`Runner.act`](harness/arc_harness/runner.py) |
-| Model context | Retain provider reasoning items and cache text history before the current image | [Provider adapter](harness/arc_harness/api_provider.py) |
-
-For example, a model may request three moves and predict the player's position
-after each one. If the first position is wrong, the runner cancels the other
-two moves. See [the method](docs/method.md) for the full set of stop conditions.
-
-## Public benchmark result
-
-One completed live Competition Mode run, **9 September 2026**:
-
-| Measure | Result |
+| Measure | Completed public run |
 |---|---:|
-| Public games completed | **25 / 25** |
+| Public score | **100.0** |
+| Games completed | **25 / 25** |
 | Levels completed | **183 / 183** |
-| Raw public score | **100.0** |
-| Inference cost for this run | **$415.37** |
+| Inference cost | **$415.37** |
 | Environment actions | 6,732 |
 | Notebook runtime | 6 h 48 min |
 
-Model: **OpenAI gpt-6-astra**, high reasoning effort, Standard service.
-[Scorecard and replays](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) ·
-[Per-game results and cost accounting](docs/results.md).
+These are public-set results. The games were used during development;
+held-out performance has not been measured. [Evaluation scope](docs/compliance.md).
 
-Across the same 25 game versions with GPT-6 Astra at high reasoning, OY1 reports
-**83.03% fewer total tokens** than the published Provider Adapter replays, with
-all 183 levels completed by both. [Token accounting, replay links and scope](docs/token-comparison.md).
+## Token usage
 
-[![OY1 reports 153.06 million total tokens versus 901.97 million in the Provider Adapter public replays, an 83.03% reduction on the same 25 game versions. Both use GPT-6 Astra at high reasoning and complete all 183 levels.](docs/figures/public-token-comparison.svg)](docs/token-comparison.md)
+On the same 25 game versions with GPT-6 Astra at high reasoning, OY1 reports
+**153.06 million total tokens**, compared with **901.97 million** in the published
+Provider Adapter replays: **83.03% fewer**. Both completed all 183 levels.
 
-The public games were used during development. This result does not establish
-unseen-game performance or a controlled advantage over another harness.
-The optional graph planner was not called in this run. No ARC Prize verification is claimed;
-[community review](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56)
-is pending.
+[![Total tokens: Provider Adapter 901.97 million; OY1 153.06 million. Same 25 public game versions, GPT-6 Astra at high reasoning.](docs/figures/public-token-comparison.svg)](docs/token-comparison.md)
+
+[Token accounting and sources](docs/token-comparison.md) ·
+[Download chart](docs/figures/public-token-comparison.png)
+
+## How it works
+
+- **Recall:** retrieve an exact earlier frame, crop or transition from the current game.
+- **Memory:** keep notes with references to the observations that support them.
+- **Action checks:** request up to eight actions with predicted outcomes. The runner
+  stops the batch on a mismatch, a level transition or another stop condition.
+
+Memory persists across levels and starts fresh for each game. The same prompt
+and tools serve every game. The model receives screenshots and grids, without
+game source or stored solutions. The optional graph planner was not used in this run.
+
+See the [method](docs/method.md) for the tool interface and implementation.
 
 ## Gameplay
 
@@ -82,9 +65,9 @@ click a clip to open the full game replay.
 
 [All 25 replays, still images and rendering details](docs/replays.md).
 
-## Quick start
+## Run OY1
 
-Inspect the release with Python 3.9 or newer; no installation or credentials are needed:
+Clone the repository and check the release files:
 
 ```sh
 git clone https://github.com/OYLabsAI/arc-agi-3-api-harness.git
@@ -92,45 +75,26 @@ cd arc-agi-3-api-harness
 python3 -B tools/verify_release.py
 ```
 
-The verifier checks file hashes, the 74 evaluated source files, bundled source
-and notebook syntax. A passing result reports `evaluated_source_files: 74` and
-`paid_requests: 0`. It does not run a benchmark.
+The [reproduction notebook](notebooks/reproduce.ipynb) loads the exact source
+snapshot used for the reported run. It requires Linux x86_64 and Python 3.12.
+Its default mode checks the installation without model calls. To run the public
+benchmark, supply your own credentials and spending cap as described in the
+[setup guide](docs/reproduction.md). No GPU is required.
 
-To execute the software, follow the [reproduction guide](docs/reproduction.md):
-
-- **Synthetic fixture:** Linux x86_64, Python 3.12, CPU; no model calls.
-- **Public benchmark:** the same notebook in paid mode, with evaluator-owned
-  credentials, model access and an explicit spending cap.
-
-No GPU or local model weights are required. The recorded Linux fixture passed
-231 tests; [its receipt](evidence/linux-fixture.json) is separate from the
-benchmark result.
-
-## Repository guide
+## Repository
 
 | Path | Contents |
 |---|---|
-| [`harness/`](harness/) | Frozen evaluated implementation, prompts, configuration and tests |
-| [`notebooks/`](notebooks/) | Reproduction notebook with fixture and paid modes |
-| [`docs/`](docs/README.md) | Method, results, reproduction, limitations and evaluation plan |
-| [`evidence/`](evidence/) | Public result summaries and historical notebook |
-| [`assets/`](assets/) | Source and license bundle |
-| [`tools/`](tools/) | Credential-free release verification |
+| [`harness/`](harness/) | Source, configuration and unit tests |
+| [`notebooks/`](notebooks/) | Reproduction notebook |
+| [`docs/`](docs/) | Method, results, charts and gameplay clips |
+| [`evidence/`](evidence/) | Run totals, per-game results, replay index and source identity |
+| [`tools/`](tools/) | Release verification, replay audit and figure generation |
 
-The `harness/` files and source bundle are the evaluated release. The
-[source identity notes](docs/reproduction.md#source-identity-and-metadata) cover
-their hashes and a packaging-version discrepancy.
-Raw action logs, provider exports and model reasoning are not included in the
-public summaries.
+For changes, see [CONTRIBUTING.md](CONTRIBUTING.md). For citation, use
+[CITATION.cff](CITATION.cff) and include the commit and evaluation scope.
+The [community submission](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56)
+is awaiting maintainer review.
 
-This repository contains the ARC benchmark harness. The hosted OY1 ChatGPT/MCP service
-is a separate system and does not inherit this benchmark score.
-
-## Contributing and citation
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for reporting issues and proposing changes.
-Cite the software using [CITATION.cff](CITATION.cff), including the exact commit
-and evaluation scope.
-
-Copyright 2026 Orca Labs sp. z o.o. / OY Labs. [Apache-2.0](LICENSE);
-[third-party notices](THIRD-PARTY-NOTICES.md) and [NOTICE](NOTICE).
+Copyright 2026 Orca Labs sp. z o.o. / OY Labs.
+[Apache-2.0](LICENSE) · [Third-party notices](THIRD-PARTY-NOTICES.md)

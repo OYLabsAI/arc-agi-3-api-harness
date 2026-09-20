@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arc-agi-harness"
-version = "0.3.6+api7"
+version = "0.3.8"
 description = "An observation-only, evidence-driven ARC-AGI-3 research harness"
 requires-python = ">=3.12"
 dependencies = ["arc-agi==0.9.9", "arcengine==0.9.3", "numpy>=1.24", "pillow>=12.1.1", "pydantic>=2.0", "openai>=2.54,<3"]

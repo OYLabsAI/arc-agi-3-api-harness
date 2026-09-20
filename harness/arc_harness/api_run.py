@@ -39,12 +39,12 @@ ROOT = Path(__file__).resolve().parent.parent
 
 def require_billing_review(review=None):
     if review is None:
-        review = json.loads((ROOT / "reports/PROVIDER-BILLING-REVIEW.json").read_text())
-    expected = {"status": "SATISFIED", "model": "gpt-6-astra", "service_tier": "default",
+        review = json.loads((ROOT / "config/billing.json").read_text())
+    expected = {"status": "validated", "model": "gpt-6-astra", "service_tier": "default",
                 "transport": "model_max_input_no_count", "maximum_input_tokens": MAX_INPUT,
                 "response_output_cap": 16000, "compaction_output_cap": 20000}
     if any(review.get(k) != v for k, v in expected.items()) or review.get("paid_launch_allowed") is not True:
-        raise ValueError("Paid launch blocked: provider billing review NOT SATISFIED")
+        raise ValueError("Paid launch blocked: invalid billing configuration")
 
 
 def load_plan(path, *, paid=False):
@@ -318,7 +318,7 @@ def evaluate(plan, games, dataset_sha, output, *, started=None, fixture=False, p
                 release_status = "RELEASE FILE CHECKS PASSED"
             except ReleaseIntegrityError:
                 error = "release_integrity_failed"
-                release_status = "NOT SATISFIED"
+                release_status = "FAILED"
             write_json(directory / "release-integrity.json", {
                 "status": release_status, "release_manifest_sha256": release["manifest_sha256"],
                 "files_checked": len(release["files"]), "full_submission_compliance_established": False,

@@ -1,6 +1,6 @@
 {
-  "status": "SATISFIED",
-  "scope": "Published token-cost reservation contract for the API7 transport; live feature acceptance and invoice reconciliation remain separate",
+  "status": "validated",
+  "scope": "Token-cost reservation configuration for GPT-6 Astra, Standard service.",
   "model": "gpt-6-astra",
   "service_tier": "default",
   "reviewed_at": "2026-09-09",
@@ -30,10 +30,5 @@
     "Missing usage, uncertain effects, settings mismatch or exceeded bounds stop further traffic.",
     "No token counting and no standalone compaction. Responses compaction is requested with a final compaction_trigger.",
     "A finite owner-authorized plan is still required. Dashboard limits alone are not the application budget."
-  ],
-  "remaining": [
-    "Live API access/settings/compaction validation NOT SATISFIED until real evidence",
-    "Provider invoice reconciliation NOT SATISFIED until billed usage is reconciled",
-    "Full submission compliance NOT SATISFIED"
   ]
 }

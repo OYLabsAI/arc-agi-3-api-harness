@@ -1,44 +1,36 @@
 # Contributing
 
-OY1 is a research release with a frozen implementation and a public evaluation
-record. Issues and focused pull requests are welcome.
+Issues and focused pull requests are welcome.
 
-## Report an issue
+For a bug report, include the commit, operating system, Python version, command,
+expected behavior and actual result. For a benchmark question, identify the game
+version, run and metric. Remove credentials and private model payloads from logs.
 
-Include the commit, operating system, Python version, command or notebook mode,
-expected behavior and observed result. For benchmark questions, identify the
-game version, run and metric. Share a minimal reproduction and redact API keys,
-account identifiers and private model payloads from logs.
+A pull request should explain the problem, the change and how it was checked.
+Documentation claims should link to the source or recorded result.
 
-## Propose a change
-
-Explain the problem, the resulting behavior and how you checked it. Keep each
-PR focused. Documentation corrections should link to the source or recorded
-result supporting the change. Check the code, claims and test results before
-submitting.
-
-The `harness/` tree, bundled archives, historical evidence and reproduction
-notebook identify the evaluated release. Propose runtime experiments as a
-separately versioned implementation with its own tests and manifest. Do not
-silently modify evaluated files or describe a changed solver as the version
-that produced the published score.
-
-## Check a documentation change
-
-From a clean checkout:
+## Checks
 
 ```sh
 python3 -B tools/verify_release.py
 git diff --check
 ```
 
-The outer `manifest.json` inventories repository files. Update the `bytes` and
-SHA-256 fields for changed documentation and add entries for new files, keeping
-paths sorted. Never change the evaluated source hashes to make a runtime edit
-pass. Keep generated outputs outside the checkout because the verifier checks
-its complete file inventory.
+For source changes, install the locked dependencies in a separate Python 3.12
+environment and run the tests from `harness/`:
 
-For runtime verification, follow [the reproduction guide](docs/reproduction.md).
-The default fixture makes no model calls. Paid evaluations need an explicit
-budget and run configuration; include both successful and failed attempts in
-any result report.
+```sh
+python -B -m pytest -q -p no:cacheprovider
+```
+
+Update `harness/RELEASE-MANIFEST.json` when maintained source files change, then
+update the outer `manifest.json`. Keep paths sorted and record file sizes and
+SHA-256 hashes. Generated outputs belong outside the checkout.
+
+The evaluated snapshot in `evidence/evaluated-source.json` stays pinned to the
+published run. If a solver file changes, it must no longer be listed as unchanged
+from that snapshot. Report new benchmark results separately and include the exact
+source commit, model configuration, game versions and cost accounting.
+
+See the [reproduction guide](docs/reproduction.md) for running the evaluated
+snapshot. Paid runs require credentials and an explicit spending cap.

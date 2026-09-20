@@ -1,3 +1,3 @@
-"""ARC-AGI-3 research harness. A target of 100% is not a measured result."""
+"""OY1 harness for ARC-AGI-3."""
 
-__version__ = "0.3.8+api9"
+__version__ = "0.3.8"

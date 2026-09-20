@@ -121,7 +121,7 @@ def test_failed_final_export_restores_signals_closes_ledger_and_invalidates_succ
 
 def test_unresolved_billing_blocks_paid_launch_before_network_or_run_directory(tmp_path, monkeypatch):
     original_review = api_run.require_billing_review
-    monkeypatch.setattr(api_run, "require_billing_review", lambda: original_review({"status": "NOT SATISFIED"}))
+    monkeypatch.setattr(api_run, "require_billing_review", lambda: original_review({"status": "FAILED"}))
     monkeypatch.setenv("OPENAI_API_KEY", "synthetic-key")
     monkeypatch.setenv("ARC_API_KEY", "synthetic-arc")
     plan, games, sha = api_run.load_plan(api_run.ROOT / "plans/pilot.json")
@@ -129,8 +129,8 @@ def test_unresolved_billing_blocks_paid_launch_before_network_or_run_directory(t
                 dataset=str(api_run.ROOT / "plans/pilot-games.json"))
     path = tmp_path / "approved.json"
     path.write_text(json.dumps(plan))
-    with pytest.raises(ValueError, match="billing review NOT SATISFIED"):
+    with pytest.raises(ValueError, match="invalid billing configuration"):
         api_run.load_plan(path, paid=True)
-    with pytest.raises(ValueError, match="billing review NOT SATISFIED"):
+    with pytest.raises(ValueError, match="invalid billing configuration"):
         api_run.evaluate(plan, games, sha, tmp_path / "runs", expected_release_sha256="synthetic")
     assert not (tmp_path / "runs").exists()

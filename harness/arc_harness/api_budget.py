@@ -91,7 +91,7 @@ class Ledger:
         try:
             self.check_dispatch()
             detail = {**metadata, "started_at": datetime.now(UTC).isoformat(),
-                      "billing_status": "NOT SATISFIED: counting endpoint price not established",
+                      "billing_status": "UNPRICED: counting endpoint price not established",
                       "charge_micro_usd": None}
             cursor = self.db.execute("INSERT INTO input_counts(status,detail) VALUES('pending',?)",
                                      (json.dumps(detail),))

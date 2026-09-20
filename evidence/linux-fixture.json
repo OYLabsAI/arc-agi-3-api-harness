@@ -1,5 +1,5 @@
 {
-  "status": "SATISFIED",
+  "status": "passed",
   "scope": "Credential-free Linux regression suite and synthetic fixture; not a benchmark score",
   "date": "2026-09-09",
   "run_id": "20260909T205546Z-56384d31",

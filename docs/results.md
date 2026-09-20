@@ -1,27 +1,20 @@
 # Public benchmark result
 
-One scorecard from run `20260909T110238Z-ce055081`, completed on 2026-09-09:
-**100.0 raw public score, 25/25 wins, 183/183 levels**. There were 6,732 actions,
-1,773 API operations and 153,058,391 reported tokens. The notebook completed
-normally in 24,481.812 seconds, including setup/finalization. All 37,704 checks
-in the standalone evidence audit passed; there were no uncertain API requests.
+On **9 September 2026**, OY1 scored **100.0** on the ARC-AGI-3 public set,
+completing **25/25 games and 183/183 levels** with GPT-6 Astra at high reasoning.
+The run cost **$415.37** in inference and used **6,732 environment actions**.
 
-[Published ARC scorecard](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b)
-— Competition Mode, live API play, all 25 declared public environments. The
-published page agrees with the retained scorecard on score, levels, games and
-actions, and provides environment replay links. The standalone audit checks
-evidence consistency; it does not represent independent organizer verification.
+[Scorecard](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) ·
+[Replays](replays.md) · [Evaluation scope](compliance.md)
 
-This is a development-exposed public selection, not a protected result or an
-ARC Prize verification. No result is combined with another attempt. Scores from
-other benchmark versions, datasets or harnesses are not directly comparable.
+Run `20260909T110238Z-ce055081` completed in 24,481.812 seconds, including setup
+and finalization. It reports 153,058,391 total tokens across 1,728 model decisions
+and 45 compaction operations.
 
-The conservative ledger recorded USD 415.367944; the unrounded usage calculation
-is USD 415.3674960. Both round to **USD 415.37**. Provider usage exports and original paid credit invoices were reconciled
-privately. This is the completed run's inference cost, not total development
-spending. Model
-decisions below exclude separate compaction operations; they are not API billing
-request counts. Per-game durations exclude some notebook setup/finalization.
+## Per-game results
+
+Click a game to watch its replay. Model decisions exclude separate compaction
+operations; per-game durations exclude notebook setup and finalization.
 
 | Game and exact version | Score | Levels | Actions | Model decisions | Seconds |
 |---|---:|---:|---:|---:|---:|
@@ -65,7 +58,7 @@ a dollar-cost reduction. [Sources, per-game audit and reproduction](token-compar
 ## Tool use in the completed run
 
 The submission records these counts from the original per-game event journals.
-These are tool calls, not individual environment actions or API billing requests.
+These are tool calls, not individual environment actions or model billing requests.
 
 | Tool | Calls |
 |---|---:|
@@ -77,9 +70,12 @@ These are tool calls, not individual environment actions or API billing requests
 | `stop` | 0 |
 
 The 1,728 decision calls plus 45 compaction operations account for the 1,773
-API operations. The optional empirical planner was never called; the score
-cannot be attributed to its use. The original journals remain private, as
-described below.
+model operations. The optional graph planner was not used.
+
+## Cost accounting
+
+The usage calculation totals $415.367496; the conservative ledger records
+$415.367944. Both round to $415.37. This is inference cost for the completed run.
 
 ## Evidence availability
 

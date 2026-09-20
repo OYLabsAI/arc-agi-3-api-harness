@@ -167,7 +167,7 @@ def test_in_game_drift_cannot_produce_success(tmp_path, monkeypatch, when):
     code, directory, summary = api_run.evaluate(plan, games, dataset_sha, tmp_path / "runs", fixture=True,
                                                provider_factory=factory)
     assert code == 1 and not summary["complete_selected_set"]
-    assert summary["release_integrity_status"] == "NOT SATISFIED"
+    assert summary["release_integrity_status"] == "FAILED"
     assert summary["actions_submitted"] == (0 if when == "model_reply" else 5)
     assert verify_release(directory / "source", frozen["manifest_sha256"])
 

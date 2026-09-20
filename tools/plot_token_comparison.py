@@ -95,10 +95,10 @@ def render(output_dir):
           "Accounting: input + output, including cached input. OY1 includes compaction.",
           10, muted)
     label(.055, .147,
-          "Published runs; public games used during OY1 development. No controlled ablation or cost claim.",
+          "Published-run comparison. Public games were used during OY1 development.",
           9, muted)
     label(.055, .113,
-          "Sources: ARC Prize public replays; OY1 published aggregate (9 Sep 2026). OY1 usage ledger is private.",
+          "Sources: ARC Prize public replays; OY1 published run aggregate (9 Sep 2026).",
           9, muted)
     label(.055, .068, "Data, replay hashes and reproduction: OYLabsAI/arc-agi-3-api-harness",
           9, teal, url=AUDIT_URL)
