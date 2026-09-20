@@ -38,5 +38,5 @@
     "paid_pre_full_operations": 126,
     "full_notebook_setup_failures_without_inference": 1
   },
-  "full_submission_compliance": "NOT SATISFIED"
+  "evaluation_scope": "public_benchmark_run"
 }

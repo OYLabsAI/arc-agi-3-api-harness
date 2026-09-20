@@ -188,8 +188,8 @@
     },
     {
       "path": "evidence/public-run.json",
-      "bytes": 1499,
-      "sha256": "fc623e134f1c140dd3aadf7bc7dc8b7770e4756ba14733259cff9667eaebb58f"
+      "bytes": 1496,
+      "sha256": "345d8b24dff9e8eb31aa3cfba75c48d52f5e8fd94288ae6f485fe6d8371cc809"
     },
     {
       "path": "evidence/public-token-comparison.json",
