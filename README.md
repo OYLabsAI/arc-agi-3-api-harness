@@ -62,6 +62,10 @@ Model: **OpenAI gpt-6-astra**, high reasoning effort, Standard service.
 [Scorecard and replays](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) ·
 [Per-game results and cost accounting](docs/results.md).
 
+Across the same 25 game versions with GPT-6 Astra at high reasoning, OY1 reports
+**83.03% fewer total tokens** than the published Provider Adapter replays, with
+all 183 levels completed by both. [Token accounting, replay links and scope](docs/token-comparison.md).
+
 The public games were used during development. This result does not establish
 unseen-game performance or a controlled advantage over another harness.
 The optional graph planner was not called in this run. No ARC Prize verification is claimed;

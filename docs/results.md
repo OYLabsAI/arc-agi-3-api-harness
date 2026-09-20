@@ -51,6 +51,15 @@ request counts. Per-game durations exclude some notebook setup/finalization.
 | vc33-5430563c | 100.0 | 7/7 | 192 | 51 | 631.13 |
 | wa30-ee6fef47 | 100.0 | 9/9 | 585 | 106 | 1545.98 |
 
+## Public replay comparison
+
+On the same 25 game versions with GPT-6 Astra at high reasoning, the published
+Provider Adapter replays contain **901,970,049 total tokens** versus OY1's
+**153,058,391**, including compaction: **83.03% fewer total tokens**. Both completed
+all 183 levels. Cached input is included in the totals. This compares published
+runs; it does not isolate the effect of individual harness components or establish
+a dollar-cost reduction. [Sources, per-game audit and reproduction](token-comparison.md).
+
 ## Tool use in the completed run
 
 The submission records these counts from the original per-game event journals.

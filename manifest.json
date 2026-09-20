@@ -48,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5703,
-      "sha256": "5535d7383f9b56986cf1a216084db7193e04e2876ee1f79e38771bb1957bb487"
+      "bytes": 5969,
+      "sha256": "ed69f459cccd0b99ec4343a0720601dce598be76652b08f2a30b8bda7214c60b"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -98,8 +98,13 @@
     },
     {
       "path": "docs/results.md",
-      "bytes": 4028,
-      "sha256": "6e35c2a294ec344199480802a52e0e1bc58d34c351c4e490ac913d808bf46be0"
+      "bytes": 4550,
+      "sha256": "56c8754e7845b2cca76b8bd37f9f0513118b37d1f8e5ea10360a32ac65dd232b"
+    },
+    {
+      "path": "docs/token-comparison.md",
+      "bytes": 6493,
+      "sha256": "8e2b9ca5450358745c8905d054dcec71c7d817e96420659ef88f9309f53b1229"
     },
     {
       "path": "evidence/evaluated-notebook.ipynb",
@@ -120,6 +125,11 @@
       "path": "evidence/public-run.json",
       "bytes": 1499,
       "sha256": "fc623e134f1c140dd3aadf7bc7dc8b7770e4756ba14733259cff9667eaebb58f"
+    },
+    {
+      "path": "evidence/public-token-comparison.json",
+      "bytes": 18769,
+      "sha256": "bf75788cf29d5c9f8508efb53e96bb6ea4e87718acc86a44c1275b3bb80aab99"
     },
     {
       "path": "harness/.gitignore",
@@ -1100,6 +1110,11 @@
       "path": "tools/verify_release.py",
       "bytes": 3823,
       "sha256": "656e518f098ac1a3b6a14880115cdcdc4552b38df0d92623123b6c32b3584817"
+    },
+    {
+      "path": "tools/verify_token_comparison.py",
+      "bytes": 4315,
+      "sha256": "9d9b311efc210afb85f46963bde50ec386741877c707e55374922901bca6db9d"
     }
   ],
   "linux_reproduction_status": "SATISFIED"
