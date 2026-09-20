@@ -14,8 +14,8 @@ account identifiers and private model payloads from logs.
 
 Explain the problem, the resulting behavior and how you checked it. Keep each
 PR focused. Documentation corrections should link to the source or recorded
-result supporting the change. AI-assisted contributions are welcome; contributors
-are responsible for checking the code, claims and test results they submit.
+result supporting the change. Check the code, claims and test results before
+submitting.
 
 The `harness/` tree, bundled archives, historical evidence and reproduction
 notebook identify the evaluated release. Propose runtime experiments as a

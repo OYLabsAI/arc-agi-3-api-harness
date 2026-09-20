@@ -1,9 +1,8 @@
 # Proposed evaluation on unfamiliar games
 
-**Status: planned, not executed.** The existing result is on public games used
-during development. This protocol would test transfer to unfamiliar games and
-whether OY1's mechanisms explain any improvement. No new score or spending
-authorization is implied.
+This study has not been run. It would test performance on games withheld
+during development and measure the effect of each harness component. The
+dataset, reference harness, repeat count and budget have not yet been selected.
 
 ## Questions
 
@@ -60,8 +59,8 @@ Complete this record before any paid execution:
 
 The current release's public-game limits are 1,500 actions, 1,000 model calls,
 7,200 seconds and batches of at most eight actions per game. These are a
-reference, not a recommendation for an unselected dataset. Choose limits and
-reserve enough budget for all conditions and repeats before starting.
+starting point. Set limits and a budget for all conditions and repeats before
+starting.
 
 ## Report every attempt
 
@@ -75,6 +74,5 @@ A single successful run is not enough to attribute an improvement to one
 component. Retain original outcomes and never combine several attempts into a
 single scorecard. Describe withheld evidence explicitly.
 
-The current [231-test Linux fixture](../evidence/linux-fixture.json) checks
-software behavior. It is not this evaluation, and no execution date or result
-is claimed for the proposed study.
+The existing [Linux fixture](../evidence/linux-fixture.json) covers software
+behavior; it does not measure performance on unfamiliar games.

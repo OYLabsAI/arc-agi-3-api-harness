@@ -40,27 +40,16 @@ both file hashes are recorded in the receipt.
 
 ## Community review
 
-The upstream maintainers decide whether the method meets their generality,
-openness and novelty criteria. Automated validation and a public scorecard do
-not establish acceptance. A paper is optional under the
-[contribution instructions](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md).
+[PR #56](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56) is open.
+The maintainers review the method for generality, openness and novelty under
+their [submission requirements](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md).
 
 ## Organizer verification
 
-This is a separate process from community listing. The following remain open:
+ARC Prize verification is separate from community listing and has not been
+completed. It requires an agreed evaluator setup, dataset interface and data
+handling policy, followed by organizer evaluation. Protected execution remains
+disabled in this release. See [ARC policy](https://arcprize.org/policy).
 
-| Area | Remaining work |
-|---|---|
-| Evaluator setup | Evaluator-owned account access and organizer acceptance of execution/provider setup |
-| Consultation | The private consultation draft has not been sent |
-| Dataset integration | Agreement on a live organizer interface; only synthetic replacement checks exist |
-| Protected-data handling | Agreement for the exact project, model, Responses/compaction/cache features and logging destinations |
-| Verification | Organizer audit disposition, selection decision, protected evaluation and score agreement |
-
-Organizer/protected execution remains disabled. These items are not all
-community-entry prerequisites. [ARC policy](https://arcprize.org/policy) governs
-organizer verification.
-
-Historical reports in `harness/reports/` retain their original pre-run status.
-The later completed result is in [public-run.json](../evidence/public-run.json).
-No missing historical record has been reconstructed as contemporaneous evidence.
+Reports in `harness/reports/` retain their status at the time they were written.
+The completed result is in [public-run.json](../evidence/public-run.json).

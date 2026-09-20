@@ -3,13 +3,11 @@
 [![Release integrity](https://github.com/OYLabsAI/arc-agi-3-api-harness/actions/workflows/verify.yml/badge.svg)](https://github.com/OYLabsAI/arc-agi-3-api-harness/actions/workflows/verify.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-**Exact visual recall. Evidence-linked memory. Actions checked as they run.**
-
-OY1 is a harness for playing interactive ARC-AGI-3 games with a language model.
-It lets the model retrieve earlier observations, record what it has learned,
-and predict the effects of an action sequence. When an observation contradicts
-a prediction, the harness stops the remaining actions and returns control to
-the model.
+OY1 runs a language model on ARC-AGI-3 games. It stores the observations from
+each game so the model can retrieve an earlier frame, look up a transition or
+keep a note with a reference to what happened. The model can request up to eight
+actions at once, with a prediction for each step. If a check fails, the runner
+stops the remaining actions and returns the observation to the model.
 
 [Method](docs/method.md) · [Quick start](#quick-start) · [Results](docs/results.md) ·
 [Reproduction](docs/reproduction.md) · [Evaluation plan](docs/evaluation-plan.md)
@@ -33,17 +31,14 @@ fresh for each game; the model receives observations and permitted actions.
 
 | Mechanism | What it does | Implementation |
 |---|---|---|
-| Visual recall | Retrieve exact earlier pixel grids, animation frames or crops | [`inspect`](harness/arc_harness/runner.py) |
-| Evidence-linked memory | Store hypotheses and notes with references to observed transitions | [`Store.remember`](harness/arc_harness/store.py) |
+| Earlier frames | Retrieve exact earlier pixel grids, animation frames or crops | [`inspect`](harness/arc_harness/runner.py) |
+| Memory notes | Store hypotheses and notes with references to observed transitions | [`Store.remember`](harness/arc_harness/store.py) |
 | Action checks | Check each step in a batch of up to eight actions and interrupt when needed | [`Runner.act`](harness/arc_harness/runner.py) |
-| Context continuity | Retain provider reasoning items and cache text history before the current image | [Provider adapter](harness/arc_harness/api_provider.py) |
+| Model context | Retain provider reasoning items and cache text history before the current image | [Provider adapter](harness/arc_harness/api_provider.py) |
 
-**Example:** the model requests three moves and predicts the player's pixel
-position after each. If the first move produces a different position, the other
-two moves are not executed. The model receives the actual observation and can
-revise its next action. This is an illustration of the control flow, not a
-recorded benchmark trace. See [the method](docs/method.md) for other stop
-conditions and the limits of the checks.
+For example, a model may request three moves and predict the player's position
+after each one. If the first position is wrong, the runner cancels the other
+two moves. See [the method](docs/method.md) for the full set of stop conditions.
 
 ## Public benchmark result
 
@@ -54,7 +49,7 @@ One completed live Competition Mode run, **9 September 2026**:
 | Public games completed | **25 / 25** |
 | Levels completed | **183 / 183** |
 | Raw public score | **100.0** |
-| Successful-run inference cost | **$415.37** |
+| Inference cost for this run | **$415.37** |
 | Environment actions | 6,732 |
 | Notebook runtime | 6 h 48 min |
 
@@ -107,9 +102,9 @@ benchmark result.
 | [`assets/`](assets/) | Source and license bundle |
 | [`tools/`](tools/) | Credential-free release verification |
 
-The evaluated source is preserved byte-for-byte. Documentation improvements do
-not change the implementation that produced the result. The retained packaging
-version discrepancy is documented in the [source identity notes](docs/reproduction.md#source-identity-and-metadata).
+The `harness/` files and source bundle are the evaluated release. The
+[source identity notes](docs/reproduction.md#source-identity-and-metadata) cover
+their hashes and a packaging-version discrepancy.
 Raw action logs, provider exports and model reasoning are not included in the
 public summaries.
 

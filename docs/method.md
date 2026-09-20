@@ -7,11 +7,11 @@ Standard service.
 
 ## Contribution and generality
 
-The proposed contribution is the combination of exact visual recall,
-evidence-linked memory and action batches that stop when a checked prediction
-fails. The model can retrieve an earlier observation instead of relying only
-on a summary, and a failed expectation returns control before the rest of the
-sequence executes.
+The model works with a record of the current game. It can retrieve an earlier
+frame, attach a note to an observed transition, or request a sequence of actions
+with predicted outcomes. The runner checks each outcome before continuing.
+This lets the model recover details that a summary may have lost and revise a
+plan as soon as one of its checks fails.
 
 The same solver prompt, tools and provider configuration serve every selected
 game. Game IDs select environments, not solution branches. History and memory
@@ -47,7 +47,7 @@ through `inspect`; they are not guaranteed to stay in model context forever.
 
 The adapter requests a 30-minute minimum cache TTL. This is not a maximum
 retention promise. The synthetic probes motivating the layout are preserved in
-[frozen implementation notes](../harness/reports/API9-CHANGE-REVIEW.md), which predates
+[frozen implementation notes](../harness/reports/API9-CHANGE-REVIEW.md), which predate
 the completed run.
 
 ## Model-facing tools

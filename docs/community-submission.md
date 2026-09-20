@@ -1,34 +1,22 @@
 # Community submission
 
-This package targets the [ARC-AGI Community Leaderboard](https://arcprize.org/leaderboard/community)
-with its completed public Competition Mode scorecard.
-[Submission PR #56](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56)
-is open; maintainer review and acceptance are pending.
+[PR #56](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56) is open
+and awaiting maintainer review.
 
 | Field | Submitted value |
 |---|---|
 | Method | OY1 AGI |
-| Organizational attribution | Orca Labs sp. z o.o. / [OYLabsAI](https://github.com/OYLabsAI) |
-| Evaluated version | 0.3.8+api9; frozen package metadata retains its disclosed older label |
-| Date | 2026-09-09 |
+| Author | Orca Labs sp. z o.o. / [OYLabsAI](https://github.com/OYLabsAI) |
+| Run date | 9 September 2026 |
 | Model | OpenAI gpt-6-astra, high reasoning effort, Standard service |
-| Benchmark / set | ARC-AGI-3 / public |
-| Scorecard | [Published Competition Mode result](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) |
-| Successful-run inference cost | USD 415.367496 unrounded usage calculation; USD 415.37 rounded |
+| Benchmark | ARC-AGI-3 public set, Competition Mode |
+| Scorecard | [Completed run](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) |
+| Inference cost | $415.367496, rounded to $415.37 |
 
-The submission contains the scorecard URL, not a numeric
-ARC-AGI-3 score field, as required by the
-[contribution instructions](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md).
-The submitted cost covers inference for the completed run. It is not a total
-development-cost figure; funding purchases and tax are separate.
+The cost covers this run. The exact evaluated version and its packaging
+metadata are recorded in the [source identity notes](reproduction.md#source-identity-and-metadata).
 
-The [method](method.md#contribution-and-generality) presents the design for
-generality and novelty review. Neither this description nor the 100.0 public
-score guarantees acceptance. The community repository describes a curated
-showcase of methods, not a ranking; its
-[score policy](https://github.com/arcprize/ARC-AGI-Community-Leaderboard#about-scores)
-says that only ARC Prize Verified scores are displayed.
-
-A maintainer reviews submissions after automated checks. A paper is optional.
-Organizer-run protected evaluation follows a separate process described in
-[compliance](compliance.md).
+The community leaderboard reviews methods for generality, openness and novelty.
+It does not independently verify submitted results. See the
+[submission requirements](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md)
+and [score policy](https://github.com/arcprize/ARC-AGI-Community-Leaderboard#about-scores).

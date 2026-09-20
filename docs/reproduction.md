@@ -6,7 +6,7 @@ Choose the check you want to perform:
 |---|---|---|
 | Release verification | Python 3.9+; standard library only | File identity, frozen source and notebook syntax |
 | Synthetic fixture | Linux x86_64, Python 3.12, CPU and Internet | Software tests and fixture behavior; no model calls |
-| Public API run | Kaggle, evaluator-owned keys, model access and a spending cap | A new live attempt on the declared public games |
+| Public benchmark | Kaggle, evaluator-owned keys, model access and a spending cap | A new live attempt on the declared public games |
 
 A passing fixture does not reproduce the benchmark score. No GPU or local model
 weights are needed for these paths.
@@ -64,7 +64,7 @@ operations and zero charged/reserved cost. The [execution receipt](../evidence/l
 records the wrapper and saved-code hashes. This check is separate from both the
 historical fixture and the completed paid 100.0 public run.
 
-## Separately authorized public API run
+## Run the public benchmark
 
 In Kaggle, attach evaluator-owned Secrets `OPENAI_API_KEY` and `ARC_API_KEY`.
 The first must have access to `gpt-6-astra` with high reasoning and Standard
@@ -76,8 +76,7 @@ The frozen plan selects all 25 exact public game versions in
 `harness/plans/public-games.json`, with a 41,400-second total deadline and 26,000
 maximum operations. Per-game limits are 1,500 actions, 1,000 model calls, 7,200
 seconds and batches of at most eight actions. The historical run used a USD 750
-cap and cost USD 415.37. Those figures are not a new spending authorization or
-guaranteed future price. Up to USD 24.55 of reservation headroom is required
+cap and cost USD 415.37. Set a budget for your own run; actual cost can differ. Up to USD 24.55 of reservation headroom is required
 before another operation; the run can stop before consuming its entire cap.
 
 Keep outputs private. Every attempt must retain its original outcome, errors,

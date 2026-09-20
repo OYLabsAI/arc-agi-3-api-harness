@@ -1,19 +1,16 @@
 # Documentation
 
-Start with the question you want to answer.
-
-| Question | Read |
+| Document | Contents |
 |---|---|
-| How does OY1 decide, remember and check actions? | [Method](method.md) |
-| What was measured, and how much did it cost? | [Results](results.md) |
-| How do I verify or run the released software? | [Reproduction](reproduction.md) |
-| What would test performance on unfamiliar games? | [Proposed evaluation](evaluation-plan.md) |
-| What is verified, pending or unavailable? | [Release and evaluation status](compliance.md) |
-| Where is the community submission? | [Submission details](community-submission.md) |
-| How does this relate to other work? | [References](references.md) |
+| [Method](method.md) | Game loop, tools, memory and action checks |
+| [Results](results.md) | Completed run, per-game results and cost accounting |
+| [Token comparison](token-comparison.md) | Provider Adapter replay totals and reproduction script |
+| [Reproduction](reproduction.md) | Source verification, Linux fixture and benchmark setup |
+| [Evaluation plan](evaluation-plan.md) | Proposed tests on unfamiliar games and component ablations |
+| [Release status](compliance.md) | Available evidence, limitations and review status |
+| [Community submission](community-submission.md) | Submitted metadata and PR link |
+| [Related work](references.md) | Other methods and benchmark sources |
 
-The documents here describe the completed API run and the current public
-release. Reports inside [`harness/reports/`](../harness/reports/) are frozen
-historical records; some predate the completed run. The
-[source identity notes](reproduction.md#source-identity-and-metadata) explain
-that distinction.
+These documents describe the completed run. Reports in
+[`harness/reports/`](../harness/reports/) belong to the frozen source release
+and may predate it. See [source identity](reproduction.md#source-identity-and-metadata).

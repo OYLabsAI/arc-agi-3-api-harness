@@ -33,8 +33,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1856,
-      "sha256": "49dc8f1a544dce076eac36ef49361bc64100915fe8e418b5bb7245e35713b5bd"
+      "bytes": 1787,
+      "sha256": "2a34e9fff2585e5ffafccc3a5f92561816e5486d369fec4f25897ae8546d9023"
     },
     {
       "path": "LICENSE",
@@ -48,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5969,
-      "sha256": "ed69f459cccd0b99ec4343a0720601dce598be76652b08f2a30b8bda7214c60b"
+      "bytes": 5675,
+      "sha256": "0a3e361a141a3ae4f7848ab22f09e82330a40bf5940ed07997b3ecaa0a4288fa"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -63,38 +63,38 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 976,
-      "sha256": "e0a1bd394d2568743ede4b051e301baa386033a3517a765af95d0aad2c6df54b"
+      "bytes": 965,
+      "sha256": "b6ae301d0cf3d7af45ffa649bffe8f7794e57ffd20b7e3562dd2e11218e8e40a"
     },
     {
       "path": "docs/community-submission.md",
-      "bytes": 1877,
-      "sha256": "c9a15c2663dfd054ae088ac7a9092ccb168bd2ab45acf11552d3404c87ee3be4"
+      "bytes": 1107,
+      "sha256": "24ea6c7aecdbc18e82e91e7b5eab95640acd242240c3298b3fe3f3234a636ff7"
     },
     {
       "path": "docs/compliance.md",
-      "bytes": 4179,
-      "sha256": "e0cbb190a57ad298a7fbd7b8d5fdb98c0965cde746915f8f4a473df7a8f98df1"
+      "bytes": 3541,
+      "sha256": "e182d8e9b844e360221cace6dbbdecdd22bf4e18756e3be37c3e576a0d3b5574"
     },
     {
       "path": "docs/evaluation-plan.md",
-      "bytes": 4257,
-      "sha256": "27e31d35b0b554d39bd2ea48c7355668da8d41a8469b85803e38badfe7ba4f94"
+      "bytes": 4117,
+      "sha256": "b144365986c23c2b6d1809bb6d274b0390d0ec9c4c2ddeaf46853c2e9b5d5d47"
     },
     {
       "path": "docs/method.md",
-      "bytes": 5989,
-      "sha256": "fdf53746cb8be2e1601217727aca36acfe8c14bb6b0936f484fe43720feff0d9"
+      "bytes": 6020,
+      "sha256": "dc392655bafafd4782e3d9b208fd628ff98a756e15fef57e54d8ec9dd555822a"
     },
     {
       "path": "docs/references.md",
-      "bytes": 3779,
-      "sha256": "04d28f0a04064af52f85d4cd3c9a8bf421e30071d7fab25c0ee20eb2b652d175"
+      "bytes": 1430,
+      "sha256": "f17d34a9e0c54536dc4447ada2faf823e8ea7074bf458ec110595e71e90a1cf6"
     },
     {
       "path": "docs/reproduction.md",
-      "bytes": 6356,
-      "sha256": "c2b4b7688b7070d5c57737ec0f7ba2e479ac26fd018773745e9b432cce1bf83e"
+      "bytes": 6322,
+      "sha256": "9a11795deeeff7aa1a0bb72b4e280e0bc5faec598c08c7ed2c59b3f0a18c6b94"
     },
     {
       "path": "docs/results.md",
