@@ -48,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5969,
-      "sha256": "97943b684fedb93787b0c211fd3a7276be4e27e24a91e88ed941555dc887e32c"
+      "bytes": 6956,
+      "sha256": "b6793ad3fd5322749e546432aeb65a12b9a7b1bc3b6394255d7850a019f75c58"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 965,
-      "sha256": "b6ae301d0cf3d7af45ffa649bffe8f7794e57ffd20b7e3562dd2e11218e8e40a"
+      "bytes": 1066,
+      "sha256": "690ac7ef6ba069b84f1d6bcc18a1493a2b0f9ca2c8c499f4a2f641111c0ecd06"
     },
     {
       "path": "docs/community-submission.md",
@@ -107,14 +107,59 @@
       "sha256": "f17d34a9e0c54536dc4447ada2faf823e8ea7074bf458ec110595e71e90a1cf6"
     },
     {
+      "path": "docs/replays/cd82-level-3.gif",
+      "bytes": 584495,
+      "sha256": "ef4feb67454e59e161897d3dd23e2a2fafc5b8dc89619a2c78477dd7d0ba3df0"
+    },
+    {
+      "path": "docs/replays/cd82-level-3.png",
+      "bytes": 3788,
+      "sha256": "2902a40003d60722287e16c7705bdeb31b2b7cad3c35ec96f4dbfbfad7bfd4fa"
+    },
+    {
+      "path": "docs/replays/ls20-level-3.gif",
+      "bytes": 524687,
+      "sha256": "97917d68bfc3e383d15aabde05574bd38d7d521d992743cf7c6a45510d42b965"
+    },
+    {
+      "path": "docs/replays/ls20-level-3.png",
+      "bytes": 3840,
+      "sha256": "c077a7064d2a0b5e4f067f73c79a90e141c2dce773e8d0396ef6264504d18090"
+    },
+    {
+      "path": "docs/replays/vc33-level-2.gif",
+      "bytes": 44274,
+      "sha256": "bc319b96971d480a1513451cfaa111a1f6502df42e83cc30d8e9fa66937f58b5"
+    },
+    {
+      "path": "docs/replays/vc33-level-2.png",
+      "bytes": 3453,
+      "sha256": "660bacc2c97f618f55e4133ae441e9bfc7a9ad76b5bef6c7ca05b13a0d2dc697"
+    },
+    {
+      "path": "docs/replays/wa30-level-3.gif",
+      "bytes": 469315,
+      "sha256": "02aa43309cb912f65ade152078cf2548c817f7fdfc3b0edc8e460038c65802fd"
+    },
+    {
+      "path": "docs/replays/wa30-level-3.png",
+      "bytes": 3916,
+      "sha256": "de7bdb65c739a3ebd4ca3e0b7480cc61b81e5500f44324b96d318534120d186b"
+    },
+    {
+      "path": "docs/replays.md",
+      "bytes": 5469,
+      "sha256": "ebab8a448a97a3c0f382bea1ad2b6c2087792633d02b8cfa3d4b27dc3399f83f"
+    },
+    {
       "path": "docs/reproduction.md",
       "bytes": 6322,
       "sha256": "9a11795deeeff7aa1a0bb72b4e280e0bc5faec598c08c7ed2c59b3f0a18c6b94"
     },
     {
       "path": "docs/results.md",
-      "bytes": 4550,
-      "sha256": "56c8754e7845b2cca76b8bd37f9f0513118b37d1f8e5ea10360a32ac65dd232b"
+      "bytes": 6305,
+      "sha256": "9085d661953101178a9136aa46ac615c5f826483d669da8e9943ce6406f3438f"
     },
     {
       "path": "docs/token-comparison.md",
@@ -135,6 +180,11 @@
       "path": "evidence/per-game-results.json",
       "bytes": 5997,
       "sha256": "56b55382a4e5d57bb3f259431466e31dd85d2f36e6b70d7acfa2cb768a2096c2"
+    },
+    {
+      "path": "evidence/public-replays.json",
+      "bytes": 10951,
+      "sha256": "1654bd2fd73b29a819740b86a655918836d52542c543d572e046d0cb3a3550c0"
     },
     {
       "path": "evidence/public-run.json",
@@ -1125,6 +1175,11 @@
       "path": "tools/plot_token_comparison.py",
       "bytes": 5900,
       "sha256": "888ddacabea89ab27df9bb2431a28f445d9b601e4243791b7292b5cfd1fe4e25"
+    },
+    {
+      "path": "tools/render_replay_gallery.py",
+      "bytes": 6466,
+      "sha256": "27547c2a9c2881d4b5c833adb2b2a3a6b6dbcc7516fe0183e15191d6039388b8"
     },
     {
       "path": "tools/verify_release.py",

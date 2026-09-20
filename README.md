@@ -69,6 +69,19 @@ The optional graph planner was not called in this run. No ARC Prize verification
 [community review](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/pull/56)
 is pending.
 
+## Gameplay
+
+Selected complete levels from the **9 September 2026** run. Playback is accelerated;
+click a clip to open the full game replay.
+
+| LS20 · Level 3 · 43 actions | WA30 · Level 3 · 74 actions |
+|---|---|
+| [![OY1 recorded gameplay: LS20 · Level 3 · 43 actions](docs/replays/ls20-level-3.gif)](https://arcprize.org/replay/0a9dfe50-1421-45c9-8041-773c58b6b85b) | [![OY1 recorded gameplay: WA30 · Level 3 · 74 actions](docs/replays/wa30-level-3.gif)](https://arcprize.org/replay/6503caa5-73c0-4b5e-9fdf-9d5d8e6eb176) |
+| CD82 · Level 3 · 19 actions | VC33 · Level 2 · 7 actions |
+| [![OY1 recorded gameplay: CD82 · Level 3 · 19 actions](docs/replays/cd82-level-3.gif)](https://arcprize.org/replay/20fcc634-9e4e-4c3d-a638-b577b0301cd1) | [![OY1 recorded gameplay: VC33 · Level 2 · 7 actions](docs/replays/vc33-level-2.gif)](https://arcprize.org/replay/c8995261-2fa7-48b4-9fc6-e1624a20697f) |
+
+[All 25 replays, still images and rendering details](docs/replays.md).
+
 ## Quick start
 
 Inspect the release with Python 3.9 or newer; no installation or credentials are needed:
