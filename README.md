@@ -60,8 +60,7 @@ One completed live Competition Mode run, **9 September 2026**:
 
 Model: **OpenAI gpt-6-astra**, high reasoning effort, Standard service.
 [Scorecard and replays](https://arcprize.org/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b) ·
-[Per-game results](docs/results.md) · [All attempts and costs](docs/method.md#attempt-history).
-The disclosed API campaign, including earlier attempts, cost approximately $780.08.
+[Per-game results and cost accounting](docs/results.md).
 
 The public games were used during development. This result does not establish
 unseen-game performance or a controlled advantage over another harness.
@@ -71,7 +70,7 @@ is pending.
 
 ## Quick start
 
-Inspect the release with Python 3.9 or newer; no installation or API keys are needed:
+Inspect the release with Python 3.9 or newer; no installation or credentials are needed:
 
 ```sh
 git clone https://github.com/OYLabsAI/arc-agi-3-api-harness.git
@@ -85,7 +84,7 @@ and notebook syntax. A passing result reports `evaluated_source_files: 74` and
 
 To execute the software, follow the [reproduction guide](docs/reproduction.md):
 
-- **Synthetic fixture:** Linux x86_64, Python 3.12, CPU; no model API calls.
+- **Synthetic fixture:** Linux x86_64, Python 3.12, CPU; no model calls.
 - **Public benchmark:** the same notebook in paid mode, with evaluator-owned
   credentials, model access and an explicit spending cap.
 
@@ -110,7 +109,7 @@ version discrepancy is documented in the [source identity notes](docs/reproducti
 Raw action logs, provider exports and model reasoning are not included in the
 public summaries.
 
-This repository contains the ARC API harness. The hosted OY1 ChatGPT/MCP service
+This repository contains the ARC benchmark harness. The hosted OY1 ChatGPT/MCP service
 is a separate system and does not inherit this benchmark score.
 
 ## Contributing and citation

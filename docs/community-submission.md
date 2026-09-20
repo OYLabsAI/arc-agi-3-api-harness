@@ -19,7 +19,7 @@ is open; maintainer review and acceptance are pending.
 The submission contains the scorecard URL, not a numeric
 ARC-AGI-3 score field, as required by the
 [contribution instructions](https://github.com/arcprize/ARC-AGI-Community-Leaderboard/blob/main/CONTRIBUTING.md).
-The submitted cost covers the successful run. [All attempts](method.md#attempt-history)
+The submitted cost covers the successful run. [All attempts](evaluation-history.md)
 and the separate campaign total are disclosed; funding purchases and tax are
 not inference costs.
 

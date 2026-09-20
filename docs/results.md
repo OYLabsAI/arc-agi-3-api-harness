@@ -16,6 +16,10 @@ This is a development-exposed public selection, not a protected result or an
 ARC Prize verification. No result is combined with another attempt. Scores from
 other benchmark versions, datasets or harnesses are not directly comparable.
 
+The full disclosed evaluation campaign, including earlier attempts, consumed
+USD 780.075046 (about **$780.08**). That is separate from the successful-run
+cost below; see the [evaluation history](evaluation-history.md).
+
 The conservative ledger recorded USD 415.367944; the unrounded usage calculation
 is USD 415.3674960. Both round to **USD 415.37**. Provider campaign cost/activity
 exports and original paid credit invoices were reconciled privately. Model
@@ -73,7 +77,7 @@ described below.
 
 [Machine-readable aggregate](../evidence/public-run.json) ·
 [Per-game summary and source hashes](../evidence/per-game-results.json) ·
-[Full attempt history](method.md#attempt-history)
+[Full attempt history](evaluation-history.md)
 
 The complete raw scorecard, observations, journals, provider exports and invoice
 PDFs remain in the original private evidence archive. The shareable summaries
