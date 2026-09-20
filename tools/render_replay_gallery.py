@@ -38,8 +38,7 @@ def palette():
     return values + [0] * (768 - len(values))
 
 
-def render(record, cache, output_dir, colors):
-    clip = record["clip"]
+def render(record, clip, cache, output_dir, colors):
     cached = cache / (record["game_id"] + ".jsonl")
     data = cached.read_bytes() if cached.exists() else urlopen(
         record["recording_url"], timeout=120
@@ -75,7 +74,7 @@ def render(record, cache, output_dir, colors):
             require(len(grid) == 64 and all(len(row) == 64 for row in grid), "Unexpected grid size")
             require(all(isinstance(v, int) and 0 <= v < 16 for row in grid for v in row),
                     "Unexpected palette value")
-            frame = Image.new("P", (416, 512), 0)
+            frame = Image.new("P", (416, 544), 0)
             frame.putpalette(colors)
             board = Image.new("P", (64, 64))
             board.putpalette(colors)
@@ -89,7 +88,10 @@ def render(record, cache, output_dir, colors):
             last = i == end and j == len(grids) - 1
             status = f"Level {level} complete" if last else f"Step {i - start} of {end - start}"
             draw.text((16, 461), status, font=small_font, fill=18 if last else 16)
-            draw.text((16, 487), "Recorded gameplay · accelerated playback", font=small_font, fill=17)
+            draw.text((16, 487), f"Provider Adapter {clip['provider_adapter_actions']} · OY1 {clip['actions']}",
+                      font=small_font, fill=17)
+            reduction = 100 * (1 - clip['actions'] / clip['provider_adapter_actions'])
+            draw.text((16, 513), f"{reduction:.1f}% fewer actions", font=small_font, fill=18)
             frames.append(frame)
             durations.append(1800 if last else 900 if i == start else 240 if j == len(grids) - 1 else 60)
 
@@ -128,8 +130,8 @@ def main():
     args.cache.mkdir(parents=True, exist_ok=True)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     index = json.loads((ROOT / "evidence/public-replays.json").read_text())
-    result = [render(r, args.cache, args.output_dir, palette())
-              for r in index["games"] if "clip" in r]
+    result = [render(r, clip, args.cache, args.output_dir, palette())
+              for r in index["games"] for clip in r.get("clips", [])]
     print(json.dumps({"clips": result, "paid_requests": 0}, indent=2))
 
 

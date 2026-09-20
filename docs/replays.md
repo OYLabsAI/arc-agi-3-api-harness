@@ -8,17 +8,18 @@ These recordings belong to OY1's completed run on **9 September 2026**:
 
 ## Selected clips
 
-The README shows LS20, WA30, CD82 and VC33, the same four games used in
-[NVIDIA DreamTeam's examples](https://github.com/NVIDIA/dream-team#examples).
-These are presentation examples, not a representative sample of the benchmark.
-Each OY1 clip contains a complete level sequence through its completion transition.
+The README features the four levels with the largest percentage reduction in
+actions against the matching **GPT-6 Astra high Provider Adapter** recordings.
+The selection covers all 183 levels; ties use absolute actions saved.
+[Full comparison and counting method](level-comparison.md).
+Each OY1 clip includes every action through the level-completion transition.
 
-| Game | Level | Actions | Animation | Still image |
-|---|---:|---:|---|---|
-| [LS20](https://arcprize.org/replay/0a9dfe50-1421-45c9-8041-773c58b6b85b) | 3 | 43 | [GIF](replays/ls20-level-3.gif) | [PNG](replays/ls20-level-3.png) |
-| [WA30](https://arcprize.org/replay/6503caa5-73c0-4b5e-9fdf-9d5d8e6eb176) | 3 | 74 | [GIF](replays/wa30-level-3.gif) | [PNG](replays/wa30-level-3.png) |
-| [CD82](https://arcprize.org/replay/20fcc634-9e4e-4c3d-a638-b577b0301cd1) | 3 | 19 | [GIF](replays/cd82-level-3.gif) | [PNG](replays/cd82-level-3.png) |
-| [VC33](https://arcprize.org/replay/c8995261-2fa7-48b4-9fc6-e1624a20697f) | 2 | 7 | [GIF](replays/vc33-level-2.gif) | [PNG](replays/vc33-level-2.png) |
+| Game | Level | OY1 actions | Provider Adapter actions | Reduction | Clip | Comparator replay |
+|---|---:|---:|---:|---:|---|---|
+| [TN36](https://arcprize.org/replay/22761359-7720-4a5c-acab-4432719a35c5) | 6 | 32 | 214 | 85.0% | [GIF](replays/tn36-level-6.gif) · [PNG](replays/tn36-level-6.png) | [Watch](https://arcprize.org/replay/8d408961-f16e-419c-ad6b-12e0e697f2ca) |
+| [LF52](https://arcprize.org/replay/79127723-14e2-4d3d-a60c-9a45e99e6575) | 10 | 50 | 110 | 54.5% | [GIF](replays/lf52-level-10.gif) · [PNG](replays/lf52-level-10.png) | [Watch](https://arcprize.org/replay/e1ef8feb-5393-4a69-9780-b6f7ef48ba93) |
+| [LS20](https://arcprize.org/replay/0a9dfe50-1421-45c9-8041-773c58b6b85b) | 2 | 45 | 99 | 54.5% | [GIF](replays/ls20-level-2.gif) · [PNG](replays/ls20-level-2.png) | [Watch](https://arcprize.org/replay/27b4461a-7bdb-45f6-9bb0-f1487d6ce662) |
+| [LS20](https://arcprize.org/replay/0a9dfe50-1421-45c9-8041-773c58b6b85b) | 5 | 48 | 98 | 51.0% | [GIF](replays/ls20-level-5.gif) · [PNG](replays/ls20-level-5.png) | [Watch](https://arcprize.org/replay/27b4461a-7bdb-45f6-9bb0-f1487d6ce662) |
 
 The clips use the recorded 64 × 64 grids and the evaluated harness's color
 palette, enlarged with nearest-neighbor scaling. The initial image is the
@@ -73,8 +74,8 @@ python3 -B tools/render_replay_gallery.py \
   --output-dir /tmp/oy1-replay-gallery
 ```
 
-The [renderer](../tools/render_replay_gallery.py) downloads the four public
-recordings (about 32 MB), verifies their pinned SHA-256 hashes, game and session
+The [renderer](../tools/render_replay_gallery.py) downloads the three public
+recordings used for these four clips, verifies their pinned SHA-256 hashes, game and session
 IDs, action counts, final wins and selected level boundaries. It also checks
 that the exported GIFs preserve the rendered pixels and display timing.
 It makes no model calls. Cached recordings contain whatever replay content

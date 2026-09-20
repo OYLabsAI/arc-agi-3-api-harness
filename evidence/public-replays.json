@@ -4,7 +4,7 @@
   "scorecard_data_url": "https://arcprize.org/api/v3/scorecards/75d9c8e7-ade9-4a8f-a747-6acbea51bb1b",
   "scorecard_response_sha256": "cb6ed5cef81dba4f818b62640499df62db8d94f3d43f5db801cfd690270369a5",
   "retrieved_on": "2026-09-20",
-  "scope": "Public replay links for the completed OY1 run. Four full level sequences rendered from public recordings; no model reasoning included in the images.",
+  "scope": "Public replay links for the completed OY1 run. Four complete levels selected by action reduction against matching Provider Adapter replays; no model reasoning included in images.",
   "playback": "All actions within each selected level, including transition animation frames. The initial observation uses its last frame. Fixed display timing, not wall-clock inference speed.",
   "games": [
     {
@@ -13,7 +13,9 @@
       "replay_url": "https://arcprize.org/replay/74077944-f734-4895-adce-ae20e4d916fc",
       "recording_url": "https://arcprize.org/api/recordings/ar25-0c556536/74077944-f734-4895-adce-ae20e4d916fc",
       "actions": 258,
-      "levels_completed": 8
+      "levels_completed": 8,
+      "sha256": "1d441f57dccf93c4fc6dc4000414bf8fd3fc664835840ffcf3978deec566df19",
+      "bytes": 3682022
     },
     {
       "game_id": "bp35-0a0ad940",
@@ -21,7 +23,9 @@
       "replay_url": "https://arcprize.org/replay/bcd43d66-ac98-43c2-8221-f6e872c7d1c2",
       "recording_url": "https://arcprize.org/api/recordings/bp35-0a0ad940/bcd43d66-ac98-43c2-8221-f6e872c7d1c2",
       "actions": 423,
-      "levels_completed": 9
+      "levels_completed": 9,
+      "sha256": "0f795c451eb41f12482d7025e27f1fd08204e3cc2b11b36f37e9a9bb18d5bdde",
+      "bytes": 69950397
     },
     {
       "game_id": "cd82-fb555c5d",
@@ -31,17 +35,7 @@
       "actions": 81,
       "levels_completed": 6,
       "sha256": "196eaa5766d027caf26c6a1e7d7d3bce589175024834e82627aef810d442dc87",
-      "bytes": 4853895,
-      "clip": {
-        "level": 3,
-        "observation_rows_inclusive": [
-          19,
-          38
-        ],
-        "actions": 19,
-        "gif": "docs/replays/cd82-level-3.gif",
-        "poster": "docs/replays/cd82-level-3.png"
-      }
+      "bytes": 4853895
     },
     {
       "game_id": "cn04-2fe56bfb",
@@ -49,7 +43,9 @@
       "replay_url": "https://arcprize.org/replay/cd3a47ef-0a45-46a0-aae0-9f9f7b4ff8e7",
       "recording_url": "https://arcprize.org/api/recordings/cn04-2fe56bfb/cd3a47ef-0a45-46a0-aae0-9f9f7b4ff8e7",
       "actions": 187,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "517a648062c6f2af6425c0487a44e2d6fb690c3eb6508b3a87e793bc3a49bd1c",
+      "bytes": 3040215
     },
     {
       "game_id": "dc22-fdcac232",
@@ -57,7 +53,9 @@
       "replay_url": "https://arcprize.org/replay/20d26669-51a5-4d89-9e35-9fc329abc363",
       "recording_url": "https://arcprize.org/api/recordings/dc22-fdcac232/20d26669-51a5-4d89-9e35-9fc329abc363",
       "actions": 442,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "2a039df8bfc5c6b91d81fe93b3bf25a03c78d9ab8ca5f7aa1efbf37ddc077287",
+      "bytes": 6407250
     },
     {
       "game_id": "ft09-0d8bbf25",
@@ -65,7 +63,9 @@
       "replay_url": "https://arcprize.org/replay/2ad74623-b639-46bc-b86a-81d14c4b5cab",
       "recording_url": "https://arcprize.org/api/recordings/ft09-0d8bbf25/2ad74623-b639-46bc-b86a-81d14c4b5cab",
       "actions": 75,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "d62565dfe83dcff622ac9e3529d555fa7ce00ae1da4154ced39f197b600ad577",
+      "bytes": 1093663
     },
     {
       "game_id": "g50t-5849a774",
@@ -73,7 +73,9 @@
       "replay_url": "https://arcprize.org/replay/4dbaf973-d3af-4aac-a325-0f0f8a4041e6",
       "recording_url": "https://arcprize.org/api/recordings/g50t-5849a774/4dbaf973-d3af-4aac-a325-0f0f8a4041e6",
       "actions": 297,
-      "levels_completed": 7
+      "levels_completed": 7,
+      "sha256": "361dcd6c73e24483c5578acad74399b87b22920b389705420ce60a1ab202dd72",
+      "bytes": 42990327
     },
     {
       "game_id": "ka59-38d34dbb",
@@ -81,7 +83,9 @@
       "replay_url": "https://arcprize.org/replay/9c9af5ce-b61a-4b87-ace9-8650e84907d6",
       "recording_url": "https://arcprize.org/api/recordings/ka59-38d34dbb/9c9af5ce-b61a-4b87-ace9-8650e84907d6",
       "actions": 325,
-      "levels_completed": 7
+      "levels_completed": 7,
+      "sha256": "38fb385794342653b59ddcc6b0e44ba47cae4e9297d25a4301309e0f5f11cde5",
+      "bytes": 7876290
     },
     {
       "game_id": "lf52-271a04aa",
@@ -89,7 +93,23 @@
       "replay_url": "https://arcprize.org/replay/79127723-14e2-4d3d-a60c-9a45e99e6575",
       "recording_url": "https://arcprize.org/api/recordings/lf52-271a04aa/79127723-14e2-4d3d-a60c-9a45e99e6575",
       "actions": 710,
-      "levels_completed": 10
+      "levels_completed": 10,
+      "sha256": "fe003cc0c2257303f9beaa9929629ecc87c16ce46b7163aae6339cab464f1643",
+      "bytes": 56102606,
+      "clips": [
+        {
+          "level": 10,
+          "observation_rows_inclusive": [
+            660,
+            710
+          ],
+          "actions": 50,
+          "provider_adapter_actions": 110,
+          "provider_adapter_replay_url": "https://arcprize.org/replay/e1ef8feb-5393-4a69-9780-b6f7ef48ba93",
+          "gif": "docs/replays/lf52-level-10.gif",
+          "poster": "docs/replays/lf52-level-10.png"
+        }
+      ]
     },
     {
       "game_id": "lp85-305b61c3",
@@ -97,7 +117,9 @@
       "replay_url": "https://arcprize.org/replay/320e870c-f647-4afb-8ba6-70cd496b540c",
       "recording_url": "https://arcprize.org/api/recordings/lp85-305b61c3/320e870c-f647-4afb-8ba6-70cd496b540c",
       "actions": 109,
-      "levels_completed": 8
+      "levels_completed": 8,
+      "sha256": "52452783b52125987360f70b886f3e71140c3fecc44ed5012f912b1e06cc2ff4",
+      "bytes": 1538437
     },
     {
       "game_id": "ls20-9607627b",
@@ -108,16 +130,32 @@
       "levels_completed": 7,
       "sha256": "7937a330d61b657980e5ae8745ec3d3e64f6cc2b2081a47aa8485929752c6f77",
       "bytes": 8693914,
-      "clip": {
-        "level": 3,
-        "observation_rows_inclusive": [
-          60,
-          103
-        ],
-        "actions": 43,
-        "gif": "docs/replays/ls20-level-3.gif",
-        "poster": "docs/replays/ls20-level-3.png"
-      }
+      "clips": [
+        {
+          "level": 2,
+          "observation_rows_inclusive": [
+            15,
+            60
+          ],
+          "actions": 45,
+          "provider_adapter_actions": 99,
+          "provider_adapter_replay_url": "https://arcprize.org/replay/27b4461a-7bdb-45f6-9bb0-f1487d6ce662",
+          "gif": "docs/replays/ls20-level-2.gif",
+          "poster": "docs/replays/ls20-level-2.png"
+        },
+        {
+          "level": 5,
+          "observation_rows_inclusive": [
+            154,
+            202
+          ],
+          "actions": 48,
+          "provider_adapter_actions": 98,
+          "provider_adapter_replay_url": "https://arcprize.org/replay/27b4461a-7bdb-45f6-9bb0-f1487d6ce662",
+          "gif": "docs/replays/ls20-level-5.gif",
+          "poster": "docs/replays/ls20-level-5.png"
+        }
+      ]
     },
     {
       "game_id": "m0r0-492f87ba",
@@ -125,7 +163,9 @@
       "replay_url": "https://arcprize.org/replay/b3c4fd9b-d852-422c-9fe0-35271646bd6d",
       "recording_url": "https://arcprize.org/api/recordings/m0r0-492f87ba/b3c4fd9b-d852-422c-9fe0-35271646bd6d",
       "actions": 231,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "3cb3fcec86645b2f31050bdfa4ff06aeb4ae400d89f8ec5be5d26a461ca055e4",
+      "bytes": 3272323
     },
     {
       "game_id": "r11l-495a7899",
@@ -133,7 +173,9 @@
       "replay_url": "https://arcprize.org/replay/fcf46cc2-5c17-4726-9d64-85e56a0039f2",
       "recording_url": "https://arcprize.org/api/recordings/r11l-495a7899/fcf46cc2-5c17-4726-9d64-85e56a0039f2",
       "actions": 71,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "b2a7f503ae0194540645788e5a9762769df5b06dfe1c599132bfb748c4621dcf",
+      "bytes": 5268902
     },
     {
       "game_id": "re86-8af5384d",
@@ -141,7 +183,9 @@
       "replay_url": "https://arcprize.org/replay/e77ef5ea-f632-4b56-abdd-5d857634c408",
       "recording_url": "https://arcprize.org/api/recordings/re86-8af5384d/e77ef5ea-f632-4b56-abdd-5d857634c408",
       "actions": 728,
-      "levels_completed": 8
+      "levels_completed": 8,
+      "sha256": "3cd100075f6c589724d7dee58dba168401d9192efb2b969d0c0a635ab66c2e84",
+      "bytes": 14711457
     },
     {
       "game_id": "s5i5-18d95033",
@@ -149,7 +193,9 @@
       "replay_url": "https://arcprize.org/replay/345b0563-a565-432f-90c5-084882e935ff",
       "recording_url": "https://arcprize.org/api/recordings/s5i5-18d95033/345b0563-a565-432f-90c5-084882e935ff",
       "actions": 243,
-      "levels_completed": 8
+      "levels_completed": 8,
+      "sha256": "5baafa95221aee872018ec79f02509e51db2068c3aaa2d8c030dd7aba7404dda",
+      "bytes": 3345975
     },
     {
       "game_id": "sb26-7fbdac44",
@@ -157,7 +203,9 @@
       "replay_url": "https://arcprize.org/replay/44be6362-a967-4e92-8595-11b82f139e42",
       "recording_url": "https://arcprize.org/api/recordings/sb26-7fbdac44/44be6362-a967-4e92-8595-11b82f139e42",
       "actions": 124,
-      "levels_completed": 8
+      "levels_completed": 8,
+      "sha256": "defb229f758512e5367867c529b41dcc764c1c1f8c6e796773c66ebd9ed39324",
+      "bytes": 32697225
     },
     {
       "game_id": "sc25-635fd71a",
@@ -165,7 +213,9 @@
       "replay_url": "https://arcprize.org/replay/e495099e-151b-41ec-b146-c1be2f71a589",
       "recording_url": "https://arcprize.org/api/recordings/sc25-635fd71a/e495099e-151b-41ec-b146-c1be2f71a589",
       "actions": 137,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "3cf3f946bf377a168056ffd4ea67b0a38e5e803e2918c03b83ec62f243604624",
+      "bytes": 6366549
     },
     {
       "game_id": "sk48-d8078629",
@@ -173,7 +223,9 @@
       "replay_url": "https://arcprize.org/replay/45d858f8-5c84-4994-87dc-f4a88502bdf8",
       "recording_url": "https://arcprize.org/api/recordings/sk48-d8078629/45d858f8-5c84-4994-87dc-f4a88502bdf8",
       "actions": 435,
-      "levels_completed": 8
+      "levels_completed": 8,
+      "sha256": "fc4999bb4b2b3346f14ffca5e1b2a2d4aa0ef952e2834e16c825d38de9cdcac7",
+      "bytes": 14358351
     },
     {
       "game_id": "sp80-589a99af",
@@ -181,7 +233,9 @@
       "replay_url": "https://arcprize.org/replay/28db70d6-cd9c-446e-bf30-9a829c12e5ba",
       "recording_url": "https://arcprize.org/api/recordings/sp80-589a99af/28db70d6-cd9c-446e-bf30-9a829c12e5ba",
       "actions": 129,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "a0991952b4a357c6b89b58e4fea198fa23673c4c658ac5d48a88b22241f8889f",
+      "bytes": 5936033
     },
     {
       "game_id": "su15-1944f8ab",
@@ -189,7 +243,9 @@
       "replay_url": "https://arcprize.org/replay/f6101e88-def8-4e76-a78a-9427745a2385",
       "recording_url": "https://arcprize.org/api/recordings/su15-1944f8ab/f6101e88-def8-4e76-a78a-9427745a2385",
       "actions": 114,
-      "levels_completed": 9
+      "levels_completed": 9,
+      "sha256": "a31909ff089ae0ba8b80fd3fad51774c554a8f83df3432fe47f0ddb7998258e3",
+      "bytes": 8605006
     },
     {
       "game_id": "tn36-ef4dde99",
@@ -197,7 +253,23 @@
       "replay_url": "https://arcprize.org/replay/22761359-7720-4a5c-acab-4432719a35c5",
       "recording_url": "https://arcprize.org/api/recordings/tn36-ef4dde99/22761359-7720-4a5c-acab-4432719a35c5",
       "actions": 148,
-      "levels_completed": 7
+      "levels_completed": 7,
+      "sha256": "d25ff0ed5cbc21ed5f8141018d351b9be30aeda67819d8ed0ad64bf2263e975d",
+      "bytes": 3758547,
+      "clips": [
+        {
+          "level": 6,
+          "observation_rows_inclusive": [
+            72,
+            104
+          ],
+          "actions": 32,
+          "provider_adapter_actions": 214,
+          "provider_adapter_replay_url": "https://arcprize.org/replay/8d408961-f16e-419c-ad6b-12e0e697f2ca",
+          "gif": "docs/replays/tn36-level-6.gif",
+          "poster": "docs/replays/tn36-level-6.png"
+        }
+      ]
     },
     {
       "game_id": "tr87-cd924810",
@@ -205,7 +277,9 @@
       "replay_url": "https://arcprize.org/replay/34c9120b-2214-46e2-96e3-45e78d759390",
       "recording_url": "https://arcprize.org/api/recordings/tr87-cd924810/34c9120b-2214-46e2-96e3-45e78d759390",
       "actions": 128,
-      "levels_completed": 6
+      "levels_completed": 6,
+      "sha256": "1a2b19352787cb9c839aebd4e9cbbdd3bec467bbf09a7dc7cd791026711f1b95",
+      "bytes": 4393375
     },
     {
       "game_id": "tu93-0768757b",
@@ -213,7 +287,9 @@
       "replay_url": "https://arcprize.org/replay/3893f733-e1bd-4827-93b6-6ff8e64171ee",
       "recording_url": "https://arcprize.org/api/recordings/tu93-0768757b/3893f733-e1bd-4827-93b6-6ff8e64171ee",
       "actions": 195,
-      "levels_completed": 9
+      "levels_completed": 9,
+      "sha256": "87000e388ebe30afb3ea87af8e12bd44b541dca16024dd9d401028650fa08f3a",
+      "bytes": 28145654
     },
     {
       "game_id": "vc33-5430563c",
@@ -223,17 +299,7 @@
       "actions": 192,
       "levels_completed": 7,
       "sha256": "4cb654c56ac3040c10937ff4026b30596f3856a3b199907ffcf06aa179763afc",
-      "bytes": 10549993,
-      "clip": {
-        "level": 2,
-        "observation_rows_inclusive": [
-          8,
-          15
-        ],
-        "actions": 7,
-        "gif": "docs/replays/vc33-level-2.gif",
-        "poster": "docs/replays/vc33-level-2.png"
-      }
+      "bytes": 10549993
     },
     {
       "game_id": "wa30-ee6fef47",
@@ -243,17 +309,8 @@
       "actions": 585,
       "levels_completed": 9,
       "sha256": "742f953310e96c4b1bd262a849f25ce0975cbb113b836418d383579370b5090c",
-      "bytes": 7679332,
-      "clip": {
-        "level": 3,
-        "observation_rows_inclusive": [
-          75,
-          149
-        ],
-        "actions": 74,
-        "gif": "docs/replays/wa30-level-3.gif",
-        "poster": "docs/replays/wa30-level-3.png"
-      }
+      "bytes": 7679332
     }
-  ]
+  ],
+  "selection": "Four largest percentage reductions in environment actions across all 183 matched public levels. Ties use absolute actions saved, then game ID and level."
 }

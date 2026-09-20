@@ -1,0 +1,6544 @@
+{
+  "games": [
+    {
+      "oy1": {
+        "game_id": "ar25-0c556536",
+        "guid": "74077944-f734-4895-adce-ae20e4d916fc",
+        "sha256": "1d441f57dccf93c4fc6dc4000414bf8fd3fc664835840ffcf3978deec566df19",
+        "bytes": 3682022,
+        "actions": 258,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              0,
+              17
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              17,
+              28
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 40,
+            "observation_rows_inclusive": [
+              28,
+              68
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 22,
+            "observation_rows_inclusive": [
+              68,
+              90
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              90,
+              121
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 53,
+            "observation_rows_inclusive": [
+              121,
+              174
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 37,
+            "observation_rows_inclusive": [
+              174,
+              211
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 47,
+            "observation_rows_inclusive": [
+              211,
+              258
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/74077944-f734-4895-adce-ae20e4d916fc",
+        "recording_url": "https://arcprize.org/api/recordings/ar25-0c556536/74077944-f734-4895-adce-ae20e4d916fc"
+      },
+      "provider_adapter": {
+        "game_id": "ar25-0c556536",
+        "guid": "1550f0c9-c286-4e15-84f9-178c5c9f97ff",
+        "sha256": "da262e7849ecdc3eb848175712227c717dc4c9e5d420cc8d721a815414b68ba5",
+        "bytes": 3760598,
+        "actions": 257,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              0,
+              16
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              16,
+              27
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 40,
+            "observation_rows_inclusive": [
+              27,
+              67
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 22,
+            "observation_rows_inclusive": [
+              67,
+              89
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 29,
+            "observation_rows_inclusive": [
+              89,
+              118
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 53,
+            "observation_rows_inclusive": [
+              118,
+              171
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 39,
+            "observation_rows_inclusive": [
+              171,
+              210
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 47,
+            "observation_rows_inclusive": [
+              210,
+              257
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/1550f0c9-c286-4e15-84f9-178c5c9f97ff",
+        "recording_url": "https://arcprize.org/api/recordings/ar25-0c556536/1550f0c9-c286-4e15-84f9-178c5c9f97ff"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "bp35-0a0ad940",
+        "guid": "bcd43d66-ac98-43c2-8221-f6e872c7d1c2",
+        "sha256": "0f795c451eb41f12482d7025e27f1fd08204e3cc2b11b36f37e9a9bb18d5bdde",
+        "bytes": 69950397,
+        "actions": 423,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              0,
+              15
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 43,
+            "observation_rows_inclusive": [
+              15,
+              58
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 34,
+            "observation_rows_inclusive": [
+              58,
+              92
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              92,
+              115
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              115,
+              146
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 100,
+            "observation_rows_inclusive": [
+              146,
+              246
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 55,
+            "observation_rows_inclusive": [
+              246,
+              301
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 42,
+            "observation_rows_inclusive": [
+              301,
+              343
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 80,
+            "observation_rows_inclusive": [
+              343,
+              423
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/bcd43d66-ac98-43c2-8221-f6e872c7d1c2",
+        "recording_url": "https://arcprize.org/api/recordings/bp35-0a0ad940/bcd43d66-ac98-43c2-8221-f6e872c7d1c2"
+      },
+      "provider_adapter": {
+        "game_id": "bp35-0a0ad940",
+        "guid": "fbab92cd-0b28-4d8d-88f6-83a54b7aacfb",
+        "sha256": "a0d0ae686eb315e9c2ca7ca4f93d28b394e3fa4d8fd2b2e08e936775dfdc30b3",
+        "bytes": 80629647,
+        "actions": 488,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              0,
+              15
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 40,
+            "observation_rows_inclusive": [
+              15,
+              55
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 34,
+            "observation_rows_inclusive": [
+              55,
+              89
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              89,
+              112
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              112,
+              143
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 103,
+            "observation_rows_inclusive": [
+              143,
+              246
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 57,
+            "observation_rows_inclusive": [
+              246,
+              303
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 71,
+            "observation_rows_inclusive": [
+              303,
+              374
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 114,
+            "observation_rows_inclusive": [
+              374,
+              488
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/fbab92cd-0b28-4d8d-88f6-83a54b7aacfb",
+        "recording_url": "https://arcprize.org/api/recordings/bp35-0a0ad940/fbab92cd-0b28-4d8d-88f6-83a54b7aacfb"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "cd82-fb555c5d",
+        "guid": "20fcc634-9e4e-4c3d-a638-b577b0301cd1",
+        "sha256": "196eaa5766d027caf26c6a1e7d7d3bce589175024834e82627aef810d442dc87",
+        "bytes": 4853895,
+        "actions": 81,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              0,
+              13
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 6,
+            "observation_rows_inclusive": [
+              13,
+              19
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              19,
+              38
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              38,
+              52
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              52,
+              65
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              65,
+              81
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/20fcc634-9e4e-4c3d-a638-b577b0301cd1",
+        "recording_url": "https://arcprize.org/api/recordings/cd82-fb555c5d/20fcc634-9e4e-4c3d-a638-b577b0301cd1"
+      },
+      "provider_adapter": {
+        "game_id": "cd82-fb555c5d",
+        "guid": "fdc50b7b-de6f-4838-9e05-10ee63bf9725",
+        "sha256": "3868540c77a88fac7f9e8ab5c8ff96bbe9bdd741c8b7898c135b6e25d4d8722e",
+        "bytes": 4907973,
+        "actions": 83,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              0,
+              17
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 6,
+            "observation_rows_inclusive": [
+              17,
+              23
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              23,
+              40
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              40,
+              54
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              54,
+              67
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              67,
+              83
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/fdc50b7b-de6f-4838-9e05-10ee63bf9725",
+        "recording_url": "https://arcprize.org/api/recordings/cd82-fb555c5d/fdc50b7b-de6f-4838-9e05-10ee63bf9725"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "cn04-2fe56bfb",
+        "guid": "cd3a47ef-0a45-46a0-aae0-9f9f7b4ff8e7",
+        "sha256": "517a648062c6f2af6425c0487a44e2d6fb690c3eb6508b3a87e793bc3a49bd1c",
+        "bytes": 3040215,
+        "actions": 187,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              0,
+              14
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 29,
+            "observation_rows_inclusive": [
+              14,
+              43
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              43,
+              67
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 33,
+            "observation_rows_inclusive": [
+              67,
+              100
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 48,
+            "observation_rows_inclusive": [
+              100,
+              148
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 39,
+            "observation_rows_inclusive": [
+              148,
+              187
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/cd3a47ef-0a45-46a0-aae0-9f9f7b4ff8e7",
+        "recording_url": "https://arcprize.org/api/recordings/cn04-2fe56bfb/cd3a47ef-0a45-46a0-aae0-9f9f7b4ff8e7"
+      },
+      "provider_adapter": {
+        "game_id": "cn04-2fe56bfb",
+        "guid": "561e2291-8cb7-45e1-ab12-97989ca03b0a",
+        "sha256": "db69d5cf01efbae2121eddfc6b2ff0195ed9d20f4dcc30a6fc136b99e6ea4da2",
+        "bytes": 3563155,
+        "actions": 215,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              0,
+              15
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 29,
+            "observation_rows_inclusive": [
+              15,
+              44
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              44,
+              68
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 38,
+            "observation_rows_inclusive": [
+              68,
+              106
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 68,
+            "observation_rows_inclusive": [
+              106,
+              174
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 41,
+            "observation_rows_inclusive": [
+              174,
+              215
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/561e2291-8cb7-45e1-ab12-97989ca03b0a",
+        "recording_url": "https://arcprize.org/api/recordings/cn04-2fe56bfb/561e2291-8cb7-45e1-ab12-97989ca03b0a"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "dc22-fdcac232",
+        "guid": "20d26669-51a5-4d89-9e35-9fc329abc363",
+        "sha256": "2a039df8bfc5c6b91d81fe93b3bf25a03c78d9ab8ca5f7aa1efbf37ddc077287",
+        "bytes": 6407250,
+        "actions": 442,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 22,
+            "observation_rows_inclusive": [
+              0,
+              22
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 43,
+            "observation_rows_inclusive": [
+              22,
+              65
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 45,
+            "observation_rows_inclusive": [
+              65,
+              110
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 64,
+            "observation_rows_inclusive": [
+              110,
+              174
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 118,
+            "observation_rows_inclusive": [
+              174,
+              292
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 150,
+            "observation_rows_inclusive": [
+              292,
+              442
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/20d26669-51a5-4d89-9e35-9fc329abc363",
+        "recording_url": "https://arcprize.org/api/recordings/dc22-fdcac232/20d26669-51a5-4d89-9e35-9fc329abc363"
+      },
+      "provider_adapter": {
+        "game_id": "dc22-fdcac232",
+        "guid": "b436a14c-e9c5-43f3-b41d-721ccf59519a",
+        "sha256": "8bb12eb68ecfc1c6f27d9874a5472941481e0260eb32cdba31f2e7ade7a6c22a",
+        "bytes": 6680859,
+        "actions": 442,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              0,
+              24
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 42,
+            "observation_rows_inclusive": [
+              24,
+              66
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 45,
+            "observation_rows_inclusive": [
+              66,
+              111
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 63,
+            "observation_rows_inclusive": [
+              111,
+              174
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 119,
+            "observation_rows_inclusive": [
+              174,
+              293
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 149,
+            "observation_rows_inclusive": [
+              293,
+              442
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/b436a14c-e9c5-43f3-b41d-721ccf59519a",
+        "recording_url": "https://arcprize.org/api/recordings/dc22-fdcac232/b436a14c-e9c5-43f3-b41d-721ccf59519a"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "ft09-0d8bbf25",
+        "guid": "2ad74623-b639-46bc-b86a-81d14c4b5cab",
+        "sha256": "d62565dfe83dcff622ac9e3529d555fa7ce00ae1da4154ced39f197b600ad577",
+        "bytes": 1093663,
+        "actions": 75,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 4,
+            "observation_rows_inclusive": [
+              0,
+              4
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              4,
+              11
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              11,
+              25
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              25,
+              41
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 21,
+            "observation_rows_inclusive": [
+              41,
+              62
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              62,
+              75
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/2ad74623-b639-46bc-b86a-81d14c4b5cab",
+        "recording_url": "https://arcprize.org/api/recordings/ft09-0d8bbf25/2ad74623-b639-46bc-b86a-81d14c4b5cab"
+      },
+      "provider_adapter": {
+        "game_id": "ft09-0d8bbf25",
+        "guid": "2c5fd75d-92c9-4f37-80d9-bc6004885c9a",
+        "sha256": "bc6f2542171454a04f02898aaef5956d037eb7e2c8ec6dedf6975c9479d8f505",
+        "bytes": 1115893,
+        "actions": 75,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 4,
+            "observation_rows_inclusive": [
+              0,
+              4
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              4,
+              11
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              11,
+              25
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              25,
+              41
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 21,
+            "observation_rows_inclusive": [
+              41,
+              62
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              62,
+              75
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/2c5fd75d-92c9-4f37-80d9-bc6004885c9a",
+        "recording_url": "https://arcprize.org/api/recordings/ft09-0d8bbf25/2c5fd75d-92c9-4f37-80d9-bc6004885c9a"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "g50t-5849a774",
+        "guid": "4dbaf973-d3af-4aac-a325-0f0f8a4041e6",
+        "sha256": "361dcd6c73e24483c5578acad74399b87b22920b389705420ce60a1ab202dd72",
+        "bytes": 42990327,
+        "actions": 297,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 28,
+            "observation_rows_inclusive": [
+              0,
+              28
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              28,
+              59
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 64,
+            "observation_rows_inclusive": [
+              59,
+              123
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              123,
+              154
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 50,
+            "observation_rows_inclusive": [
+              154,
+              204
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 50,
+            "observation_rows_inclusive": [
+              204,
+              254
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 43,
+            "observation_rows_inclusive": [
+              254,
+              297
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/4dbaf973-d3af-4aac-a325-0f0f8a4041e6",
+        "recording_url": "https://arcprize.org/api/recordings/g50t-5849a774/4dbaf973-d3af-4aac-a325-0f0f8a4041e6"
+      },
+      "provider_adapter": {
+        "game_id": "g50t-5849a774",
+        "guid": "9ab081d6-34d8-4769-bdce-968b829f1091",
+        "sha256": "d77ddf5e784ca9c149ed5bd8eb562dc37b23bb35edb33ff2e8d8088c325e160d",
+        "bytes": 42546766,
+        "actions": 296,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              0,
+              24
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              24,
+              55
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 64,
+            "observation_rows_inclusive": [
+              55,
+              119
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              119,
+              150
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 50,
+            "observation_rows_inclusive": [
+              150,
+              200
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 50,
+            "observation_rows_inclusive": [
+              200,
+              250
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 46,
+            "observation_rows_inclusive": [
+              250,
+              296
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/9ab081d6-34d8-4769-bdce-968b829f1091",
+        "recording_url": "https://arcprize.org/api/recordings/g50t-5849a774/9ab081d6-34d8-4769-bdce-968b829f1091"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "ka59-38d34dbb",
+        "guid": "9c9af5ce-b61a-4b87-ace9-8650e84907d6",
+        "sha256": "38fb385794342653b59ddcc6b0e44ba47cae4e9297d25a4301309e0f5f11cde5",
+        "bytes": 7876290,
+        "actions": 325,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 25,
+            "observation_rows_inclusive": [
+              0,
+              25
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 48,
+            "observation_rows_inclusive": [
+              25,
+              73
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 34,
+            "observation_rows_inclusive": [
+              73,
+              107
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 42,
+            "observation_rows_inclusive": [
+              107,
+              149
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              149,
+              169
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 47,
+            "observation_rows_inclusive": [
+              169,
+              216
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 109,
+            "observation_rows_inclusive": [
+              216,
+              325
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/9c9af5ce-b61a-4b87-ace9-8650e84907d6",
+        "recording_url": "https://arcprize.org/api/recordings/ka59-38d34dbb/9c9af5ce-b61a-4b87-ace9-8650e84907d6"
+      },
+      "provider_adapter": {
+        "game_id": "ka59-38d34dbb",
+        "guid": "a6e15bfa-590a-4053-b5dc-b11e7b8b1cb4",
+        "sha256": "41761d0e64b612490b860e63eb73504dee22d7981954ac47cfbca70b31d2941b",
+        "bytes": 8400130,
+        "actions": 339,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              0,
+              24
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 52,
+            "observation_rows_inclusive": [
+              24,
+              76
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 33,
+            "observation_rows_inclusive": [
+              76,
+              109
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 41,
+            "observation_rows_inclusive": [
+              109,
+              150
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              150,
+              170
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 70,
+            "observation_rows_inclusive": [
+              170,
+              240
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 99,
+            "observation_rows_inclusive": [
+              240,
+              339
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/a6e15bfa-590a-4053-b5dc-b11e7b8b1cb4",
+        "recording_url": "https://arcprize.org/api/recordings/ka59-38d34dbb/a6e15bfa-590a-4053-b5dc-b11e7b8b1cb4"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "lf52-271a04aa",
+        "guid": "79127723-14e2-4d3d-a60c-9a45e99e6575",
+        "sha256": "fe003cc0c2257303f9beaa9929629ecc87c16ce46b7163aae6339cab464f1643",
+        "bytes": 56102606,
+        "actions": 710,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              0,
+              9
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 44,
+            "observation_rows_inclusive": [
+              9,
+              53
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 46,
+            "observation_rows_inclusive": [
+              53,
+              99
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 50,
+            "observation_rows_inclusive": [
+              99,
+              149
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 90,
+            "observation_rows_inclusive": [
+              149,
+              239
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 91,
+            "observation_rows_inclusive": [
+              239,
+              330
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 144,
+            "observation_rows_inclusive": [
+              330,
+              474
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 70,
+            "observation_rows_inclusive": [
+              474,
+              544
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 116,
+            "observation_rows_inclusive": [
+              544,
+              660
+            ]
+          },
+          {
+            "level": 10,
+            "actions": 50,
+            "observation_rows_inclusive": [
+              660,
+              710
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/79127723-14e2-4d3d-a60c-9a45e99e6575",
+        "recording_url": "https://arcprize.org/api/recordings/lf52-271a04aa/79127723-14e2-4d3d-a60c-9a45e99e6575"
+      },
+      "provider_adapter": {
+        "game_id": "lf52-271a04aa",
+        "guid": "e1ef8feb-5393-4a69-9780-b6f7ef48ba93",
+        "sha256": "c4d0e941c2755a2f617d798391e174cfd96d08398275116c3edca94ca12e98bc",
+        "bytes": 59445428,
+        "actions": 770,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 8,
+            "observation_rows_inclusive": [
+              0,
+              8
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 37,
+            "observation_rows_inclusive": [
+              8,
+              45
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 46,
+            "observation_rows_inclusive": [
+              45,
+              91
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 56,
+            "observation_rows_inclusive": [
+              91,
+              147
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 92,
+            "observation_rows_inclusive": [
+              147,
+              239
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 91,
+            "observation_rows_inclusive": [
+              239,
+              330
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 145,
+            "observation_rows_inclusive": [
+              330,
+              475
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 68,
+            "observation_rows_inclusive": [
+              475,
+              543
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 117,
+            "observation_rows_inclusive": [
+              543,
+              660
+            ]
+          },
+          {
+            "level": 10,
+            "actions": 110,
+            "observation_rows_inclusive": [
+              660,
+              770
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/e1ef8feb-5393-4a69-9780-b6f7ef48ba93",
+        "recording_url": "https://arcprize.org/api/recordings/lf52-271a04aa/e1ef8feb-5393-4a69-9780-b6f7ef48ba93"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "lp85-305b61c3",
+        "guid": "320e870c-f647-4afb-8ba6-70cd496b540c",
+        "sha256": "52452783b52125987360f70b886f3e71140c3fecc44ed5012f912b1e06cc2ff4",
+        "bytes": 1538437,
+        "actions": 109,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              0,
+              7
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 8,
+            "observation_rows_inclusive": [
+              7,
+              15
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              15,
+              31
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              31,
+              45
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              45,
+              56
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              56,
+              75
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              75,
+              89
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              89,
+              109
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/320e870c-f647-4afb-8ba6-70cd496b540c",
+        "recording_url": "https://arcprize.org/api/recordings/lp85-305b61c3/320e870c-f647-4afb-8ba6-70cd496b540c"
+      },
+      "provider_adapter": {
+        "game_id": "lp85-305b61c3",
+        "guid": "a478cd77-33fa-4289-a05b-7391809359a8",
+        "sha256": "fd7bf603ad4c0f5ff0899e8af274eb08d6778f6bc85bec402d58118128aa6197",
+        "bytes": 1372919,
+        "actions": 94,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              0,
+              9
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 8,
+            "observation_rows_inclusive": [
+              9,
+              17
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              17,
+              33
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              33,
+              50
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              50,
+              61
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 21,
+            "observation_rows_inclusive": [
+              61,
+              82
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 5,
+            "observation_rows_inclusive": [
+              82,
+              87
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              87,
+              94
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/a478cd77-33fa-4289-a05b-7391809359a8",
+        "recording_url": "https://arcprize.org/api/recordings/lp85-305b61c3/a478cd77-33fa-4289-a05b-7391809359a8"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "ls20-9607627b",
+        "guid": "0a9dfe50-1421-45c9-8041-773c58b6b85b",
+        "sha256": "7937a330d61b657980e5ae8745ec3d3e64f6cc2b2081a47aa8485929752c6f77",
+        "bytes": 8693914,
+        "actions": 365,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              0,
+              15
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 45,
+            "observation_rows_inclusive": [
+              15,
+              60
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 43,
+            "observation_rows_inclusive": [
+              60,
+              103
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 51,
+            "observation_rows_inclusive": [
+              103,
+              154
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 48,
+            "observation_rows_inclusive": [
+              154,
+              202
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 82,
+            "observation_rows_inclusive": [
+              202,
+              284
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 81,
+            "observation_rows_inclusive": [
+              284,
+              365
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/0a9dfe50-1421-45c9-8041-773c58b6b85b",
+        "recording_url": "https://arcprize.org/api/recordings/ls20-9607627b/0a9dfe50-1421-45c9-8041-773c58b6b85b"
+      },
+      "provider_adapter": {
+        "game_id": "ls20-9607627b",
+        "guid": "27b4461a-7bdb-45f6-9bb0-f1487d6ce662",
+        "sha256": "46c7871e7df037a88cc69e6865bdecc8025ddb3436b35ba62df5afad913d1992",
+        "bytes": 10421691,
+        "actions": 468,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              0,
+              20
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 99,
+            "observation_rows_inclusive": [
+              20,
+              119
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 41,
+            "observation_rows_inclusive": [
+              119,
+              160
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 47,
+            "observation_rows_inclusive": [
+              160,
+              207
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 98,
+            "observation_rows_inclusive": [
+              207,
+              305
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 84,
+            "observation_rows_inclusive": [
+              305,
+              389
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 79,
+            "observation_rows_inclusive": [
+              389,
+              468
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/27b4461a-7bdb-45f6-9bb0-f1487d6ce662",
+        "recording_url": "https://arcprize.org/api/recordings/ls20-9607627b/27b4461a-7bdb-45f6-9bb0-f1487d6ce662"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "m0r0-492f87ba",
+        "guid": "b3c4fd9b-d852-422c-9fe0-35271646bd6d",
+        "sha256": "3cb3fcec86645b2f31050bdfa4ff06aeb4ae400d89f8ec5be5d26a461ca055e4",
+        "bytes": 3272323,
+        "actions": 231,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              0,
+              15
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              15,
+              38
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 65,
+            "observation_rows_inclusive": [
+              38,
+              103
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              103,
+              116
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 64,
+            "observation_rows_inclusive": [
+              116,
+              180
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 51,
+            "observation_rows_inclusive": [
+              180,
+              231
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/b3c4fd9b-d852-422c-9fe0-35271646bd6d",
+        "recording_url": "https://arcprize.org/api/recordings/m0r0-492f87ba/b3c4fd9b-d852-422c-9fe0-35271646bd6d"
+      },
+      "provider_adapter": {
+        "game_id": "m0r0-492f87ba",
+        "guid": "50d61a09-c2b8-4354-9312-de22c65eb9b7",
+        "sha256": "eacf4327fa8827164cb1954b6db6fef1b8df8fdfdeb6768118b46e60884f4973",
+        "bytes": 3332705,
+        "actions": 228,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              0,
+              15
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              15,
+              38
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 82,
+            "observation_rows_inclusive": [
+              38,
+              120
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              120,
+              133
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 44,
+            "observation_rows_inclusive": [
+              133,
+              177
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 51,
+            "observation_rows_inclusive": [
+              177,
+              228
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/50d61a09-c2b8-4354-9312-de22c65eb9b7",
+        "recording_url": "https://arcprize.org/api/recordings/m0r0-492f87ba/50d61a09-c2b8-4354-9312-de22c65eb9b7"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "r11l-495a7899",
+        "guid": "fcf46cc2-5c17-4726-9d64-85e56a0039f2",
+        "sha256": "b2a7f503ae0194540645788e5a9762769df5b06dfe1c599132bfb748c4621dcf",
+        "bytes": 5268902,
+        "actions": 71,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 4,
+            "observation_rows_inclusive": [
+              0,
+              4
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              4,
+              13
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 12,
+            "observation_rows_inclusive": [
+              13,
+              25
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              25,
+              38
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              38,
+              55
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 16,
+            "observation_rows_inclusive": [
+              55,
+              71
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/fcf46cc2-5c17-4726-9d64-85e56a0039f2",
+        "recording_url": "https://arcprize.org/api/recordings/r11l-495a7899/fcf46cc2-5c17-4726-9d64-85e56a0039f2"
+      },
+      "provider_adapter": {
+        "game_id": "r11l-495a7899",
+        "guid": "a204250e-2b46-4474-bcc3-ff13c220d271",
+        "sha256": "b83bbf0e94a9a2c07be1e67515cf468c6e6fee9470d3573deb1e12e1e3ac8fae",
+        "bytes": 5478283,
+        "actions": 79,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 4,
+            "observation_rows_inclusive": [
+              0,
+              4
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              4,
+              15
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 12,
+            "observation_rows_inclusive": [
+              15,
+              27
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              27,
+              41
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              41,
+              60
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              60,
+              79
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/a204250e-2b46-4474-bcc3-ff13c220d271",
+        "recording_url": "https://arcprize.org/api/recordings/r11l-495a7899/a204250e-2b46-4474-bcc3-ff13c220d271"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "re86-8af5384d",
+        "guid": "e77ef5ea-f632-4b56-abdd-5d857634c408",
+        "sha256": "3cd100075f6c589724d7dee58dba168401d9192efb2b969d0c0a635ab66c2e84",
+        "bytes": 14711457,
+        "actions": 728,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              0,
+              20
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 36,
+            "observation_rows_inclusive": [
+              20,
+              56
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 189,
+            "observation_rows_inclusive": [
+              56,
+              245
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 44,
+            "observation_rows_inclusive": [
+              245,
+              289
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 63,
+            "observation_rows_inclusive": [
+              289,
+              352
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 68,
+            "observation_rows_inclusive": [
+              352,
+              420
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 125,
+            "observation_rows_inclusive": [
+              420,
+              545
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 183,
+            "observation_rows_inclusive": [
+              545,
+              728
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/e77ef5ea-f632-4b56-abdd-5d857634c408",
+        "recording_url": "https://arcprize.org/api/recordings/re86-8af5384d/e77ef5ea-f632-4b56-abdd-5d857634c408"
+      },
+      "provider_adapter": {
+        "game_id": "re86-8af5384d",
+        "guid": "d846db33-73ea-4066-b3be-0befc6c2dbc5",
+        "sha256": "ffcdb784bcff4d221f1aae09b547d4cf400988e846685aac286d2eeb1968bf7a",
+        "bytes": 15102166,
+        "actions": 616,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              0,
+              20
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 36,
+            "observation_rows_inclusive": [
+              20,
+              56
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 47,
+            "observation_rows_inclusive": [
+              56,
+              103
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 44,
+            "observation_rows_inclusive": [
+              103,
+              147
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 63,
+            "observation_rows_inclusive": [
+              147,
+              210
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 68,
+            "observation_rows_inclusive": [
+              210,
+              278
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 129,
+            "observation_rows_inclusive": [
+              278,
+              407
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 209,
+            "observation_rows_inclusive": [
+              407,
+              616
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/d846db33-73ea-4066-b3be-0befc6c2dbc5",
+        "recording_url": "https://arcprize.org/api/recordings/re86-8af5384d/d846db33-73ea-4066-b3be-0befc6c2dbc5"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "s5i5-18d95033",
+        "guid": "345b0563-a565-432f-90c5-084882e935ff",
+        "sha256": "5baafa95221aee872018ec79f02509e51db2068c3aaa2d8c030dd7aba7404dda",
+        "bytes": 3345975,
+        "actions": 243,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              0,
+              13
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 26,
+            "observation_rows_inclusive": [
+              13,
+              39
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 37,
+            "observation_rows_inclusive": [
+              39,
+              76
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 30,
+            "observation_rows_inclusive": [
+              76,
+              106
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 30,
+            "observation_rows_inclusive": [
+              106,
+              136
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 25,
+            "observation_rows_inclusive": [
+              136,
+              161
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 46,
+            "observation_rows_inclusive": [
+              161,
+              207
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 36,
+            "observation_rows_inclusive": [
+              207,
+              243
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/345b0563-a565-432f-90c5-084882e935ff",
+        "recording_url": "https://arcprize.org/api/recordings/s5i5-18d95033/345b0563-a565-432f-90c5-084882e935ff"
+      },
+      "provider_adapter": {
+        "game_id": "s5i5-18d95033",
+        "guid": "0945e840-474f-4f1f-9e47-bbcf7aa05639",
+        "sha256": "61424ebc4f59a7f1a39e9696f29c7377f84700bf55ae9c188fa5ab70b3a00269",
+        "bytes": 3486009,
+        "actions": 247,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              0,
+              13
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 26,
+            "observation_rows_inclusive": [
+              13,
+              39
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 39,
+            "observation_rows_inclusive": [
+              39,
+              78
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 30,
+            "observation_rows_inclusive": [
+              78,
+              108
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 30,
+            "observation_rows_inclusive": [
+              108,
+              138
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 25,
+            "observation_rows_inclusive": [
+              138,
+              163
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 48,
+            "observation_rows_inclusive": [
+              163,
+              211
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 36,
+            "observation_rows_inclusive": [
+              211,
+              247
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/0945e840-474f-4f1f-9e47-bbcf7aa05639",
+        "recording_url": "https://arcprize.org/api/recordings/s5i5-18d95033/0945e840-474f-4f1f-9e47-bbcf7aa05639"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "sb26-7fbdac44",
+        "guid": "44be6362-a967-4e92-8595-11b82f139e42",
+        "sha256": "defb229f758512e5367867c529b41dcc764c1c1f8c6e796773c66ebd9ed39324",
+        "bytes": 32697225,
+        "actions": 124,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              0,
+              9
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              9,
+              24
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              24,
+              39
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              39,
+              54
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              54,
+              71
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              71,
+              90
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              90,
+              107
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              107,
+              124
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/44be6362-a967-4e92-8595-11b82f139e42",
+        "recording_url": "https://arcprize.org/api/recordings/sb26-7fbdac44/44be6362-a967-4e92-8595-11b82f139e42"
+      },
+      "provider_adapter": {
+        "game_id": "sb26-7fbdac44",
+        "guid": "95542d79-8533-445b-91b0-68adfa026db8",
+        "sha256": "addab16cda4aa161f8ffebe1d5afc095cb87286341d6981b70a85de192b97328",
+        "bytes": 32741367,
+        "actions": 124,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              0,
+              9
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              9,
+              24
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              24,
+              39
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              39,
+              54
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              54,
+              71
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              71,
+              90
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              90,
+              107
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              107,
+              124
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/95542d79-8533-445b-91b0-68adfa026db8",
+        "recording_url": "https://arcprize.org/api/recordings/sb26-7fbdac44/95542d79-8533-445b-91b0-68adfa026db8"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "sc25-635fd71a",
+        "guid": "e495099e-151b-41ec-b146-c1be2f71a589",
+        "sha256": "3cf3f946bf377a168056ffd4ea67b0a38e5e803e2918c03b83ec62f243604624",
+        "bytes": 6366549,
+        "actions": 137,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              0,
+              23
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 5,
+            "observation_rows_inclusive": [
+              23,
+              28
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 12,
+            "observation_rows_inclusive": [
+              28,
+              40
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              40,
+              63
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 39,
+            "observation_rows_inclusive": [
+              63,
+              102
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 35,
+            "observation_rows_inclusive": [
+              102,
+              137
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/e495099e-151b-41ec-b146-c1be2f71a589",
+        "recording_url": "https://arcprize.org/api/recordings/sc25-635fd71a/e495099e-151b-41ec-b146-c1be2f71a589"
+      },
+      "provider_adapter": {
+        "game_id": "sc25-635fd71a",
+        "guid": "6eaaa941-433c-41a3-b69a-a70be93c6a08",
+        "sha256": "1cffc9eb36e4ef51e0e0dc8cd9ae7da9fcb14bf66ec04c36dfd370c7131660e4",
+        "bytes": 6054573,
+        "actions": 140,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              0,
+              23
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              23,
+              30
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 12,
+            "observation_rows_inclusive": [
+              30,
+              42
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              42,
+              65
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 38,
+            "observation_rows_inclusive": [
+              65,
+              103
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 37,
+            "observation_rows_inclusive": [
+              103,
+              140
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/6eaaa941-433c-41a3-b69a-a70be93c6a08",
+        "recording_url": "https://arcprize.org/api/recordings/sc25-635fd71a/6eaaa941-433c-41a3-b69a-a70be93c6a08"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "sk48-d8078629",
+        "guid": "45d858f8-5c84-4994-87dc-f4a88502bdf8",
+        "sha256": "fc4999bb4b2b3346f14ffca5e1b2a2d4aa0ef952e2834e16c825d38de9cdcac7",
+        "bytes": 14358351,
+        "actions": 435,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              0,
+              14
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 34,
+            "observation_rows_inclusive": [
+              14,
+              48
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 38,
+            "observation_rows_inclusive": [
+              48,
+              86
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 49,
+            "observation_rows_inclusive": [
+              86,
+              135
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 117,
+            "observation_rows_inclusive": [
+              135,
+              252
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 83,
+            "observation_rows_inclusive": [
+              252,
+              335
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 53,
+            "observation_rows_inclusive": [
+              335,
+              388
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 47,
+            "observation_rows_inclusive": [
+              388,
+              435
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/45d858f8-5c84-4994-87dc-f4a88502bdf8",
+        "recording_url": "https://arcprize.org/api/recordings/sk48-d8078629/45d858f8-5c84-4994-87dc-f4a88502bdf8"
+      },
+      "provider_adapter": {
+        "game_id": "sk48-d8078629",
+        "guid": "5bcc0575-b75b-41eb-8361-909e886fb5b9",
+        "sha256": "78fe74fb49687eb85eb35614264d7dd2786fedfaeac1c123edf6795c8b6f0528",
+        "bytes": 14691619,
+        "actions": 433,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              0,
+              14
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 30,
+            "observation_rows_inclusive": [
+              14,
+              44
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 38,
+            "observation_rows_inclusive": [
+              44,
+              82
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 35,
+            "observation_rows_inclusive": [
+              82,
+              117
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 103,
+            "observation_rows_inclusive": [
+              117,
+              220
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 67,
+            "observation_rows_inclusive": [
+              220,
+              287
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 77,
+            "observation_rows_inclusive": [
+              287,
+              364
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 69,
+            "observation_rows_inclusive": [
+              364,
+              433
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/5bcc0575-b75b-41eb-8361-909e886fb5b9",
+        "recording_url": "https://arcprize.org/api/recordings/sk48-d8078629/5bcc0575-b75b-41eb-8361-909e886fb5b9"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "sp80-589a99af",
+        "guid": "28db70d6-cd9c-446e-bf30-9a829c12e5ba",
+        "sha256": "a0991952b4a357c6b89b58e4fea198fa23673c4c658ac5d48a88b22241f8889f",
+        "bytes": 5936033,
+        "actions": 129,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              0,
+              9
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              9,
+              18
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              18,
+              29
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              29,
+              60
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 33,
+            "observation_rows_inclusive": [
+              60,
+              93
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 36,
+            "observation_rows_inclusive": [
+              93,
+              129
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/28db70d6-cd9c-446e-bf30-9a829c12e5ba",
+        "recording_url": "https://arcprize.org/api/recordings/sp80-589a99af/28db70d6-cd9c-446e-bf30-9a829c12e5ba"
+      },
+      "provider_adapter": {
+        "game_id": "sp80-589a99af",
+        "guid": "f37ae900-fd49-4d08-aee4-ca124ca44392",
+        "sha256": "905feb88c4b6f6155a9fc19e02785b3a3ae318d3bb31bd37b921457b29662a1f",
+        "bytes": 6271746,
+        "actions": 144,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              0,
+              7
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 8,
+            "observation_rows_inclusive": [
+              7,
+              15
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              15,
+              28
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 26,
+            "observation_rows_inclusive": [
+              28,
+              54
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 33,
+            "observation_rows_inclusive": [
+              54,
+              87
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 57,
+            "observation_rows_inclusive": [
+              87,
+              144
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/f37ae900-fd49-4d08-aee4-ca124ca44392",
+        "recording_url": "https://arcprize.org/api/recordings/sp80-589a99af/f37ae900-fd49-4d08-aee4-ca124ca44392"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "su15-1944f8ab",
+        "guid": "f6101e88-def8-4e76-a78a-9427745a2385",
+        "sha256": "a31909ff089ae0ba8b80fd3fad51774c554a8f83df3432fe47f0ddb7998258e3",
+        "bytes": 8605006,
+        "actions": 114,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              0,
+              11
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              11,
+              24
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              24,
+              39
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              39,
+              48
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 28,
+            "observation_rows_inclusive": [
+              48,
+              76
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              76,
+              85
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 6,
+            "observation_rows_inclusive": [
+              85,
+              91
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              91,
+              102
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 12,
+            "observation_rows_inclusive": [
+              102,
+              114
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/f6101e88-def8-4e76-a78a-9427745a2385",
+        "recording_url": "https://arcprize.org/api/recordings/su15-1944f8ab/f6101e88-def8-4e76-a78a-9427745a2385"
+      },
+      "provider_adapter": {
+        "game_id": "su15-1944f8ab",
+        "guid": "bffe1ccd-c92c-44ee-abe3-d13d4185d862",
+        "sha256": "e9385ca1eed76d594806e830699a9a83f23f43804f534e94a0bb7154a0481c67",
+        "bytes": 8303759,
+        "actions": 104,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 8,
+            "observation_rows_inclusive": [
+              0,
+              8
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 12,
+            "observation_rows_inclusive": [
+              8,
+              20
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              20,
+              34
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              34,
+              43
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              43,
+              57
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              57,
+              71
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 5,
+            "observation_rows_inclusive": [
+              71,
+              76
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 13,
+            "observation_rows_inclusive": [
+              76,
+              89
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              89,
+              104
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/bffe1ccd-c92c-44ee-abe3-d13d4185d862",
+        "recording_url": "https://arcprize.org/api/recordings/su15-1944f8ab/bffe1ccd-c92c-44ee-abe3-d13d4185d862"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "tn36-ef4dde99",
+        "guid": "22761359-7720-4a5c-acab-4432719a35c5",
+        "sha256": "d25ff0ed5cbc21ed5f8141018d351b9be30aeda67819d8ed0ad64bf2263e975d",
+        "bytes": 3758547,
+        "actions": 148,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 10,
+            "observation_rows_inclusive": [
+              0,
+              10
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              10,
+              29
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 10,
+            "observation_rows_inclusive": [
+              29,
+              39
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              39,
+              53
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              53,
+              72
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 32,
+            "observation_rows_inclusive": [
+              72,
+              104
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 44,
+            "observation_rows_inclusive": [
+              104,
+              148
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/22761359-7720-4a5c-acab-4432719a35c5",
+        "recording_url": "https://arcprize.org/api/recordings/tn36-ef4dde99/22761359-7720-4a5c-acab-4432719a35c5"
+      },
+      "provider_adapter": {
+        "game_id": "tn36-ef4dde99",
+        "guid": "8d408961-f16e-419c-ad6b-12e0e697f2ca",
+        "sha256": "4856a9ca6209a191bc26a90efafb0fcff99f8015774218251b90d46942e77b46",
+        "bytes": 10883668,
+        "actions": 311,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 9,
+            "observation_rows_inclusive": [
+              0,
+              9
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 11,
+            "observation_rows_inclusive": [
+              9,
+              20
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 10,
+            "observation_rows_inclusive": [
+              20,
+              30
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              30,
+              45
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              45,
+              64
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 214,
+            "observation_rows_inclusive": [
+              64,
+              278
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 33,
+            "observation_rows_inclusive": [
+              278,
+              311
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/8d408961-f16e-419c-ad6b-12e0e697f2ca",
+        "recording_url": "https://arcprize.org/api/recordings/tn36-ef4dde99/8d408961-f16e-419c-ad6b-12e0e697f2ca"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "tr87-cd924810",
+        "guid": "34c9120b-2214-46e2-96e3-45e78d759390",
+        "sha256": "1a2b19352787cb9c839aebd4e9cbbdd3bec467bbf09a7dc7cd791026711f1b95",
+        "bytes": 4393375,
+        "actions": 128,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 17,
+            "observation_rows_inclusive": [
+              0,
+              17
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 26,
+            "observation_rows_inclusive": [
+              17,
+              43
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 26,
+            "observation_rows_inclusive": [
+              43,
+              69
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 21,
+            "observation_rows_inclusive": [
+              69,
+              90
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              90,
+              104
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              104,
+              128
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/34c9120b-2214-46e2-96e3-45e78d759390",
+        "recording_url": "https://arcprize.org/api/recordings/tr87-cd924810/34c9120b-2214-46e2-96e3-45e78d759390"
+      },
+      "provider_adapter": {
+        "game_id": "tr87-cd924810",
+        "guid": "a1e55710-322c-46ce-8969-02d8063168d7",
+        "sha256": "0336282294433b254e8e6a1ec1fc1c0eec003bfda5e676dd2e5a711260522c24",
+        "bytes": 4714926,
+        "actions": 148,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              0,
+              20
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 32,
+            "observation_rows_inclusive": [
+              20,
+              52
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 26,
+            "observation_rows_inclusive": [
+              52,
+              78
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 21,
+            "observation_rows_inclusive": [
+              78,
+              99
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 25,
+            "observation_rows_inclusive": [
+              99,
+              124
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              124,
+              148
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/a1e55710-322c-46ce-8969-02d8063168d7",
+        "recording_url": "https://arcprize.org/api/recordings/tr87-cd924810/a1e55710-322c-46ce-8969-02d8063168d7"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "tu93-0768757b",
+        "guid": "3893f733-e1bd-4827-93b6-6ff8e64171ee",
+        "sha256": "87000e388ebe30afb3ea87af8e12bd44b541dca16024dd9d401028650fa08f3a",
+        "bytes": 28145654,
+        "actions": 195,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 18,
+            "observation_rows_inclusive": [
+              0,
+              18
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 15,
+            "observation_rows_inclusive": [
+              18,
+              33
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              33,
+              52
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 18,
+            "observation_rows_inclusive": [
+              52,
+              70
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 29,
+            "observation_rows_inclusive": [
+              70,
+              99
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 30,
+            "observation_rows_inclusive": [
+              99,
+              129
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              129,
+              143
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              143,
+              166
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 29,
+            "observation_rows_inclusive": [
+              166,
+              195
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/3893f733-e1bd-4827-93b6-6ff8e64171ee",
+        "recording_url": "https://arcprize.org/api/recordings/tu93-0768757b/3893f733-e1bd-4827-93b6-6ff8e64171ee"
+      },
+      "provider_adapter": {
+        "game_id": "tu93-0768757b",
+        "guid": "2ae60daf-4f2e-48bc-830a-e3e37e15b881",
+        "sha256": "ff1d39b23db56b28f96fe6ee9f4ac3011cd532977318ed94dcf5d3142f534da9",
+        "bytes": 31871401,
+        "actions": 218,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 18,
+            "observation_rows_inclusive": [
+              0,
+              18
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 10,
+            "observation_rows_inclusive": [
+              18,
+              28
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 19,
+            "observation_rows_inclusive": [
+              28,
+              47
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 18,
+            "observation_rows_inclusive": [
+              47,
+              65
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 29,
+            "observation_rows_inclusive": [
+              65,
+              94
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 36,
+            "observation_rows_inclusive": [
+              94,
+              130
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 14,
+            "observation_rows_inclusive": [
+              130,
+              144
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 23,
+            "observation_rows_inclusive": [
+              144,
+              167
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 51,
+            "observation_rows_inclusive": [
+              167,
+              218
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/2ae60daf-4f2e-48bc-830a-e3e37e15b881",
+        "recording_url": "https://arcprize.org/api/recordings/tu93-0768757b/2ae60daf-4f2e-48bc-830a-e3e37e15b881"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "vc33-5430563c",
+        "guid": "c8995261-2fa7-48b4-9fc6-e1624a20697f",
+        "sha256": "4cb654c56ac3040c10937ff4026b30596f3856a3b199907ffcf06aa179763afc",
+        "bytes": 10549993,
+        "actions": 192,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 8,
+            "observation_rows_inclusive": [
+              0,
+              8
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              8,
+              15
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              15,
+              39
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 35,
+            "observation_rows_inclusive": [
+              39,
+              74
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 49,
+            "observation_rows_inclusive": [
+              74,
+              123
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              123,
+              143
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 49,
+            "observation_rows_inclusive": [
+              143,
+              192
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/c8995261-2fa7-48b4-9fc6-e1624a20697f",
+        "recording_url": "https://arcprize.org/api/recordings/vc33-5430563c/c8995261-2fa7-48b4-9fc6-e1624a20697f"
+      },
+      "provider_adapter": {
+        "game_id": "vc33-5430563c",
+        "guid": "ec8082e6-fafd-4598-92f5-aa12ee7ecf09",
+        "sha256": "76fc5a0184cc13b6652388eeabe0852ae3edd052c70e12e26f7dd89521471eff",
+        "bytes": 10027844,
+        "actions": 182,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              0,
+              7
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 7,
+            "observation_rows_inclusive": [
+              7,
+              14
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              14,
+              38
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 24,
+            "observation_rows_inclusive": [
+              38,
+              62
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 49,
+            "observation_rows_inclusive": [
+              62,
+              111
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 20,
+            "observation_rows_inclusive": [
+              111,
+              131
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 51,
+            "observation_rows_inclusive": [
+              131,
+              182
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/ec8082e6-fafd-4598-92f5-aa12ee7ecf09",
+        "recording_url": "https://arcprize.org/api/recordings/vc33-5430563c/ec8082e6-fafd-4598-92f5-aa12ee7ecf09"
+      }
+    },
+    {
+      "oy1": {
+        "game_id": "wa30-ee6fef47",
+        "guid": "6503caa5-73c0-4b5e-9fdf-9d5d8e6eb176",
+        "sha256": "742f953310e96c4b1bd262a849f25ce0975cbb113b836418d383579370b5090c",
+        "bytes": 7679332,
+        "actions": 585,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 27,
+            "observation_rows_inclusive": [
+              0,
+              27
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 48,
+            "observation_rows_inclusive": [
+              27,
+              75
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 74,
+            "observation_rows_inclusive": [
+              75,
+              149
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 54,
+            "observation_rows_inclusive": [
+              149,
+              203
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 103,
+            "observation_rows_inclusive": [
+              203,
+              306
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 46,
+            "observation_rows_inclusive": [
+              306,
+              352
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 44,
+            "observation_rows_inclusive": [
+              352,
+              396
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 127,
+            "observation_rows_inclusive": [
+              396,
+              523
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 62,
+            "observation_rows_inclusive": [
+              523,
+              585
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/6503caa5-73c0-4b5e-9fdf-9d5d8e6eb176",
+        "recording_url": "https://arcprize.org/api/recordings/wa30-ee6fef47/6503caa5-73c0-4b5e-9fdf-9d5d8e6eb176"
+      },
+      "provider_adapter": {
+        "game_id": "wa30-ee6fef47",
+        "guid": "6f55299f-71ce-4d33-97a6-7043e44bce70",
+        "sha256": "47e4f71fe859e9a2d29181adb8f80348b61e6e9556d31b58b76cb2f8d689a146",
+        "bytes": 7877903,
+        "actions": 584,
+        "resets_after_initial": [],
+        "levels": [
+          {
+            "level": 1,
+            "actions": 31,
+            "observation_rows_inclusive": [
+              0,
+              31
+            ]
+          },
+          {
+            "level": 2,
+            "actions": 52,
+            "observation_rows_inclusive": [
+              31,
+              83
+            ]
+          },
+          {
+            "level": 3,
+            "actions": 76,
+            "observation_rows_inclusive": [
+              83,
+              159
+            ]
+          },
+          {
+            "level": 4,
+            "actions": 52,
+            "observation_rows_inclusive": [
+              159,
+              211
+            ]
+          },
+          {
+            "level": 5,
+            "actions": 111,
+            "observation_rows_inclusive": [
+              211,
+              322
+            ]
+          },
+          {
+            "level": 6,
+            "actions": 46,
+            "observation_rows_inclusive": [
+              322,
+              368
+            ]
+          },
+          {
+            "level": 7,
+            "actions": 45,
+            "observation_rows_inclusive": [
+              368,
+              413
+            ]
+          },
+          {
+            "level": 8,
+            "actions": 108,
+            "observation_rows_inclusive": [
+              413,
+              521
+            ]
+          },
+          {
+            "level": 9,
+            "actions": 63,
+            "observation_rows_inclusive": [
+              521,
+              584
+            ]
+          }
+        ],
+        "replay_url": "https://arcprize.org/replay/6f55299f-71ce-4d33-97a6-7043e44bce70",
+        "recording_url": "https://arcprize.org/api/recordings/wa30-ee6fef47/6f55299f-71ce-4d33-97a6-7043e44bce70"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 6,
+      "oy1_actions": 32,
+      "provider_adapter_actions": 214,
+      "reduction_percent": 85.04672897196261,
+      "actions_saved": 182,
+      "oy1_rows": [
+        72,
+        104
+      ],
+      "provider_adapter_rows": [
+        64,
+        278
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 10,
+      "oy1_actions": 50,
+      "provider_adapter_actions": 110,
+      "reduction_percent": 54.54545454545454,
+      "actions_saved": 60,
+      "oy1_rows": [
+        660,
+        710
+      ],
+      "provider_adapter_rows": [
+        660,
+        770
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 2,
+      "oy1_actions": 45,
+      "provider_adapter_actions": 99,
+      "reduction_percent": 54.54545454545454,
+      "actions_saved": 54,
+      "oy1_rows": [
+        15,
+        60
+      ],
+      "provider_adapter_rows": [
+        20,
+        119
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 5,
+      "oy1_actions": 48,
+      "provider_adapter_actions": 98,
+      "reduction_percent": 51.02040816326531,
+      "actions_saved": 50,
+      "oy1_rows": [
+        154,
+        202
+      ],
+      "provider_adapter_rows": [
+        207,
+        305
+      ]
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "level": 5,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 25,
+      "reduction_percent": 43.99999999999999,
+      "actions_saved": 11,
+      "oy1_rows": [
+        90,
+        104
+      ],
+      "provider_adapter_rows": [
+        99,
+        124
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 9,
+      "oy1_actions": 29,
+      "provider_adapter_actions": 51,
+      "reduction_percent": 43.13725490196079,
+      "actions_saved": 22,
+      "oy1_rows": [
+        166,
+        195
+      ],
+      "provider_adapter_rows": [
+        167,
+        218
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 8,
+      "oy1_actions": 42,
+      "provider_adapter_actions": 71,
+      "reduction_percent": 40.845070422535215,
+      "actions_saved": 29,
+      "oy1_rows": [
+        301,
+        343
+      ],
+      "provider_adapter_rows": [
+        303,
+        374
+      ]
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "level": 6,
+      "oy1_actions": 36,
+      "provider_adapter_actions": 57,
+      "reduction_percent": 36.8421052631579,
+      "actions_saved": 21,
+      "oy1_rows": [
+        93,
+        129
+      ],
+      "provider_adapter_rows": [
+        87,
+        144
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 6,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 14,
+      "reduction_percent": 35.71428571428571,
+      "actions_saved": 5,
+      "oy1_rows": [
+        76,
+        85
+      ],
+      "provider_adapter_rows": [
+        57,
+        71
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 6,
+      "oy1_actions": 47,
+      "provider_adapter_actions": 70,
+      "reduction_percent": 32.85714285714286,
+      "actions_saved": 23,
+      "oy1_rows": [
+        169,
+        216
+      ],
+      "provider_adapter_rows": [
+        170,
+        240
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 8,
+      "oy1_actions": 47,
+      "provider_adapter_actions": 69,
+      "reduction_percent": 31.88405797101449,
+      "actions_saved": 22,
+      "oy1_rows": [
+        388,
+        435
+      ],
+      "provider_adapter_rows": [
+        364,
+        433
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 7,
+      "oy1_actions": 53,
+      "provider_adapter_actions": 77,
+      "reduction_percent": 31.16883116883117,
+      "actions_saved": 24,
+      "oy1_rows": [
+        335,
+        388
+      ],
+      "provider_adapter_rows": [
+        287,
+        364
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 9,
+      "oy1_actions": 80,
+      "provider_adapter_actions": 114,
+      "reduction_percent": 29.824561403508774,
+      "actions_saved": 34,
+      "oy1_rows": [
+        343,
+        423
+      ],
+      "provider_adapter_rows": [
+        374,
+        488
+      ]
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "level": 5,
+      "oy1_actions": 48,
+      "provider_adapter_actions": 68,
+      "reduction_percent": 29.411764705882348,
+      "actions_saved": 20,
+      "oy1_rows": [
+        100,
+        148
+      ],
+      "provider_adapter_rows": [
+        106,
+        174
+      ]
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "level": 2,
+      "oy1_actions": 5,
+      "provider_adapter_actions": 7,
+      "reduction_percent": 28.57142857142857,
+      "actions_saved": 2,
+      "oy1_rows": [
+        23,
+        28
+      ],
+      "provider_adapter_rows": [
+        23,
+        30
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 1,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 20,
+      "reduction_percent": 25.0,
+      "actions_saved": 5,
+      "oy1_rows": [
+        0,
+        15
+      ],
+      "provider_adapter_rows": [
+        0,
+        20
+      ]
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "level": 1,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 17,
+      "reduction_percent": 23.529411764705888,
+      "actions_saved": 4,
+      "oy1_rows": [
+        0,
+        13
+      ],
+      "provider_adapter_rows": [
+        0,
+        17
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 1,
+      "oy1_actions": 7,
+      "provider_adapter_actions": 9,
+      "reduction_percent": 22.22222222222222,
+      "actions_saved": 2,
+      "oy1_rows": [
+        0,
+        7
+      ],
+      "provider_adapter_rows": [
+        0,
+        9
+      ]
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "level": 3,
+      "oy1_actions": 65,
+      "provider_adapter_actions": 82,
+      "reduction_percent": 20.731707317073166,
+      "actions_saved": 17,
+      "oy1_rows": [
+        38,
+        103
+      ],
+      "provider_adapter_rows": [
+        38,
+        120
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 9,
+      "oy1_actions": 12,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 19.999999999999996,
+      "actions_saved": 3,
+      "oy1_rows": [
+        102,
+        114
+      ],
+      "provider_adapter_rows": [
+        89,
+        104
+      ]
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "level": 2,
+      "oy1_actions": 26,
+      "provider_adapter_actions": 32,
+      "reduction_percent": 18.75,
+      "actions_saved": 6,
+      "oy1_rows": [
+        17,
+        43
+      ],
+      "provider_adapter_rows": [
+        20,
+        52
+      ]
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "level": 2,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 11,
+      "reduction_percent": 18.181818181818176,
+      "actions_saved": 2,
+      "oy1_rows": [
+        4,
+        13
+      ],
+      "provider_adapter_rows": [
+        4,
+        15
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 4,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 17,
+      "reduction_percent": 17.647058823529417,
+      "actions_saved": 3,
+      "oy1_rows": [
+        31,
+        45
+      ],
+      "provider_adapter_rows": [
+        33,
+        50
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 6,
+      "oy1_actions": 30,
+      "provider_adapter_actions": 36,
+      "reduction_percent": 16.666666666666664,
+      "actions_saved": 6,
+      "oy1_rows": [
+        99,
+        129
+      ],
+      "provider_adapter_rows": [
+        94,
+        130
+      ]
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "level": 6,
+      "oy1_actions": 16,
+      "provider_adapter_actions": 19,
+      "reduction_percent": 15.789473684210531,
+      "actions_saved": 3,
+      "oy1_rows": [
+        55,
+        71
+      ],
+      "provider_adapter_rows": [
+        60,
+        79
+      ]
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "level": 3,
+      "oy1_actions": 11,
+      "provider_adapter_actions": 13,
+      "reduction_percent": 15.384615384615385,
+      "actions_saved": 2,
+      "oy1_rows": [
+        18,
+        29
+      ],
+      "provider_adapter_rows": [
+        15,
+        28
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 8,
+      "oy1_actions": 11,
+      "provider_adapter_actions": 13,
+      "reduction_percent": 15.384615384615385,
+      "actions_saved": 2,
+      "oy1_rows": [
+        91,
+        102
+      ],
+      "provider_adapter_rows": [
+        76,
+        89
+      ]
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "level": 1,
+      "oy1_actions": 17,
+      "provider_adapter_actions": 20,
+      "reduction_percent": 15.000000000000002,
+      "actions_saved": 3,
+      "oy1_rows": [
+        0,
+        17
+      ],
+      "provider_adapter_rows": [
+        0,
+        20
+      ]
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "level": 4,
+      "oy1_actions": 33,
+      "provider_adapter_actions": 38,
+      "reduction_percent": 13.157894736842103,
+      "actions_saved": 5,
+      "oy1_rows": [
+        67,
+        100
+      ],
+      "provider_adapter_rows": [
+        68,
+        106
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 1,
+      "oy1_actions": 27,
+      "provider_adapter_actions": 31,
+      "reduction_percent": 12.903225806451612,
+      "actions_saved": 4,
+      "oy1_rows": [
+        0,
+        27
+      ],
+      "provider_adapter_rows": [
+        0,
+        31
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 8,
+      "oy1_actions": 183,
+      "provider_adapter_actions": 209,
+      "reduction_percent": 12.440191387559807,
+      "actions_saved": 26,
+      "oy1_rows": [
+        545,
+        728
+      ],
+      "provider_adapter_rows": [
+        407,
+        616
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 4,
+      "oy1_actions": 50,
+      "provider_adapter_actions": 56,
+      "reduction_percent": 10.71428571428571,
+      "actions_saved": 6,
+      "oy1_rows": [
+        99,
+        149
+      ],
+      "provider_adapter_rows": [
+        91,
+        147
+      ]
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "level": 5,
+      "oy1_actions": 17,
+      "provider_adapter_actions": 19,
+      "reduction_percent": 10.526315789473683,
+      "actions_saved": 2,
+      "oy1_rows": [
+        38,
+        55
+      ],
+      "provider_adapter_rows": [
+        41,
+        60
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 6,
+      "oy1_actions": 19,
+      "provider_adapter_actions": 21,
+      "reduction_percent": 9.523809523809524,
+      "actions_saved": 2,
+      "oy1_rows": [
+        56,
+        75
+      ],
+      "provider_adapter_rows": [
+        61,
+        82
+      ]
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "level": 1,
+      "oy1_actions": 22,
+      "provider_adapter_actions": 24,
+      "reduction_percent": 8.333333333333337,
+      "actions_saved": 2,
+      "oy1_rows": [
+        0,
+        22
+      ],
+      "provider_adapter_rows": [
+        0,
+        24
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 2,
+      "oy1_actions": 48,
+      "provider_adapter_actions": 52,
+      "reduction_percent": 7.692307692307687,
+      "actions_saved": 4,
+      "oy1_rows": [
+        25,
+        73
+      ],
+      "provider_adapter_rows": [
+        24,
+        76
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 2,
+      "oy1_actions": 48,
+      "provider_adapter_actions": 52,
+      "reduction_percent": 7.692307692307687,
+      "actions_saved": 4,
+      "oy1_rows": [
+        27,
+        75
+      ],
+      "provider_adapter_rows": [
+        31,
+        83
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 5,
+      "oy1_actions": 103,
+      "provider_adapter_actions": 111,
+      "reduction_percent": 7.207207207207212,
+      "actions_saved": 8,
+      "oy1_rows": [
+        203,
+        306
+      ],
+      "provider_adapter_rows": [
+        211,
+        322
+      ]
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "level": 4,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 14,
+      "reduction_percent": 7.14285714285714,
+      "actions_saved": 1,
+      "oy1_rows": [
+        25,
+        38
+      ],
+      "provider_adapter_rows": [
+        27,
+        41
+      ]
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "level": 1,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 6.666666666666665,
+      "actions_saved": 1,
+      "oy1_rows": [
+        0,
+        14
+      ],
+      "provider_adapter_rows": [
+        0,
+        15
+      ]
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 4,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 6.666666666666665,
+      "actions_saved": 1,
+      "oy1_rows": [
+        39,
+        53
+      ],
+      "provider_adapter_rows": [
+        30,
+        45
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 7,
+      "oy1_actions": 43,
+      "provider_adapter_actions": 46,
+      "reduction_percent": 6.521739130434778,
+      "actions_saved": 3,
+      "oy1_rows": [
+        254,
+        297
+      ],
+      "provider_adapter_rows": [
+        250,
+        296
+      ]
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "level": 6,
+      "oy1_actions": 35,
+      "provider_adapter_actions": 37,
+      "reduction_percent": 5.405405405405405,
+      "actions_saved": 2,
+      "oy1_rows": [
+        102,
+        137
+      ],
+      "provider_adapter_rows": [
+        103,
+        140
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 7,
+      "oy1_actions": 37,
+      "provider_adapter_actions": 39,
+      "reduction_percent": 5.128205128205132,
+      "actions_saved": 2,
+      "oy1_rows": [
+        174,
+        211
+      ],
+      "provider_adapter_rows": [
+        171,
+        210
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 3,
+      "oy1_actions": 37,
+      "provider_adapter_actions": 39,
+      "reduction_percent": 5.128205128205132,
+      "actions_saved": 2,
+      "oy1_rows": [
+        39,
+        76
+      ],
+      "provider_adapter_rows": [
+        39,
+        78
+      ]
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "level": 6,
+      "oy1_actions": 39,
+      "provider_adapter_actions": 41,
+      "reduction_percent": 4.878048780487809,
+      "actions_saved": 2,
+      "oy1_rows": [
+        148,
+        187
+      ],
+      "provider_adapter_rows": [
+        174,
+        215
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 7,
+      "oy1_actions": 46,
+      "provider_adapter_actions": 48,
+      "reduction_percent": 4.1666666666666625,
+      "actions_saved": 2,
+      "oy1_rows": [
+        161,
+        207
+      ],
+      "provider_adapter_rows": [
+        163,
+        211
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 7,
+      "oy1_actions": 49,
+      "provider_adapter_actions": 51,
+      "reduction_percent": 3.9215686274509776,
+      "actions_saved": 2,
+      "oy1_rows": [
+        143,
+        192
+      ],
+      "provider_adapter_rows": [
+        131,
+        182
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 7,
+      "oy1_actions": 55,
+      "provider_adapter_actions": 57,
+      "reduction_percent": 3.508771929824561,
+      "actions_saved": 2,
+      "oy1_rows": [
+        246,
+        301
+      ],
+      "provider_adapter_rows": [
+        246,
+        303
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 7,
+      "oy1_actions": 125,
+      "provider_adapter_actions": 129,
+      "reduction_percent": 3.100775193798455,
+      "actions_saved": 4,
+      "oy1_rows": [
+        420,
+        545
+      ],
+      "provider_adapter_rows": [
+        278,
+        407
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 6,
+      "oy1_actions": 100,
+      "provider_adapter_actions": 103,
+      "reduction_percent": 2.9126213592232997,
+      "actions_saved": 3,
+      "oy1_rows": [
+        146,
+        246
+      ],
+      "provider_adapter_rows": [
+        143,
+        246
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 3,
+      "oy1_actions": 74,
+      "provider_adapter_actions": 76,
+      "reduction_percent": 2.631578947368418,
+      "actions_saved": 2,
+      "oy1_rows": [
+        75,
+        149
+      ],
+      "provider_adapter_rows": [
+        83,
+        159
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 6,
+      "oy1_actions": 82,
+      "provider_adapter_actions": 84,
+      "reduction_percent": 2.3809523809523836,
+      "actions_saved": 2,
+      "oy1_rows": [
+        202,
+        284
+      ],
+      "provider_adapter_rows": [
+        305,
+        389
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 7,
+      "oy1_actions": 44,
+      "provider_adapter_actions": 45,
+      "reduction_percent": 2.2222222222222254,
+      "actions_saved": 1,
+      "oy1_rows": [
+        352,
+        396
+      ],
+      "provider_adapter_rows": [
+        368,
+        413
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 5,
+      "oy1_actions": 90,
+      "provider_adapter_actions": 92,
+      "reduction_percent": 2.1739130434782594,
+      "actions_saved": 2,
+      "oy1_rows": [
+        149,
+        239
+      ],
+      "provider_adapter_rows": [
+        147,
+        239
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 9,
+      "oy1_actions": 62,
+      "provider_adapter_actions": 63,
+      "reduction_percent": 1.5873015873015928,
+      "actions_saved": 1,
+      "oy1_rows": [
+        523,
+        585
+      ],
+      "provider_adapter_rows": [
+        521,
+        584
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 9,
+      "oy1_actions": 116,
+      "provider_adapter_actions": 117,
+      "reduction_percent": 0.8547008547008517,
+      "actions_saved": 1,
+      "oy1_rows": [
+        544,
+        660
+      ],
+      "provider_adapter_rows": [
+        543,
+        660
+      ]
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "level": 5,
+      "oy1_actions": 118,
+      "provider_adapter_actions": 119,
+      "reduction_percent": 0.8403361344537785,
+      "actions_saved": 1,
+      "oy1_rows": [
+        174,
+        292
+      ],
+      "provider_adapter_rows": [
+        174,
+        293
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 7,
+      "oy1_actions": 144,
+      "provider_adapter_actions": 145,
+      "reduction_percent": 0.6896551724137945,
+      "actions_saved": 1,
+      "oy1_rows": [
+        330,
+        474
+      ],
+      "provider_adapter_rows": [
+        330,
+        475
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 2,
+      "oy1_actions": 11,
+      "provider_adapter_actions": 11,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        17,
+        28
+      ],
+      "provider_adapter_rows": [
+        16,
+        27
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 3,
+      "oy1_actions": 40,
+      "provider_adapter_actions": 40,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        28,
+        68
+      ],
+      "provider_adapter_rows": [
+        27,
+        67
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 4,
+      "oy1_actions": 22,
+      "provider_adapter_actions": 22,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        68,
+        90
+      ],
+      "provider_adapter_rows": [
+        67,
+        89
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 6,
+      "oy1_actions": 53,
+      "provider_adapter_actions": 53,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        121,
+        174
+      ],
+      "provider_adapter_rows": [
+        118,
+        171
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 8,
+      "oy1_actions": 47,
+      "provider_adapter_actions": 47,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        211,
+        258
+      ],
+      "provider_adapter_rows": [
+        210,
+        257
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 1,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        15
+      ],
+      "provider_adapter_rows": [
+        0,
+        15
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 3,
+      "oy1_actions": 34,
+      "provider_adapter_actions": 34,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        58,
+        92
+      ],
+      "provider_adapter_rows": [
+        55,
+        89
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 4,
+      "oy1_actions": 23,
+      "provider_adapter_actions": 23,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        92,
+        115
+      ],
+      "provider_adapter_rows": [
+        89,
+        112
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 5,
+      "oy1_actions": 31,
+      "provider_adapter_actions": 31,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        115,
+        146
+      ],
+      "provider_adapter_rows": [
+        112,
+        143
+      ]
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "level": 2,
+      "oy1_actions": 6,
+      "provider_adapter_actions": 6,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        13,
+        19
+      ],
+      "provider_adapter_rows": [
+        17,
+        23
+      ]
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "level": 4,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 14,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        38,
+        52
+      ],
+      "provider_adapter_rows": [
+        40,
+        54
+      ]
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "level": 5,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 13,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        52,
+        65
+      ],
+      "provider_adapter_rows": [
+        54,
+        67
+      ]
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "level": 6,
+      "oy1_actions": 16,
+      "provider_adapter_actions": 16,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        65,
+        81
+      ],
+      "provider_adapter_rows": [
+        67,
+        83
+      ]
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "level": 2,
+      "oy1_actions": 29,
+      "provider_adapter_actions": 29,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        14,
+        43
+      ],
+      "provider_adapter_rows": [
+        15,
+        44
+      ]
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "level": 3,
+      "oy1_actions": 24,
+      "provider_adapter_actions": 24,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        43,
+        67
+      ],
+      "provider_adapter_rows": [
+        44,
+        68
+      ]
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "level": 3,
+      "oy1_actions": 45,
+      "provider_adapter_actions": 45,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        65,
+        110
+      ],
+      "provider_adapter_rows": [
+        66,
+        111
+      ]
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "level": 1,
+      "oy1_actions": 4,
+      "provider_adapter_actions": 4,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        4
+      ],
+      "provider_adapter_rows": [
+        0,
+        4
+      ]
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "level": 2,
+      "oy1_actions": 7,
+      "provider_adapter_actions": 7,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        4,
+        11
+      ],
+      "provider_adapter_rows": [
+        4,
+        11
+      ]
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "level": 3,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 14,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        11,
+        25
+      ],
+      "provider_adapter_rows": [
+        11,
+        25
+      ]
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "level": 4,
+      "oy1_actions": 16,
+      "provider_adapter_actions": 16,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        25,
+        41
+      ],
+      "provider_adapter_rows": [
+        25,
+        41
+      ]
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "level": 5,
+      "oy1_actions": 21,
+      "provider_adapter_actions": 21,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        41,
+        62
+      ],
+      "provider_adapter_rows": [
+        41,
+        62
+      ]
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "level": 6,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 13,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        62,
+        75
+      ],
+      "provider_adapter_rows": [
+        62,
+        75
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 2,
+      "oy1_actions": 31,
+      "provider_adapter_actions": 31,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        28,
+        59
+      ],
+      "provider_adapter_rows": [
+        24,
+        55
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 3,
+      "oy1_actions": 64,
+      "provider_adapter_actions": 64,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        59,
+        123
+      ],
+      "provider_adapter_rows": [
+        55,
+        119
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 4,
+      "oy1_actions": 31,
+      "provider_adapter_actions": 31,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        123,
+        154
+      ],
+      "provider_adapter_rows": [
+        119,
+        150
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 5,
+      "oy1_actions": 50,
+      "provider_adapter_actions": 50,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        154,
+        204
+      ],
+      "provider_adapter_rows": [
+        150,
+        200
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 6,
+      "oy1_actions": 50,
+      "provider_adapter_actions": 50,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        204,
+        254
+      ],
+      "provider_adapter_rows": [
+        200,
+        250
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 5,
+      "oy1_actions": 20,
+      "provider_adapter_actions": 20,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        149,
+        169
+      ],
+      "provider_adapter_rows": [
+        150,
+        170
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 3,
+      "oy1_actions": 46,
+      "provider_adapter_actions": 46,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        53,
+        99
+      ],
+      "provider_adapter_rows": [
+        45,
+        91
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 6,
+      "oy1_actions": 91,
+      "provider_adapter_actions": 91,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        239,
+        330
+      ],
+      "provider_adapter_rows": [
+        239,
+        330
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 2,
+      "oy1_actions": 8,
+      "provider_adapter_actions": 8,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        7,
+        15
+      ],
+      "provider_adapter_rows": [
+        9,
+        17
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 3,
+      "oy1_actions": 16,
+      "provider_adapter_actions": 16,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        15,
+        31
+      ],
+      "provider_adapter_rows": [
+        17,
+        33
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 5,
+      "oy1_actions": 11,
+      "provider_adapter_actions": 11,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        45,
+        56
+      ],
+      "provider_adapter_rows": [
+        50,
+        61
+      ]
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "level": 1,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        15
+      ],
+      "provider_adapter_rows": [
+        0,
+        15
+      ]
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "level": 2,
+      "oy1_actions": 23,
+      "provider_adapter_actions": 23,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        15,
+        38
+      ],
+      "provider_adapter_rows": [
+        15,
+        38
+      ]
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "level": 4,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 13,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        103,
+        116
+      ],
+      "provider_adapter_rows": [
+        120,
+        133
+      ]
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "level": 6,
+      "oy1_actions": 51,
+      "provider_adapter_actions": 51,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        180,
+        231
+      ],
+      "provider_adapter_rows": [
+        177,
+        228
+      ]
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "level": 1,
+      "oy1_actions": 4,
+      "provider_adapter_actions": 4,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        4
+      ],
+      "provider_adapter_rows": [
+        0,
+        4
+      ]
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "level": 3,
+      "oy1_actions": 12,
+      "provider_adapter_actions": 12,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        13,
+        25
+      ],
+      "provider_adapter_rows": [
+        15,
+        27
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 1,
+      "oy1_actions": 20,
+      "provider_adapter_actions": 20,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        20
+      ],
+      "provider_adapter_rows": [
+        0,
+        20
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 2,
+      "oy1_actions": 36,
+      "provider_adapter_actions": 36,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        20,
+        56
+      ],
+      "provider_adapter_rows": [
+        20,
+        56
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 4,
+      "oy1_actions": 44,
+      "provider_adapter_actions": 44,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        245,
+        289
+      ],
+      "provider_adapter_rows": [
+        103,
+        147
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 5,
+      "oy1_actions": 63,
+      "provider_adapter_actions": 63,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        289,
+        352
+      ],
+      "provider_adapter_rows": [
+        147,
+        210
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 6,
+      "oy1_actions": 68,
+      "provider_adapter_actions": 68,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        352,
+        420
+      ],
+      "provider_adapter_rows": [
+        210,
+        278
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 1,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 13,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        13
+      ],
+      "provider_adapter_rows": [
+        0,
+        13
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 2,
+      "oy1_actions": 26,
+      "provider_adapter_actions": 26,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        13,
+        39
+      ],
+      "provider_adapter_rows": [
+        13,
+        39
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 4,
+      "oy1_actions": 30,
+      "provider_adapter_actions": 30,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        76,
+        106
+      ],
+      "provider_adapter_rows": [
+        78,
+        108
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 5,
+      "oy1_actions": 30,
+      "provider_adapter_actions": 30,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        106,
+        136
+      ],
+      "provider_adapter_rows": [
+        108,
+        138
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 6,
+      "oy1_actions": 25,
+      "provider_adapter_actions": 25,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        136,
+        161
+      ],
+      "provider_adapter_rows": [
+        138,
+        163
+      ]
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "level": 8,
+      "oy1_actions": 36,
+      "provider_adapter_actions": 36,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        207,
+        243
+      ],
+      "provider_adapter_rows": [
+        211,
+        247
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 1,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 9,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        9
+      ],
+      "provider_adapter_rows": [
+        0,
+        9
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 2,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        9,
+        24
+      ],
+      "provider_adapter_rows": [
+        9,
+        24
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 3,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        24,
+        39
+      ],
+      "provider_adapter_rows": [
+        24,
+        39
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 4,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 15,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        39,
+        54
+      ],
+      "provider_adapter_rows": [
+        39,
+        54
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 5,
+      "oy1_actions": 17,
+      "provider_adapter_actions": 17,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        54,
+        71
+      ],
+      "provider_adapter_rows": [
+        54,
+        71
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 6,
+      "oy1_actions": 19,
+      "provider_adapter_actions": 19,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        71,
+        90
+      ],
+      "provider_adapter_rows": [
+        71,
+        90
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 7,
+      "oy1_actions": 17,
+      "provider_adapter_actions": 17,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        90,
+        107
+      ],
+      "provider_adapter_rows": [
+        90,
+        107
+      ]
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "level": 8,
+      "oy1_actions": 17,
+      "provider_adapter_actions": 17,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        107,
+        124
+      ],
+      "provider_adapter_rows": [
+        107,
+        124
+      ]
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "level": 1,
+      "oy1_actions": 23,
+      "provider_adapter_actions": 23,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        23
+      ],
+      "provider_adapter_rows": [
+        0,
+        23
+      ]
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "level": 3,
+      "oy1_actions": 12,
+      "provider_adapter_actions": 12,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        28,
+        40
+      ],
+      "provider_adapter_rows": [
+        30,
+        42
+      ]
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "level": 4,
+      "oy1_actions": 23,
+      "provider_adapter_actions": 23,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        40,
+        63
+      ],
+      "provider_adapter_rows": [
+        42,
+        65
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 1,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 14,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        14
+      ],
+      "provider_adapter_rows": [
+        0,
+        14
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 3,
+      "oy1_actions": 38,
+      "provider_adapter_actions": 38,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        48,
+        86
+      ],
+      "provider_adapter_rows": [
+        44,
+        82
+      ]
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "level": 5,
+      "oy1_actions": 33,
+      "provider_adapter_actions": 33,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        60,
+        93
+      ],
+      "provider_adapter_rows": [
+        54,
+        87
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 4,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 9,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        39,
+        48
+      ],
+      "provider_adapter_rows": [
+        34,
+        43
+      ]
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 3,
+      "oy1_actions": 10,
+      "provider_adapter_actions": 10,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        29,
+        39
+      ],
+      "provider_adapter_rows": [
+        20,
+        30
+      ]
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 5,
+      "oy1_actions": 19,
+      "provider_adapter_actions": 19,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        53,
+        72
+      ],
+      "provider_adapter_rows": [
+        45,
+        64
+      ]
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "level": 3,
+      "oy1_actions": 26,
+      "provider_adapter_actions": 26,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        43,
+        69
+      ],
+      "provider_adapter_rows": [
+        52,
+        78
+      ]
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "level": 4,
+      "oy1_actions": 21,
+      "provider_adapter_actions": 21,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        69,
+        90
+      ],
+      "provider_adapter_rows": [
+        78,
+        99
+      ]
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "level": 6,
+      "oy1_actions": 24,
+      "provider_adapter_actions": 24,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        104,
+        128
+      ],
+      "provider_adapter_rows": [
+        124,
+        148
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 1,
+      "oy1_actions": 18,
+      "provider_adapter_actions": 18,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        0,
+        18
+      ],
+      "provider_adapter_rows": [
+        0,
+        18
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 3,
+      "oy1_actions": 19,
+      "provider_adapter_actions": 19,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        33,
+        52
+      ],
+      "provider_adapter_rows": [
+        28,
+        47
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 4,
+      "oy1_actions": 18,
+      "provider_adapter_actions": 18,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        52,
+        70
+      ],
+      "provider_adapter_rows": [
+        47,
+        65
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 5,
+      "oy1_actions": 29,
+      "provider_adapter_actions": 29,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        70,
+        99
+      ],
+      "provider_adapter_rows": [
+        65,
+        94
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 7,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 14,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        129,
+        143
+      ],
+      "provider_adapter_rows": [
+        130,
+        144
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 8,
+      "oy1_actions": 23,
+      "provider_adapter_actions": 23,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        143,
+        166
+      ],
+      "provider_adapter_rows": [
+        144,
+        167
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 2,
+      "oy1_actions": 7,
+      "provider_adapter_actions": 7,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        8,
+        15
+      ],
+      "provider_adapter_rows": [
+        7,
+        14
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 3,
+      "oy1_actions": 24,
+      "provider_adapter_actions": 24,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        15,
+        39
+      ],
+      "provider_adapter_rows": [
+        14,
+        38
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 5,
+      "oy1_actions": 49,
+      "provider_adapter_actions": 49,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        74,
+        123
+      ],
+      "provider_adapter_rows": [
+        62,
+        111
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 6,
+      "oy1_actions": 20,
+      "provider_adapter_actions": 20,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        123,
+        143
+      ],
+      "provider_adapter_rows": [
+        111,
+        131
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 6,
+      "oy1_actions": 46,
+      "provider_adapter_actions": 46,
+      "reduction_percent": 0.0,
+      "actions_saved": 0,
+      "oy1_rows": [
+        306,
+        352
+      ],
+      "provider_adapter_rows": [
+        322,
+        368
+      ]
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "level": 6,
+      "oy1_actions": 150,
+      "provider_adapter_actions": 149,
+      "reduction_percent": -0.6711409395973256,
+      "actions_saved": -1,
+      "oy1_rows": [
+        292,
+        442
+      ],
+      "provider_adapter_rows": [
+        293,
+        442
+      ]
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "level": 4,
+      "oy1_actions": 64,
+      "provider_adapter_actions": 63,
+      "reduction_percent": -1.5873015873015817,
+      "actions_saved": -1,
+      "oy1_rows": [
+        110,
+        174
+      ],
+      "provider_adapter_rows": [
+        111,
+        174
+      ]
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "level": 2,
+      "oy1_actions": 43,
+      "provider_adapter_actions": 42,
+      "reduction_percent": -2.3809523809523725,
+      "actions_saved": -1,
+      "oy1_rows": [
+        22,
+        65
+      ],
+      "provider_adapter_rows": [
+        24,
+        66
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 4,
+      "oy1_actions": 42,
+      "provider_adapter_actions": 41,
+      "reduction_percent": -2.4390243902439046,
+      "actions_saved": -1,
+      "oy1_rows": [
+        107,
+        149
+      ],
+      "provider_adapter_rows": [
+        109,
+        150
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 7,
+      "oy1_actions": 81,
+      "provider_adapter_actions": 79,
+      "reduction_percent": -2.5316455696202445,
+      "actions_saved": -2,
+      "oy1_rows": [
+        284,
+        365
+      ],
+      "provider_adapter_rows": [
+        389,
+        468
+      ]
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "level": 5,
+      "oy1_actions": 39,
+      "provider_adapter_actions": 38,
+      "reduction_percent": -2.6315789473684292,
+      "actions_saved": -1,
+      "oy1_rows": [
+        63,
+        102
+      ],
+      "provider_adapter_rows": [
+        65,
+        103
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 8,
+      "oy1_actions": 70,
+      "provider_adapter_actions": 68,
+      "reduction_percent": -2.941176470588225,
+      "actions_saved": -2,
+      "oy1_rows": [
+        474,
+        544
+      ],
+      "provider_adapter_rows": [
+        475,
+        543
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 3,
+      "oy1_actions": 34,
+      "provider_adapter_actions": 33,
+      "reduction_percent": -3.0303030303030276,
+      "actions_saved": -1,
+      "oy1_rows": [
+        73,
+        107
+      ],
+      "provider_adapter_rows": [
+        76,
+        109
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 4,
+      "oy1_actions": 54,
+      "provider_adapter_actions": 52,
+      "reduction_percent": -3.8461538461538547,
+      "actions_saved": -2,
+      "oy1_rows": [
+        149,
+        203
+      ],
+      "provider_adapter_rows": [
+        159,
+        211
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 1,
+      "oy1_actions": 25,
+      "provider_adapter_actions": 24,
+      "reduction_percent": -4.166666666666674,
+      "actions_saved": -1,
+      "oy1_rows": [
+        0,
+        25
+      ],
+      "provider_adapter_rows": [
+        0,
+        24
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 3,
+      "oy1_actions": 43,
+      "provider_adapter_actions": 41,
+      "reduction_percent": -4.878048780487809,
+      "actions_saved": -2,
+      "oy1_rows": [
+        60,
+        103
+      ],
+      "provider_adapter_rows": [
+        119,
+        160
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 1,
+      "oy1_actions": 17,
+      "provider_adapter_actions": 16,
+      "reduction_percent": -6.25,
+      "actions_saved": -1,
+      "oy1_rows": [
+        0,
+        17
+      ],
+      "provider_adapter_rows": [
+        0,
+        16
+      ]
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "level": 5,
+      "oy1_actions": 31,
+      "provider_adapter_actions": 29,
+      "reduction_percent": -6.896551724137923,
+      "actions_saved": -2,
+      "oy1_rows": [
+        90,
+        121
+      ],
+      "provider_adapter_rows": [
+        89,
+        118
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 3,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 14,
+      "reduction_percent": -7.14285714285714,
+      "actions_saved": -1,
+      "oy1_rows": [
+        24,
+        39
+      ],
+      "provider_adapter_rows": [
+        20,
+        34
+      ]
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "level": 2,
+      "oy1_actions": 43,
+      "provider_adapter_actions": 40,
+      "reduction_percent": -7.499999999999996,
+      "actions_saved": -3,
+      "oy1_rows": [
+        15,
+        58
+      ],
+      "provider_adapter_rows": [
+        15,
+        55
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 2,
+      "oy1_actions": 13,
+      "provider_adapter_actions": 12,
+      "reduction_percent": -8.333333333333325,
+      "actions_saved": -1,
+      "oy1_rows": [
+        11,
+        24
+      ],
+      "provider_adapter_rows": [
+        8,
+        20
+      ]
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 4,
+      "oy1_actions": 51,
+      "provider_adapter_actions": 47,
+      "reduction_percent": -8.51063829787233,
+      "actions_saved": -4,
+      "oy1_rows": [
+        103,
+        154
+      ],
+      "provider_adapter_rows": [
+        160,
+        207
+      ]
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "level": 7,
+      "oy1_actions": 109,
+      "provider_adapter_actions": 99,
+      "reduction_percent": -10.1010101010101,
+      "actions_saved": -10,
+      "oy1_rows": [
+        216,
+        325
+      ],
+      "provider_adapter_rows": [
+        240,
+        339
+      ]
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 1,
+      "oy1_actions": 10,
+      "provider_adapter_actions": 9,
+      "reduction_percent": -11.111111111111116,
+      "actions_saved": -1,
+      "oy1_rows": [
+        0,
+        10
+      ],
+      "provider_adapter_rows": [
+        0,
+        9
+      ]
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "level": 3,
+      "oy1_actions": 19,
+      "provider_adapter_actions": 17,
+      "reduction_percent": -11.764705882352944,
+      "actions_saved": -2,
+      "oy1_rows": [
+        19,
+        38
+      ],
+      "provider_adapter_rows": [
+        23,
+        40
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 1,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 8,
+      "reduction_percent": -12.5,
+      "actions_saved": -1,
+      "oy1_rows": [
+        0,
+        9
+      ],
+      "provider_adapter_rows": [
+        0,
+        8
+      ]
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "level": 2,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 8,
+      "reduction_percent": -12.5,
+      "actions_saved": -1,
+      "oy1_rows": [
+        9,
+        18
+      ],
+      "provider_adapter_rows": [
+        7,
+        15
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 2,
+      "oy1_actions": 34,
+      "provider_adapter_actions": 30,
+      "reduction_percent": -13.33333333333333,
+      "actions_saved": -4,
+      "oy1_rows": [
+        14,
+        48
+      ],
+      "provider_adapter_rows": [
+        14,
+        44
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 5,
+      "oy1_actions": 117,
+      "provider_adapter_actions": 103,
+      "reduction_percent": -13.592233009708732,
+      "actions_saved": -14,
+      "oy1_rows": [
+        135,
+        252
+      ],
+      "provider_adapter_rows": [
+        117,
+        220
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 1,
+      "oy1_actions": 8,
+      "provider_adapter_actions": 7,
+      "reduction_percent": -14.28571428571428,
+      "actions_saved": -1,
+      "oy1_rows": [
+        0,
+        8
+      ],
+      "provider_adapter_rows": [
+        0,
+        7
+      ]
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "level": 1,
+      "oy1_actions": 28,
+      "provider_adapter_actions": 24,
+      "reduction_percent": -16.666666666666675,
+      "actions_saved": -4,
+      "oy1_rows": [
+        0,
+        28
+      ],
+      "provider_adapter_rows": [
+        0,
+        24
+      ]
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "level": 8,
+      "oy1_actions": 127,
+      "provider_adapter_actions": 108,
+      "reduction_percent": -17.59259259259258,
+      "actions_saved": -19,
+      "oy1_rows": [
+        396,
+        523
+      ],
+      "provider_adapter_rows": [
+        413,
+        521
+      ]
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 2,
+      "oy1_actions": 44,
+      "provider_adapter_actions": 37,
+      "reduction_percent": -18.918918918918926,
+      "actions_saved": -7,
+      "oy1_rows": [
+        9,
+        53
+      ],
+      "provider_adapter_rows": [
+        8,
+        45
+      ]
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "level": 4,
+      "oy1_actions": 31,
+      "provider_adapter_actions": 26,
+      "reduction_percent": -19.23076923076923,
+      "actions_saved": -5,
+      "oy1_rows": [
+        29,
+        60
+      ],
+      "provider_adapter_rows": [
+        28,
+        54
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 7,
+      "oy1_actions": 6,
+      "provider_adapter_actions": 5,
+      "reduction_percent": -19.999999999999996,
+      "actions_saved": -1,
+      "oy1_rows": [
+        85,
+        91
+      ],
+      "provider_adapter_rows": [
+        71,
+        76
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 6,
+      "oy1_actions": 83,
+      "provider_adapter_actions": 67,
+      "reduction_percent": -23.880597014925375,
+      "actions_saved": -16,
+      "oy1_rows": [
+        252,
+        335
+      ],
+      "provider_adapter_rows": [
+        220,
+        287
+      ]
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "level": 1,
+      "oy1_actions": 9,
+      "provider_adapter_actions": 7,
+      "reduction_percent": -28.57142857142858,
+      "actions_saved": -2,
+      "oy1_rows": [
+        0,
+        9
+      ],
+      "provider_adapter_rows": [
+        0,
+        7
+      ]
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 7,
+      "oy1_actions": 44,
+      "provider_adapter_actions": 33,
+      "reduction_percent": -33.33333333333333,
+      "actions_saved": -11,
+      "oy1_rows": [
+        104,
+        148
+      ],
+      "provider_adapter_rows": [
+        278,
+        311
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 1,
+      "oy1_actions": 11,
+      "provider_adapter_actions": 8,
+      "reduction_percent": -37.5,
+      "actions_saved": -3,
+      "oy1_rows": [
+        0,
+        11
+      ],
+      "provider_adapter_rows": [
+        0,
+        8
+      ]
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "level": 4,
+      "oy1_actions": 49,
+      "provider_adapter_actions": 35,
+      "reduction_percent": -39.99999999999999,
+      "actions_saved": -14,
+      "oy1_rows": [
+        86,
+        135
+      ],
+      "provider_adapter_rows": [
+        82,
+        117
+      ]
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "level": 5,
+      "oy1_actions": 64,
+      "provider_adapter_actions": 44,
+      "reduction_percent": -45.45454545454546,
+      "actions_saved": -20,
+      "oy1_rows": [
+        116,
+        180
+      ],
+      "provider_adapter_rows": [
+        133,
+        177
+      ]
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "level": 4,
+      "oy1_actions": 35,
+      "provider_adapter_actions": 24,
+      "reduction_percent": -45.83333333333333,
+      "actions_saved": -11,
+      "oy1_rows": [
+        39,
+        74
+      ],
+      "provider_adapter_rows": [
+        38,
+        62
+      ]
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "level": 2,
+      "oy1_actions": 15,
+      "provider_adapter_actions": 10,
+      "reduction_percent": -50.0,
+      "actions_saved": -5,
+      "oy1_rows": [
+        18,
+        33
+      ],
+      "provider_adapter_rows": [
+        18,
+        28
+      ]
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 2,
+      "oy1_actions": 19,
+      "provider_adapter_actions": 11,
+      "reduction_percent": -72.72727272727273,
+      "actions_saved": -8,
+      "oy1_rows": [
+        10,
+        29
+      ],
+      "provider_adapter_rows": [
+        9,
+        20
+      ]
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "level": 5,
+      "oy1_actions": 28,
+      "provider_adapter_actions": 14,
+      "reduction_percent": -100.0,
+      "actions_saved": -14,
+      "oy1_rows": [
+        48,
+        76
+      ],
+      "provider_adapter_rows": [
+        43,
+        57
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 7,
+      "oy1_actions": 14,
+      "provider_adapter_actions": 5,
+      "reduction_percent": -179.99999999999997,
+      "actions_saved": -9,
+      "oy1_rows": [
+        75,
+        89
+      ],
+      "provider_adapter_rows": [
+        82,
+        87
+      ]
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "level": 8,
+      "oy1_actions": 20,
+      "provider_adapter_actions": 7,
+      "reduction_percent": -185.71428571428572,
+      "actions_saved": -13,
+      "oy1_rows": [
+        89,
+        109
+      ],
+      "provider_adapter_rows": [
+        87,
+        94
+      ]
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "level": 3,
+      "oy1_actions": 189,
+      "provider_adapter_actions": 47,
+      "reduction_percent": -302.12765957446805,
+      "actions_saved": -142,
+      "oy1_rows": [
+        56,
+        245
+      ],
+      "provider_adapter_rows": [
+        56,
+        103
+      ]
+    }
+  ],
+  "source": "https://arcprize.org/results/openai-gpt-6-astra",
+  "model": "GPT-6 Astra",
+  "reasoning": "high",
+  "selection": "Four largest percentage reductions in environment actions across all 183 matched public levels. Ties use absolute actions saved, then game ID and level.",
+  "counting": "Every recorded action after the initial game RESET, attributed to the level active before that action. Includes retries and level-completion transitions. No full game resets occur after initialization in either set of recordings.",
+  "scope": "Comparison of two published runs on the same 25 public game versions. Both complete all 183 levels. Actions are not model tokens, cost or elapsed inference time.",
+  "highlights": [
+    {
+      "game_id": "tn36-ef4dde99",
+      "level": 6
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "level": 10
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 2
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "level": 5
+    }
+  ],
+  "summary": {
+    "levels": 183,
+    "oy1_actions": 6732,
+    "provider_adapter_actions": 7085,
+    "oy1_fewer": 59,
+    "equal": 81,
+    "oy1_more": 43
+  }
+}
